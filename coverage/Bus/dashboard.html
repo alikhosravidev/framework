@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/forks/framework/src/Illuminate/Bus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/billboard.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/forks/framework/src/Illuminate</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Bus</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DynamoBatchRepository.php.html#11">Illuminate\Bus\DynamoBatchRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BusServiceProvider.php.html#13">Illuminate\Bus\BusServiceProvider</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#18">Illuminate\Bus\PendingBatch</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#14">Illuminate\Bus\DatabaseBatchRepository</a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="ChainedBatch.php.html#13">Illuminate\Bus\ChainedBatch</a></td><td class="text-right">84%</td></tr>
+       <tr><td><a href="UniqueLock.php.html#7">Illuminate\Bus\UniqueLock</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="Queueable.php.html#14">Illuminate\Bus\Queueable</a></td><td class="text-right">89%</td></tr>
+       <tr><td><a href="Dispatcher.php.html#17">Illuminate\Bus\Dispatcher</a></td><td class="text-right">89%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DynamoBatchRepository.php.html#11">Illuminate\Bus\DynamoBatchRepository</a></td><td class="text-right">0.0%</td><td class="text-right">37</td><td class="text-right">1406</td></tr>
+       <tr><td><a href="PendingBatch.php.html#18">Illuminate\Bus\PendingBatch</a></td><td class="text-right">68.5%</td><td class="text-right">47</td><td class="text-right">115</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#14">Illuminate\Bus\DatabaseBatchRepository</a></td><td class="text-right">69.8%</td><td class="text-right">29</td><td class="text-right">52</td></tr>
+       <tr><td><a href="Dispatcher.php.html#17">Illuminate\Bus\Dispatcher</a></td><td class="text-right">89.7%</td><td class="text-right">33</td><td class="text-right">34</td></tr>
+       <tr><td><a href="Queueable.php.html#14">Illuminate\Bus\Queueable</a></td><td class="text-right">89.6%</td><td class="text-right">26</td><td class="text-right">26</td></tr>
+       <tr><td><a href="ChainedBatch.php.html#13">Illuminate\Bus\ChainedBatch</a></td><td class="text-right">84.6%</td><td class="text-right">17</td><td class="text-right">18</td></tr>
+       <tr><td><a href="BusServiceProvider.php.html#13">Illuminate\Bus\BusServiceProvider</a></td><td class="text-right">63.5%</td><td class="text-right">7</td><td class="text-right">9</td></tr>
+       <tr><td><a href="UniqueLock.php.html#7">Illuminate\Bus\UniqueLock</a></td><td class="text-right">87.5%</td><td class="text-right">8</td><td class="text-right">8</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Batch.php.html#420"><abbr title="Illuminate\Bus\Batch::canceled">canceled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Batch.php.html#502"><abbr title="Illuminate\Bus\Batch::__get">__get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#58"><abbr title="Illuminate\Bus\DatabaseBatchRepository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#241"><abbr title="Illuminate\Bus\DatabaseBatchRepository::prune">prune</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#264"><abbr title="Illuminate\Bus\DatabaseBatchRepository::pruneUnfinished">pruneUnfinished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#287"><abbr title="Illuminate\Bus\DatabaseBatchRepository::pruneCancelled">pruneCancelled</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#320"><abbr title="Illuminate\Bus\DatabaseBatchRepository::rollBack">rollBack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#388"><abbr title="Illuminate\Bus\DatabaseBatchRepository::getConnection">getConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#399"><abbr title="Illuminate\Bus\DatabaseBatchRepository::setConnection">setConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dispatcher.php.html#145"><abbr title="Illuminate\Bus\Dispatcher::findBatch">findBatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Dispatcher.php.html#279"><abbr title="Illuminate\Bus\Dispatcher::pipeThrough">pipeThrough</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#65"><abbr title="Illuminate\Bus\DynamoBatchRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#89"><abbr title="Illuminate\Bus\DynamoBatchRepository::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#120"><abbr title="Illuminate\Bus\DynamoBatchRepository::find">find</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#163"><abbr title="Illuminate\Bus\DynamoBatchRepository::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#201"><abbr title="Illuminate\Bus\DynamoBatchRepository::incrementTotalJobs">incrementTotalJobs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#232"><abbr title="Illuminate\Bus\DynamoBatchRepository::decrementPendingJobs">decrementPendingJobs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#270"><abbr title="Illuminate\Bus\DynamoBatchRepository::incrementFailedJobs">incrementFailedJobs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#308"><abbr title="Illuminate\Bus\DynamoBatchRepository::markAsFinished">markAsFinished</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#337"><abbr title="Illuminate\Bus\DynamoBatchRepository::cancel">cancel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#366"><abbr title="Illuminate\Bus\DynamoBatchRepository::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#383"><abbr title="Illuminate\Bus\DynamoBatchRepository::transaction">transaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#393"><abbr title="Illuminate\Bus\DynamoBatchRepository::rollBack">rollBack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#403"><abbr title="Illuminate\Bus\DynamoBatchRepository::toBatch">toBatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#425"><abbr title="Illuminate\Bus\DynamoBatchRepository::createAwsDynamoTable">createAwsDynamoTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#468"><abbr title="Illuminate\Bus\DynamoBatchRepository::deleteAwsDynamoTable">deleteAwsDynamoTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#480"><abbr title="Illuminate\Bus\DynamoBatchRepository::getExpiryTime">getExpiryTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#490"><abbr title="Illuminate\Bus\DynamoBatchRepository::ttlExpressionAttributeName">ttlExpressionAttributeName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#501"><abbr title="Illuminate\Bus\DynamoBatchRepository::serialize">serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#512"><abbr title="Illuminate\Bus\DynamoBatchRepository::unserialize">unserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#522"><abbr title="Illuminate\Bus\DynamoBatchRepository::getDynamoClient">getDynamoClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#532"><abbr title="Illuminate\Bus\DynamoBatchRepository::getTable">getTable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#234"><abbr title="Illuminate\Bus\PendingBatch::finallyCallbacks">finallyCallbacks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#257"><abbr title="Illuminate\Bus\PendingBatch::allowsFailures">allowsFailures</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#370"><abbr title="Illuminate\Bus\PendingBatch::dispatchAfterResponse">dispatchAfterResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#393"><abbr title="Illuminate\Bus\PendingBatch::dispatchExistingBatch">dispatchExistingBatch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Batchable.php.html#47"><abbr title="Illuminate\Bus\Batchable::batching">batching</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Queueable.php.html#120"><abbr title="Illuminate\Bus\Queueable::onGroup">onGroup</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Batch.php.html#453"><abbr title="Illuminate\Bus\Batch::invokeHandlerCallback">invokeHandlerCallback</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Queueable.php.html#278"><abbr title="Illuminate\Bus\Queueable::serializeJob">serializeJob</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="BusServiceProvider.php.html#44"><abbr title="Illuminate\Bus\BusServiceProvider::registerBatchServices">registerBatchServices</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#436"><abbr title="Illuminate\Bus\PendingBatch::store">store</abbr></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#342"><abbr title="Illuminate\Bus\PendingBatch::dispatch">dispatch</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#346"><abbr title="Illuminate\Bus\DatabaseBatchRepository::unserialize">unserialize</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="ChainedBatch.php.html#84"><abbr title="Illuminate\Bus\ChainedBatch::toPendingBatch">toPendingBatch</abbr></a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#120"><abbr title="Illuminate\Bus\PendingBatch::before">before</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#145"><abbr title="Illuminate\Bus\PendingBatch::progress">progress</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#170"><abbr title="Illuminate\Bus\PendingBatch::then">then</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#195"><abbr title="Illuminate\Bus\PendingBatch::catch">catch</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="PendingBatch.php.html#220"><abbr title="Illuminate\Bus\PendingBatch::finally">finally</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="UniqueLock.php.html#51"><abbr title="Illuminate\Bus\UniqueLock::release">release</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Dispatcher.php.html#96"><abbr title="Illuminate\Bus\Dispatcher::dispatchSync">dispatchSync</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="ChainedBatch.php.html#116"><abbr title="Illuminate\Bus\ChainedBatch::attachRemainderOfChainToEndOfBatch">attachRemainderOfChainToEndOfBatch</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Dispatcher.php.html#220"><abbr title="Illuminate\Bus\Dispatcher::dispatchToQueue">dispatchToQueue</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="UniqueLock.php.html#32"><abbr title="Illuminate\Bus\UniqueLock::acquire">acquire</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DynamoBatchRepository.php.html#120"><abbr title="Illuminate\Bus\DynamoBatchRepository::find">find</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">5</td><td class="text-right">30</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#403"><abbr title="Illuminate\Bus\DynamoBatchRepository::toBatch">toBatch</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="BusServiceProvider.php.html#44"><abbr title="Illuminate\Bus\BusServiceProvider::registerBatchServices">registerBatchServices</abbr></a></td><td class="text-right">42.4%</td><td class="text-right">5</td><td class="text-right">9</td></tr>
+       <tr><td><a href="Batch.php.html#453"><abbr title="Illuminate\Bus\Batch::invokeHandlerCallback">invokeHandlerCallback</abbr></a></td><td class="text-right">25.0%</td><td class="text-right">3</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#89"><abbr title="Illuminate\Bus\DynamoBatchRepository::get">get</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#163"><abbr title="Illuminate\Bus\DynamoBatchRepository::store">store</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#201"><abbr title="Illuminate\Bus\DynamoBatchRepository::incrementTotalJobs">incrementTotalJobs</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#232"><abbr title="Illuminate\Bus\DynamoBatchRepository::decrementPendingJobs">decrementPendingJobs</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#270"><abbr title="Illuminate\Bus\DynamoBatchRepository::incrementFailedJobs">incrementFailedJobs</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#308"><abbr title="Illuminate\Bus\DynamoBatchRepository::markAsFinished">markAsFinished</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#337"><abbr title="Illuminate\Bus\DynamoBatchRepository::cancel">cancel</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#425"><abbr title="Illuminate\Bus\DynamoBatchRepository::createAwsDynamoTable">createAwsDynamoTable</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#480"><abbr title="Illuminate\Bus\DynamoBatchRepository::getExpiryTime">getExpiryTime</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoBatchRepository.php.html#490"><abbr title="Illuminate\Bus\DynamoBatchRepository::ttlExpressionAttributeName">ttlExpressionAttributeName</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="PendingBatch.php.html#370"><abbr title="Illuminate\Bus\PendingBatch::dispatchAfterResponse">dispatchAfterResponse</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="PendingBatch.php.html#393"><abbr title="Illuminate\Bus\PendingBatch::dispatchExistingBatch">dispatchExistingBatch</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Batchable.php.html#47"><abbr title="Illuminate\Bus\Batchable::batching">batching</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Queueable.php.html#278"><abbr title="Illuminate\Bus\Queueable::serializeJob">serializeJob</abbr></a></td><td class="text-right">28.6%</td><td class="text-right">3</td><td class="text-right">6</td></tr>
+       <tr><td><a href="ChainedBatch.php.html#84"><abbr title="Illuminate\Bus\ChainedBatch::toPendingBatch">toPendingBatch</abbr></a></td><td class="text-right">69.2%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="ChainedBatch.php.html#116"><abbr title="Illuminate\Bus\ChainedBatch::attachRemainderOfChainToEndOfBatch">attachRemainderOfChainToEndOfBatch</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="DatabaseBatchRepository.php.html#346"><abbr title="Illuminate\Bus\DatabaseBatchRepository::unserialize">unserialize</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Dispatcher.php.html#96"><abbr title="Illuminate\Bus\Dispatcher::dispatchSync">dispatchSync</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Dispatcher.php.html#220"><abbr title="Illuminate\Bus\Dispatcher::dispatchToQueue">dispatchToQueue</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="PendingBatch.php.html#342"><abbr title="Illuminate\Bus\PendingBatch::dispatch">dispatch</abbr></a></td><td class="text-right">63.6%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="PendingBatch.php.html#436"><abbr title="Illuminate\Bus\PendingBatch::store">store</abbr></a></td><td class="text-right">62.5%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="UniqueLock.php.html#32"><abbr title="Illuminate\Bus\UniqueLock::acquire">acquire</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="PendingBatch.php.html#120"><abbr title="Illuminate\Bus\PendingBatch::before">before</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="PendingBatch.php.html#145"><abbr title="Illuminate\Bus\PendingBatch::progress">progress</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="PendingBatch.php.html#170"><abbr title="Illuminate\Bus\PendingBatch::then">then</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="PendingBatch.php.html#195"><abbr title="Illuminate\Bus\PendingBatch::catch">catch</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="PendingBatch.php.html#220"><abbr title="Illuminate\Bus\PendingBatch::finally">finally</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="UniqueLock.php.html#51"><abbr title="Illuminate\Bus\UniqueLock::release">release</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.3.8</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.25</a> and <a href="https://phpunit.de/">PHPUnit 12.3.11</a> at Thu Sep 18 16:01:33 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/billboard.pkgd.min.js?v=12.3.8" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,37,"DynamoBatchRepository.php.html#11","Illuminate\\Bus\\DynamoBatchRepository","1406"],[63.46153846153846,7,"BusServiceProvider.php.html#13","Illuminate\\Bus\\BusServiceProvider","9.39"],[68.53932584269663,47,"PendingBatch.php.html#18","Illuminate\\Bus\\PendingBatch","115.79"],[69.84126984126983,29,"DatabaseBatchRepository.php.html#14","Illuminate\\Bus\\DatabaseBatchRepository","52.07"],[84.61538461538461,17,"ChainedBatch.php.html#13","Illuminate\\Bus\\ChainedBatch","18.05"],[87.5,8,"UniqueLock.php.html#7","Illuminate\\Bus\\UniqueLock","8.12"],[89.55223880597015,26,"Queueable.php.html#14","Illuminate\\Bus\\Queueable","26.77"],[89.65517241379311,33,"Dispatcher.php.html#17","Illuminate\\Bus\\Dispatcher","34.21"],[90.47619047619048,8,"Batchable.php.html#10","Illuminate\\Bus\\Batchable","8.06"],[95.45454545454545,49,"Batch.php.html#15","Illuminate\\Bus\\Batch","49"],[100,2,"BatchFactory.php.html#8","Illuminate\\Bus\\BatchFactory","2"],[100,1,"Events\/BatchDispatched.php.html#7","Illuminate\\Bus\\Events\\BatchDispatched","1"],[100,2,"UpdatedBatchJobCounts.php.html#5","Illuminate\\Bus\\UpdatedBatchJobCounts","2"]]</script>
+  <script type="application/json" id="complexity_method">[[0,1,"Batch.php.html#420","Illuminate\\Bus\\Batch::canceled","2"],[0,1,"Batch.php.html#502","Illuminate\\Bus\\Batch::__get","2"],[0,1,"DatabaseBatchRepository.php.html#58","Illuminate\\Bus\\DatabaseBatchRepository::get","2"],[0,1,"DatabaseBatchRepository.php.html#241","Illuminate\\Bus\\DatabaseBatchRepository::prune","2"],[0,1,"DatabaseBatchRepository.php.html#264","Illuminate\\Bus\\DatabaseBatchRepository::pruneUnfinished","2"],[0,1,"DatabaseBatchRepository.php.html#287","Illuminate\\Bus\\DatabaseBatchRepository::pruneCancelled","2"],[0,1,"DatabaseBatchRepository.php.html#320","Illuminate\\Bus\\DatabaseBatchRepository::rollBack","2"],[0,1,"DatabaseBatchRepository.php.html#388","Illuminate\\Bus\\DatabaseBatchRepository::getConnection","2"],[0,1,"DatabaseBatchRepository.php.html#399","Illuminate\\Bus\\DatabaseBatchRepository::setConnection","2"],[0,1,"Dispatcher.php.html#145","Illuminate\\Bus\\Dispatcher::findBatch","2"],[0,1,"Dispatcher.php.html#279","Illuminate\\Bus\\Dispatcher::pipeThrough","2"],[0,1,"DynamoBatchRepository.php.html#65","Illuminate\\Bus\\DynamoBatchRepository::__construct","2"],[0,2,"DynamoBatchRepository.php.html#89","Illuminate\\Bus\\DynamoBatchRepository::get","6"],[0,5,"DynamoBatchRepository.php.html#120","Illuminate\\Bus\\DynamoBatchRepository::find","30"],[0,2,"DynamoBatchRepository.php.html#163","Illuminate\\Bus\\DynamoBatchRepository::store","6"],[0,2,"DynamoBatchRepository.php.html#201","Illuminate\\Bus\\DynamoBatchRepository::incrementTotalJobs","6"],[0,2,"DynamoBatchRepository.php.html#232","Illuminate\\Bus\\DynamoBatchRepository::decrementPendingJobs","6"],[0,2,"DynamoBatchRepository.php.html#270","Illuminate\\Bus\\DynamoBatchRepository::incrementFailedJobs","6"],[0,2,"DynamoBatchRepository.php.html#308","Illuminate\\Bus\\DynamoBatchRepository::markAsFinished","6"],[0,2,"DynamoBatchRepository.php.html#337","Illuminate\\Bus\\DynamoBatchRepository::cancel","6"],[0,1,"DynamoBatchRepository.php.html#366","Illuminate\\Bus\\DynamoBatchRepository::delete","2"],[0,1,"DynamoBatchRepository.php.html#383","Illuminate\\Bus\\DynamoBatchRepository::transaction","2"],[0,1,"DynamoBatchRepository.php.html#393","Illuminate\\Bus\\DynamoBatchRepository::rollBack","2"],[0,3,"DynamoBatchRepository.php.html#403","Illuminate\\Bus\\DynamoBatchRepository::toBatch","12"],[0,2,"DynamoBatchRepository.php.html#425","Illuminate\\Bus\\DynamoBatchRepository::createAwsDynamoTable","6"],[0,1,"DynamoBatchRepository.php.html#468","Illuminate\\Bus\\DynamoBatchRepository::deleteAwsDynamoTable","2"],[0,2,"DynamoBatchRepository.php.html#480","Illuminate\\Bus\\DynamoBatchRepository::getExpiryTime","6"],[0,2,"DynamoBatchRepository.php.html#490","Illuminate\\Bus\\DynamoBatchRepository::ttlExpressionAttributeName","6"],[0,1,"DynamoBatchRepository.php.html#501","Illuminate\\Bus\\DynamoBatchRepository::serialize","2"],[0,1,"DynamoBatchRepository.php.html#512","Illuminate\\Bus\\DynamoBatchRepository::unserialize","2"],[0,1,"DynamoBatchRepository.php.html#522","Illuminate\\Bus\\DynamoBatchRepository::getDynamoClient","2"],[0,1,"DynamoBatchRepository.php.html#532","Illuminate\\Bus\\DynamoBatchRepository::getTable","2"],[0,1,"PendingBatch.php.html#234","Illuminate\\Bus\\PendingBatch::finallyCallbacks","2"],[0,1,"PendingBatch.php.html#257","Illuminate\\Bus\\PendingBatch::allowsFailures","2"],[0,2,"PendingBatch.php.html#370","Illuminate\\Bus\\PendingBatch::dispatchAfterResponse","6"],[0,2,"PendingBatch.php.html#393","Illuminate\\Bus\\PendingBatch::dispatchExistingBatch","6"],[0,2,"Batchable.php.html#47","Illuminate\\Bus\\Batchable::batching","6"],[0,1,"Queueable.php.html#120","Illuminate\\Bus\\Queueable::onGroup","2"],[25,3,"Batch.php.html#453","Illuminate\\Bus\\Batch::invokeHandlerCallback","6.80"],[28.57142857142857,3,"Queueable.php.html#278","Illuminate\\Bus\\Queueable::serializeJob","6.28"],[42.42424242424242,5,"BusServiceProvider.php.html#44","Illuminate\\Bus\\BusServiceProvider::registerBatchServices","9.77"],[62.5,3,"PendingBatch.php.html#436","Illuminate\\Bus\\PendingBatch::store","3.47"],[63.63636363636363,3,"PendingBatch.php.html#342","Illuminate\\Bus\\PendingBatch::dispatch","3.43"],[66.66666666666666,4,"DatabaseBatchRepository.php.html#346","Illuminate\\Bus\\DatabaseBatchRepository::unserialize","4.59"],[69.23076923076923,5,"ChainedBatch.php.html#84","Illuminate\\Bus\\ChainedBatch::toPendingBatch","5.73"],[75,2,"PendingBatch.php.html#120","Illuminate\\Bus\\PendingBatch::before","2.06"],[75,2,"PendingBatch.php.html#145","Illuminate\\Bus\\PendingBatch::progress","2.06"],[75,2,"PendingBatch.php.html#170","Illuminate\\Bus\\PendingBatch::then","2.06"],[75,2,"PendingBatch.php.html#195","Illuminate\\Bus\\PendingBatch::catch","2.06"],[75,2,"PendingBatch.php.html#220","Illuminate\\Bus\\PendingBatch::finally","2.06"],[75,2,"UniqueLock.php.html#51","Illuminate\\Bus\\UniqueLock::release","2.06"],[80,4,"Dispatcher.php.html#96","Illuminate\\Bus\\Dispatcher::dispatchSync","4.13"],[85.71428571428571,5,"ChainedBatch.php.html#116","Illuminate\\Bus\\ChainedBatch::attachRemainderOfChainToEndOfBatch","5.07"],[85.71428571428571,3,"Dispatcher.php.html#220","Illuminate\\Bus\\Dispatcher::dispatchToQueue","3.03"],[85.71428571428571,3,"UniqueLock.php.html#32","Illuminate\\Bus\\UniqueLock::acquire","3.03"],[92.3076923076923,7,"Dispatcher.php.html#114","Illuminate\\Bus\\Dispatcher::dispatchNow","7.02"],[100,1,"Batch.php.html#117","Illuminate\\Bus\\Batch::__construct","1"],[100,1,"Batch.php.html#150","Illuminate\\Bus\\Batch::fresh","1"],[100,3,"Batch.php.html#161","Illuminate\\Bus\\Batch::add","3"],[100,2,"Batch.php.html#205","Illuminate\\Bus\\Batch::prepareBatchedChain","2"],[100,1,"Batch.php.html#219","Illuminate\\Bus\\Batch::processedJobs","1"],[100,2,"Batch.php.html#229","Illuminate\\Bus\\Batch::progress","2"],[100,7,"Batch.php.html#240","Illuminate\\Bus\\Batch::recordSuccessfulJob","7"],[100,1,"Batch.php.html#279","Illuminate\\Bus\\Batch::decrementPendingJobs","1"],[100,1,"Batch.php.html#289","Illuminate\\Bus\\Batch::finished","1"],[100,2,"Batch.php.html#299","Illuminate\\Bus\\Batch::hasProgressCallbacks","2"],[100,2,"Batch.php.html#309","Illuminate\\Bus\\Batch::hasThenCallbacks","2"],[100,1,"Batch.php.html#319","Illuminate\\Bus\\Batch::allowsFailures","1"],[100,1,"Batch.php.html#329","Illuminate\\Bus\\Batch::hasFailures","1"],[100,9,"Batch.php.html#341","Illuminate\\Bus\\Batch::recordFailedJob","9"],[100,1,"Batch.php.html#380","Illuminate\\Bus\\Batch::incrementFailedJobs","1"],[100,2,"Batch.php.html#390","Illuminate\\Bus\\Batch::hasCatchCallbacks","2"],[100,2,"Batch.php.html#400","Illuminate\\Bus\\Batch::hasFinallyCallbacks","2"],[100,1,"Batch.php.html#410","Illuminate\\Bus\\Batch::cancel","1"],[100,1,"Batch.php.html#430","Illuminate\\Bus\\Batch::cancelled","1"],[100,1,"Batch.php.html#440","Illuminate\\Bus\\Batch::delete","1"],[100,1,"Batch.php.html#469","Illuminate\\Bus\\Batch::toArray","1"],[100,1,"Batch.php.html#491","Illuminate\\Bus\\Batch::jsonSerialize","1"],[100,1,"BatchFactory.php.html#22","Illuminate\\Bus\\BatchFactory::__construct","1"],[100,1,"BatchFactory.php.html#43","Illuminate\\Bus\\BatchFactory::make","1"],[100,1,"BusServiceProvider.php.html#20","Illuminate\\Bus\\BusServiceProvider::register","1"],[100,1,"BusServiceProvider.php.html#95","Illuminate\\Bus\\BusServiceProvider::provides","1"],[100,1,"ChainedBatch.php.html#43","Illuminate\\Bus\\ChainedBatch::__construct","1"],[100,5,"ChainedBatch.php.html#57","Illuminate\\Bus\\ChainedBatch::prepareNestedBatches","5"],[100,1,"ChainedBatch.php.html#72","Illuminate\\Bus\\ChainedBatch::handle","1"],[100,1,"DatabaseBatchRepository.php.html#44","Illuminate\\Bus\\DatabaseBatchRepository::__construct","1"],[100,2,"DatabaseBatchRepository.php.html#77","Illuminate\\Bus\\DatabaseBatchRepository::find","2"],[100,1,"DatabaseBatchRepository.php.html#95","Illuminate\\Bus\\DatabaseBatchRepository::store","1"],[100,1,"DatabaseBatchRepository.php.html#122","Illuminate\\Bus\\DatabaseBatchRepository::incrementTotalJobs","1"],[100,1,"DatabaseBatchRepository.php.html#138","Illuminate\\Bus\\DatabaseBatchRepository::decrementPendingJobs","1"],[100,1,"DatabaseBatchRepository.php.html#161","Illuminate\\Bus\\DatabaseBatchRepository::incrementFailedJobs","1"],[100,2,"DatabaseBatchRepository.php.html#184","Illuminate\\Bus\\DatabaseBatchRepository::updateAtomicValues","2"],[100,1,"DatabaseBatchRepository.php.html#203","Illuminate\\Bus\\DatabaseBatchRepository::markAsFinished","1"],[100,1,"DatabaseBatchRepository.php.html#216","Illuminate\\Bus\\DatabaseBatchRepository::cancel","1"],[100,1,"DatabaseBatchRepository.php.html#230","Illuminate\\Bus\\DatabaseBatchRepository::delete","1"],[100,1,"DatabaseBatchRepository.php.html#310","Illuminate\\Bus\\DatabaseBatchRepository::transaction","1"],[100,2,"DatabaseBatchRepository.php.html#331","Illuminate\\Bus\\DatabaseBatchRepository::serialize","2"],[100,3,"DatabaseBatchRepository.php.html#366","Illuminate\\Bus\\DatabaseBatchRepository::toBatch","3"],[100,1,"Dispatcher.php.html#67","Illuminate\\Bus\\Dispatcher::__construct","1"],[100,3,"Dispatcher.php.html#80","Illuminate\\Bus\\Dispatcher::dispatch","3"],[100,1,"Dispatcher.php.html#156","Illuminate\\Bus\\Dispatcher::batch","1"],[100,1,"Dispatcher.php.html#167","Illuminate\\Bus\\Dispatcher::chain","1"],[100,1,"Dispatcher.php.html#181","Illuminate\\Bus\\Dispatcher::hasCommandHandler","1"],[100,2,"Dispatcher.php.html#192","Illuminate\\Bus\\Dispatcher::getCommandHandler","2"],[100,1,"Dispatcher.php.html#207","Illuminate\\Bus\\Dispatcher::commandShouldBeQueued","1"],[100,2,"Dispatcher.php.html#244","Illuminate\\Bus\\Dispatcher::pushCommandToQueue","2"],[100,2,"Dispatcher.php.html#260","Illuminate\\Bus\\Dispatcher::dispatchAfterResponse","2"],[100,1,"Dispatcher.php.html#292","Illuminate\\Bus\\Dispatcher::map","1"],[100,1,"Dispatcher.php.html#304","Illuminate\\Bus\\Dispatcher::withDispatchingAfterResponses","1"],[100,1,"Dispatcher.php.html#316","Illuminate\\Bus\\Dispatcher::withoutDispatchingAfterResponses","1"],[100,1,"Events\/BatchDispatched.php.html#14","Illuminate\\Bus\\Events\\BatchDispatched::__construct","1"],[100,1,"PendingBatch.php.html#63","Illuminate\\Bus\\PendingBatch::__construct","1"],[100,3,"PendingBatch.php.html#78","Illuminate\\Bus\\PendingBatch::add","3"],[100,6,"PendingBatch.php.html#97","Illuminate\\Bus\\PendingBatch::ensureJobIsBatchable","6"],[100,1,"PendingBatch.php.html#134","Illuminate\\Bus\\PendingBatch::beforeCallbacks","1"],[100,1,"PendingBatch.php.html#159","Illuminate\\Bus\\PendingBatch::progressCallbacks","1"],[100,1,"PendingBatch.php.html#184","Illuminate\\Bus\\PendingBatch::thenCallbacks","1"],[100,1,"PendingBatch.php.html#209","Illuminate\\Bus\\PendingBatch::catchCallbacks","1"],[100,1,"PendingBatch.php.html#245","Illuminate\\Bus\\PendingBatch::allowFailures","1"],[100,1,"PendingBatch.php.html#268","Illuminate\\Bus\\PendingBatch::name","1"],[100,1,"PendingBatch.php.html#281","Illuminate\\Bus\\PendingBatch::onConnection","1"],[100,1,"PendingBatch.php.html#293","Illuminate\\Bus\\PendingBatch::connection","1"],[100,1,"PendingBatch.php.html#304","Illuminate\\Bus\\PendingBatch::onQueue","1"],[100,1,"PendingBatch.php.html#316","Illuminate\\Bus\\PendingBatch::queue","1"],[100,1,"PendingBatch.php.html#328","Illuminate\\Bus\\PendingBatch::withOption","1"],[100,2,"PendingBatch.php.html#414","Illuminate\\Bus\\PendingBatch::dispatchIf","2"],[100,2,"PendingBatch.php.html#425","Illuminate\\Bus\\PendingBatch::dispatchUnless","2"],[100,1,"UniqueLock.php.html#21","Illuminate\\Bus\\UniqueLock::__construct","1"],[100,2,"UniqueLock.php.html#66","Illuminate\\Bus\\UniqueLock::getKey","2"],[100,1,"UpdatedBatchJobCounts.php.html#27","Illuminate\\Bus\\UpdatedBatchJobCounts::__construct","1"],[100,1,"UpdatedBatchJobCounts.php.html#38","Illuminate\\Bus\\UpdatedBatchJobCounts::allJobsHaveRanExactlyOnce","1"],[100,3,"Batchable.php.html#31","Illuminate\\Bus\\Batchable::batch","3"],[100,1,"Batchable.php.html#60","Illuminate\\Bus\\Batchable::withBatchId","1"],[100,2,"Batchable.php.html#82","Illuminate\\Bus\\Batchable::withFakeBatch","2"],[100,1,"Queueable.php.html#92","Illuminate\\Bus\\Queueable::onConnection","1"],[100,1,"Queueable.php.html#105","Illuminate\\Bus\\Queueable::onQueue","1"],[100,1,"Queueable.php.html#133","Illuminate\\Bus\\Queueable::allOnConnection","1"],[100,1,"Queueable.php.html#149","Illuminate\\Bus\\Queueable::allOnQueue","1"],[100,1,"Queueable.php.html#165","Illuminate\\Bus\\Queueable::delay","1"],[100,1,"Queueable.php.html#177","Illuminate\\Bus\\Queueable::withoutDelay","1"],[100,1,"Queueable.php.html#189","Illuminate\\Bus\\Queueable::afterCommit","1"],[100,1,"Queueable.php.html#201","Illuminate\\Bus\\Queueable::beforeCommit","1"],[100,1,"Queueable.php.html#214","Illuminate\\Bus\\Queueable::through","1"],[100,1,"Queueable.php.html#227","Illuminate\\Bus\\Queueable::chain","1"],[100,2,"Queueable.php.html#242","Illuminate\\Bus\\Queueable::prependToChain","2"],[100,2,"Queueable.php.html#259","Illuminate\\Bus\\Queueable::appendToChain","2"],[100,4,"Queueable.php.html#298","Illuminate\\Bus\\Queueable::dispatchNextJobInChain","4"],[100,1,"Queueable.php.html#320","Illuminate\\Bus\\Queueable::invokeChainCatchCallbacks","1"],[100,2,"Queueable.php.html#333","Illuminate\\Bus\\Queueable::assertHasChain","2"],[100,1,"Queueable.php.html#357","Illuminate\\Bus\\Queueable::assertDoesntHaveChain","1"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [1,0,0,0,0,0,0,3,0,4,2,3])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [38,0,0,2,0,1,0,4,6,4,1,94])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>

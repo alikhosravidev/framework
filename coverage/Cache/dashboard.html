@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/forks/framework/src/Illuminate/Cache</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/billboard.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/forks/framework/src/Illuminate</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Cache</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ApcWrapper.php.html#5">Illuminate\Cache\ApcWrapper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/ForgetCommand.php.html#9">Illuminate\Cache\Console\ForgetCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/PruneStaleTagsCommand.php.html#11">Illuminate\Cache\Console\PruneStaleTagsCommand</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#5">Illuminate\Cache\DynamoDbLock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#15">Illuminate\Cache\DynamoDbStore</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#5">Illuminate\Cache\MemcachedLock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#10">Illuminate\Cache\MemcachedStore</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasCacheLock.php.html#5">Illuminate\Cache\HasCacheLock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheLock.php.html#5">Illuminate\Cache\CacheLock</a></td><td class="text-right">43%</td></tr>
+       <tr><td><a href="Events/CacheFlushFailed.php.html#5">Illuminate\Cache\Events\CacheFlushFailed</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="NullStore.php.html#7">Illuminate\Cache\NullStore</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="CacheManager.php.html#17">Illuminate\Cache\CacheManager</a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="MemcachedConnector.php.html#7">Illuminate\Cache\MemcachedConnector</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="RedisStore.php.html#14">Illuminate\Cache\RedisStore</a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="NoLock.php.html#5">Illuminate\Cache\NoLock</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="ApcStore.php.html#5">Illuminate\Cache\ApcStore</a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="RateLimiting/Limit.php.html#5">Illuminate\Cache\RateLimiting\Limit</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="FileStore.php.html#13">Illuminate\Cache\FileStore</a></td><td class="text-right">88%</td></tr>
+       <tr><td><a href="RedisLock.php.html#5">Illuminate\Cache\RedisLock</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DynamoDbStore.php.html#15">Illuminate\Cache\DynamoDbStore</a></td><td class="text-right">0.0%</td><td class="text-right">40</td><td class="text-right">1640</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#10">Illuminate\Cache\MemcachedStore</a></td><td class="text-right">0.0%</td><td class="text-right">23</td><td class="text-right">552</td></tr>
+       <tr><td><a href="RedisStore.php.html#14">Illuminate\Cache\RedisStore</a></td><td class="text-right">69.2%</td><td class="text-right">63</td><td class="text-right">179</td></tr>
+       <tr><td><a href="CacheManager.php.html#17">Illuminate\Cache\CacheManager</a></td><td class="text-right">62.4%</td><td class="text-right">46</td><td class="text-right">158</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#5">Illuminate\Cache\ApcWrapper</a></td><td class="text-right">0.0%</td><td class="text-right">7</td><td class="text-right">56</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#5">Illuminate\Cache\DynamoDbLock</a></td><td class="text-right">0.0%</td><td class="text-right">7</td><td class="text-right">56</td></tr>
+       <tr><td><a href="FileStore.php.html#13">Illuminate\Cache\FileStore</a></td><td class="text-right">88.9%</td><td class="text-right">43</td><td class="text-right">45</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#5">Illuminate\Cache\MemcachedLock</a></td><td class="text-right">0.0%</td><td class="text-right">6</td><td class="text-right">42</td></tr>
+       <tr><td><a href="CacheLock.php.html#5">Illuminate\Cache\CacheLock</a></td><td class="text-right">43.8%</td><td class="text-right">10</td><td class="text-right">27</td></tr>
+       <tr><td><a href="Console/PruneStaleTagsCommand.php.html#11">Illuminate\Cache\Console\PruneStaleTagsCommand</a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="MemcachedConnector.php.html#7">Illuminate\Cache\MemcachedConnector</a></td><td class="text-right">68.4%</td><td class="text-right">9</td><td class="text-right">11</td></tr>
+       <tr><td><a href="RateLimiting/Limit.php.html#5">Illuminate\Cache\RateLimiting\Limit</a></td><td class="text-right">86.7%</td><td class="text-right">11</td><td class="text-right">11</td></tr>
+       <tr><td><a href="RedisLock.php.html#5">Illuminate\Cache\RedisLock</a></td><td class="text-right">88.9%</td><td class="text-right">7</td><td class="text-right">7</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ApcStore.php.html#121"><abbr title="Illuminate\Cache\ApcStore::getPrefix">getPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApcStore.php.html#132"><abbr title="Illuminate\Cache\ApcStore::setPrefix">setPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#13"><abbr title="Illuminate\Cache\ApcWrapper::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#28"><abbr title="Illuminate\Cache\ApcWrapper::put">put</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#40"><abbr title="Illuminate\Cache\ApcWrapper::increment">increment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#52"><abbr title="Illuminate\Cache\ApcWrapper::decrement">decrement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#63"><abbr title="Illuminate\Cache\ApcWrapper::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#73"><abbr title="Illuminate\Cache\ApcWrapper::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheLock.php.html#34"><abbr title="Illuminate\Cache\CacheLock::acquire">acquire</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheManager.php.html#154"><abbr title="Illuminate\Cache\CacheManager::createApcDriver">createApcDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheManager.php.html#205"><abbr title="Illuminate\Cache\CacheManager::createDynamodbDriver">createDynamodbDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheManager.php.html#227"><abbr title="Illuminate\Cache\CacheManager::newDynamodbClient">newDynamodbClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheManager.php.html#269"><abbr title="Illuminate\Cache\CacheManager::createMemcachedDriver">createMemcachedDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheManager.php.html#319"><abbr title="Illuminate\Cache\CacheManager::createSessionDriver">createSessionDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheManager.php.html#337"><abbr title="Illuminate\Cache\CacheManager::getSession">getSession</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CacheManager.php.html#493"><abbr title="Illuminate\Cache\CacheManager::setApplication">setApplication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/ForgetCommand.php.html#38"><abbr title="Illuminate\Cache\Console\ForgetCommand::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/ForgetCommand.php.html#50"><abbr title="Illuminate\Cache\Console\ForgetCommand::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/PruneStaleTagsCommand.php.html#34"><abbr title="Illuminate\Cache\Console\PruneStaleTagsCommand::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/PruneStaleTagsCommand.php.html#54"><abbr title="Illuminate\Cache\Console\PruneStaleTagsCommand::getArguments">getArguments</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseStore.php.html#454"><abbr title="Illuminate\Cache\DatabaseStore::setConnection">setConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseStore.php.html#466"><abbr title="Illuminate\Cache\DatabaseStore::getLockConnection">getLockConnection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseStore.php.html#489"><abbr title="Illuminate\Cache\DatabaseStore::getPrefix">getPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseStore.php.html#500"><abbr title="Illuminate\Cache\DatabaseStore::setPrefix">setPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#22"><abbr title="Illuminate\Cache\DynamoDbLock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#34"><abbr title="Illuminate\Cache\DynamoDbLock::acquire">acquire</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#48"><abbr title="Illuminate\Cache\DynamoDbLock::release">release</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#62"><abbr title="Illuminate\Cache\DynamoDbLock::forceRelease">forceRelease</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#72"><abbr title="Illuminate\Cache\DynamoDbLock::getCurrentOwner">getCurrentOwner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#71"><abbr title="Illuminate\Cache\DynamoDbStore::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#94"><abbr title="Illuminate\Cache\DynamoDbStore::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#131"><abbr title="Illuminate\Cache\DynamoDbStore::many">many</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#182"><abbr title="Illuminate\Cache\DynamoDbStore::isExpired">isExpired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#198"><abbr title="Illuminate\Cache\DynamoDbStore::put">put</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#225"><abbr title="Illuminate\Cache\DynamoDbStore::putMany">putMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#266"><abbr title="Illuminate\Cache\DynamoDbStore::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#311"><abbr title="Illuminate\Cache\DynamoDbStore::increment">increment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#356"><abbr title="Illuminate\Cache\DynamoDbStore::decrement">decrement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#401"><abbr title="Illuminate\Cache\DynamoDbStore::forever">forever</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#414"><abbr title="Illuminate\Cache\DynamoDbStore::lock">lock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#426"><abbr title="Illuminate\Cache\DynamoDbStore::restoreLock">restoreLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#437"><abbr title="Illuminate\Cache\DynamoDbStore::forget">forget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#458"><abbr title="Illuminate\Cache\DynamoDbStore::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#469"><abbr title="Illuminate\Cache\DynamoDbStore::toTimestamp">toTimestamp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#482"><abbr title="Illuminate\Cache\DynamoDbStore::serialize">serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#493"><abbr title="Illuminate\Cache\DynamoDbStore::unserialize">unserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#512"><abbr title="Illuminate\Cache\DynamoDbStore::type">type</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#522"><abbr title="Illuminate\Cache\DynamoDbStore::getPrefix">getPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#533"><abbr title="Illuminate\Cache\DynamoDbStore::setPrefix">setPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#543"><abbr title="Illuminate\Cache\DynamoDbStore::getClient">getClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/CacheFlushFailed.php.html#39"><abbr title="Illuminate\Cache\Events\CacheFlushFailed::setTags">setTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileStore.php.html#381"><abbr title="Illuminate\Cache\FileStore::getDirectory">getDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileStore.php.html#392"><abbr title="Illuminate\Cache\FileStore::setDirectory">setDirectory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileStore.php.html#417"><abbr title="Illuminate\Cache\FileStore::getPrefix">getPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Lock.php.html#176"><abbr title="Illuminate\Cache\Lock::betweenBlockedAttemptsSleepFor">betweenBlockedAttemptsSleepFor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedConnector.php.html#67"><abbr title="Illuminate\Cache\MemcachedConnector::createMemcachedInstance">createMemcachedInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedConnector.php.html#79"><abbr title="Illuminate\Cache\MemcachedConnector::setCredentials">setCredentials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#22"><abbr title="Illuminate\Cache\MemcachedLock::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#34"><abbr title="Illuminate\Cache\MemcachedLock::acquire">acquire</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#46"><abbr title="Illuminate\Cache\MemcachedLock::release">release</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#60"><abbr title="Illuminate\Cache\MemcachedLock::forceRelease">forceRelease</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#70"><abbr title="Illuminate\Cache\MemcachedLock::getCurrentOwner">getCurrentOwner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#41"><abbr title="Illuminate\Cache\MemcachedStore::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#56"><abbr title="Illuminate\Cache\MemcachedStore::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#73"><abbr title="Illuminate\Cache\MemcachedStore::many">many</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#102"><abbr title="Illuminate\Cache\MemcachedStore::put">put</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#116"><abbr title="Illuminate\Cache\MemcachedStore::putMany">putMany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#137"><abbr title="Illuminate\Cache\MemcachedStore::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#151"><abbr title="Illuminate\Cache\MemcachedStore::increment">increment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#163"><abbr title="Illuminate\Cache\MemcachedStore::decrement">decrement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#175"><abbr title="Illuminate\Cache\MemcachedStore::forever">forever</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#188"><abbr title="Illuminate\Cache\MemcachedStore::lock">lock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#200"><abbr title="Illuminate\Cache\MemcachedStore::restoreLock">restoreLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#211"><abbr title="Illuminate\Cache\MemcachedStore::forget">forget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#221"><abbr title="Illuminate\Cache\MemcachedStore::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#232"><abbr title="Illuminate\Cache\MemcachedStore::calculateExpiration">calculateExpiration</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#243"><abbr title="Illuminate\Cache\MemcachedStore::toTimestamp">toTimestamp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#253"><abbr title="Illuminate\Cache\MemcachedStore::getMemcached">getMemcached</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#263"><abbr title="Illuminate\Cache\MemcachedStore::getPrefix">getPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#274"><abbr title="Illuminate\Cache\MemcachedStore::setPrefix">setPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemoizedStore.php.html#190"><abbr title="Illuminate\Cache\MemoizedStore::restoreLock">restoreLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NoLock.php.html#42"><abbr title="Illuminate\Cache\NoLock::getCurrentOwner">getCurrentOwner</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NullStore.php.html#66"><abbr title="Illuminate\Cache\NullStore::forever">forever</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NullStore.php.html#91"><abbr title="Illuminate\Cache\NullStore::restoreLock">restoreLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NullStore.php.html#102"><abbr title="Illuminate\Cache\NullStore::forget">forget</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NullStore.php.html#112"><abbr title="Illuminate\Cache\NullStore::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NullStore.php.html#122"><abbr title="Illuminate\Cache\NullStore::getPrefix">getPrefix</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RateLimiting/Limit.php.html#138"><abbr title="Illuminate\Cache\RateLimiting\Limit::response">response</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedisLock.php.html#48"><abbr title="Illuminate\Cache\RedisLock::release">release</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedisStore.php.html#279"><abbr title="Illuminate\Cache\RedisStore::flushStaleTags">flushStaleTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="RedisStore.php.html#305"><abbr title="Illuminate\Cache\RedisStore::currentTags">currentTags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#447"><abbr title="Illuminate\Cache\Repository::sear">sear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#710"><abbr title="Illuminate\Cache\Repository::setStore">setStore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#755"><abbr title="Illuminate\Cache\Repository::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#766"><abbr title="Illuminate\Cache\Repository::offsetGet">offsetGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#778"><abbr title="Illuminate\Cache\Repository::offsetSet">offsetSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#789"><abbr title="Illuminate\Cache\Repository::offsetUnset">offsetUnset</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Repository.php.html#815"><abbr title="Illuminate\Cache\Repository::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TagSet.php.html#73"><abbr title="Illuminate\Cache\TagSet::flushTag">flushTag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasCacheLock.php.html#15"><abbr title="Illuminate\Cache\HasCacheLock::lock">lock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasCacheLock.php.html#27"><abbr title="Illuminate\Cache\HasCacheLock::restoreLock">restoreLock</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MemcachedConnector.php.html#46"><abbr title="Illuminate\Cache\MemcachedConnector::getMemcached">getMemcached</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RedisStore.php.html#431"><abbr title="Illuminate\Cache\RedisStore::pack">pack</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RedisStore.php.html#486"><abbr title="Illuminate\Cache\RedisStore::connectionAwareSerialize">connectionAwareSerialize</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="RedisStore.php.html#502"><abbr title="Illuminate\Cache\RedisStore::connectionAwareUnserialize">connectionAwareUnserialize</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="TaggedCache.php.html#42"><abbr title="Illuminate\Cache\TaggedCache::putMany">putMany</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="DatabaseStore.php.html#202"><abbr title="Illuminate\Cache\DatabaseStore::add">add</abbr></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="FileStore.php.html#103"><abbr title="Illuminate\Cache\FileStore::add">add</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="FileStore.php.html#288"><abbr title="Illuminate\Cache\FileStore::getPayload">getPayload</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="RateLimiter.php.html#127"><abbr title="Illuminate\Cache\RateLimiter::tooManyAttempts">tooManyAttempts</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="RedisStore.php.html#226"><abbr title="Illuminate\Cache\RedisStore::lock">lock</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Repository.php.html#302"><abbr title="Illuminate\Cache\Repository::putManyForever">putManyForever</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Repository.php.html#461"><abbr title="Illuminate\Cache\Repository::rememberForever">rememberForever</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="DatabaseLock.php.html#111"><abbr title="Illuminate\Cache\DatabaseLock::release">release</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="RedisTaggedCache.php.html#44"><abbr title="Illuminate\Cache\RedisTaggedCache::put">put</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="RedisStore.php.html#305"><abbr title="Illuminate\Cache\RedisStore::currentTags">currentTags</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">11</td><td class="text-right">132</td></tr>
+       <tr><td><a href="CacheLock.php.html#34"><abbr title="Illuminate\Cache\CacheLock::acquire">acquire</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">5</td><td class="text-right">30</td></tr>
+       <tr><td><a href="CacheManager.php.html#227"><abbr title="Illuminate\Cache\CacheManager::newDynamodbClient">newDynamodbClient</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#94"><abbr title="Illuminate\Cache\DynamoDbStore::get">get</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#131"><abbr title="Illuminate\Cache\DynamoDbStore::many">many</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#182"><abbr title="Illuminate\Cache\DynamoDbStore::isExpired">isExpired</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#266"><abbr title="Illuminate\Cache\DynamoDbStore::add">add</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#311"><abbr title="Illuminate\Cache\DynamoDbStore::increment">increment</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#356"><abbr title="Illuminate\Cache\DynamoDbStore::decrement">decrement</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#493"><abbr title="Illuminate\Cache\DynamoDbStore::unserialize">unserialize</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#73"><abbr title="Illuminate\Cache\MemcachedStore::many">many</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="ApcWrapper.php.html#13"><abbr title="Illuminate\Cache\ApcWrapper::get">get</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="CacheManager.php.html#337"><abbr title="Illuminate\Cache\CacheManager::getSession">getSession</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Console/PruneStaleTagsCommand.php.html#34"><abbr title="Illuminate\Cache\Console\PruneStaleTagsCommand::handle">handle</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#34"><abbr title="Illuminate\Cache\DynamoDbLock::acquire">acquire</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoDbLock.php.html#48"><abbr title="Illuminate\Cache\DynamoDbLock::release">release</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#225"><abbr title="Illuminate\Cache\DynamoDbStore::putMany">putMany</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#469"><abbr title="Illuminate\Cache\DynamoDbStore::toTimestamp">toTimestamp</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#482"><abbr title="Illuminate\Cache\DynamoDbStore::serialize">serialize</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DynamoDbStore.php.html#512"><abbr title="Illuminate\Cache\DynamoDbStore::type">type</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MemcachedConnector.php.html#67"><abbr title="Illuminate\Cache\MemcachedConnector::createMemcachedInstance">createMemcachedInstance</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MemcachedLock.php.html#46"><abbr title="Illuminate\Cache\MemcachedLock::release">release</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#56"><abbr title="Illuminate\Cache\MemcachedStore::get">get</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#116"><abbr title="Illuminate\Cache\MemcachedStore::putMany">putMany</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MemcachedStore.php.html#243"><abbr title="Illuminate\Cache\MemcachedStore::toTimestamp">toTimestamp</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MemoizedStore.php.html#190"><abbr title="Illuminate\Cache\MemoizedStore::restoreLock">restoreLock</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="RedisStore.php.html#279"><abbr title="Illuminate\Cache\RedisStore::flushStaleTags">flushStaleTags</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="FileStore.php.html#288"><abbr title="Illuminate\Cache\FileStore::getPayload">getPayload</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="DatabaseStore.php.html#202"><abbr title="Illuminate\Cache\DatabaseStore::add">add</abbr></a></td><td class="text-right">70.0%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="FileStore.php.html#103"><abbr title="Illuminate\Cache\FileStore::add">add</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="RedisStore.php.html#431"><abbr title="Illuminate\Cache\RedisStore::pack">pack</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="MemcachedConnector.php.html#46"><abbr title="Illuminate\Cache\MemcachedConnector::getMemcached">getMemcached</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="RateLimiter.php.html#127"><abbr title="Illuminate\Cache\RateLimiter::tooManyAttempts">tooManyAttempts</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="RedisStore.php.html#486"><abbr title="Illuminate\Cache\RedisStore::connectionAwareSerialize">connectionAwareSerialize</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="RedisStore.php.html#502"><abbr title="Illuminate\Cache\RedisStore::connectionAwareUnserialize">connectionAwareUnserialize</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="RedisTaggedCache.php.html#44"><abbr title="Illuminate\Cache\RedisTaggedCache::put">put</abbr></a></td><td class="text-right">88.9%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Repository.php.html#302"><abbr title="Illuminate\Cache\Repository::putManyForever">putManyForever</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="DatabaseLock.php.html#111"><abbr title="Illuminate\Cache\DatabaseLock::release">release</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="RedisStore.php.html#226"><abbr title="Illuminate\Cache\RedisStore::lock">lock</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Repository.php.html#461"><abbr title="Illuminate\Cache\Repository::rememberForever">rememberForever</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="TaggedCache.php.html#42"><abbr title="Illuminate\Cache\TaggedCache::putMany">putMany</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.3.8</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.25</a> and <a href="https://phpunit.de/">PHPUnit 12.3.11</a> at Thu Sep 18 16:01:33 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/billboard.pkgd.min.js?v=12.3.8" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,7,"ApcWrapper.php.html#5","Illuminate\\Cache\\ApcWrapper","56"],[0,2,"Console\/ForgetCommand.php.html#9","Illuminate\\Cache\\Console\\ForgetCommand","6"],[0,3,"Console\/PruneStaleTagsCommand.php.html#11","Illuminate\\Cache\\Console\\PruneStaleTagsCommand","12"],[0,7,"DynamoDbLock.php.html#5","Illuminate\\Cache\\DynamoDbLock","56"],[0,40,"DynamoDbStore.php.html#15","Illuminate\\Cache\\DynamoDbStore","1640"],[0,6,"MemcachedLock.php.html#5","Illuminate\\Cache\\MemcachedLock","42"],[0,23,"MemcachedStore.php.html#10","Illuminate\\Cache\\MemcachedStore","552"],[0,2,"HasCacheLock.php.html#5","Illuminate\\Cache\\HasCacheLock","6"],[43.75,10,"CacheLock.php.html#5","Illuminate\\Cache\\CacheLock","27.80"],[50,2,"Events\/CacheFlushFailed.php.html#5","Illuminate\\Cache\\Events\\CacheFlushFailed","2.50"],[50,10,"NullStore.php.html#7","Illuminate\\Cache\\NullStore","22.50"],[62.4,46,"CacheManager.php.html#17","Illuminate\\Cache\\CacheManager","158.48"],[68.42105263157895,9,"MemcachedConnector.php.html#7","Illuminate\\Cache\\MemcachedConnector","11.55"],[69.1588785046729,63,"RedisStore.php.html#14","Illuminate\\Cache\\RedisStore","179.43"],[75,4,"NoLock.php.html#5","Illuminate\\Cache\\NoLock","4.25"],[81.81818181818183,10,"ApcStore.php.html#5","Illuminate\\Cache\\ApcStore","10.60"],[86.66666666666667,11,"RateLimiting\/Limit.php.html#5","Illuminate\\Cache\\RateLimiting\\Limit","11.29"],[88.88888888888889,43,"FileStore.php.html#13","Illuminate\\Cache\\FileStore","45.54"],[88.88888888888889,7,"RedisLock.php.html#5","Illuminate\\Cache\\RedisLock","7.07"],[91.66666666666666,11,"TagSet.php.html#7","Illuminate\\Cache\\TagSet","11.07"],[92.3076923076923,13,"Lock.php.html#11","Illuminate\\Cache\\Lock","13.08"],[92.6829268292683,45,"DatabaseStore.php.html#18","Illuminate\\Cache\\DatabaseStore","45.79"],[93.75,81,"Repository.php.html#36","Illuminate\\Cache\\Repository","82.60"],[93.87755102040816,23,"MemoizedStore.php.html#9","Illuminate\\Cache\\MemoizedStore","23.12"],[94.11764705882352,11,"TaggedCache.php.html#9","Illuminate\\Cache\\TaggedCache","11.02"],[94.44444444444444,18,"RedisTagSet.php.html#9","Illuminate\\Cache\\RedisTagSet","18.06"],[95,2,"CacheServiceProvider.php.html#9","Illuminate\\Cache\\CacheServiceProvider","2"],[97.10144927536231,30,"RateLimiter.php.html#13","Illuminate\\Cache\\RateLimiter","30"],[97.22222222222221,13,"RedisTaggedCache.php.html#8","Illuminate\\Cache\\RedisTaggedCache","13"],[97.36842105263158,11,"DatabaseLock.php.html#8","Illuminate\\Cache\\DatabaseLock","11"],[100,12,"ArrayLock.php.html#7","Illuminate\\Cache\\ArrayLock","12"],[100,26,"ArrayStore.php.html#9","Illuminate\\Cache\\ArrayStore","26"],[100,2,"Console\/CacheTableCommand.php.html#8","Illuminate\\Cache\\Console\\CacheTableCommand","2"],[100,12,"Console\/ClearCommand.php.html#12","Illuminate\\Cache\\Console\\ClearCommand","12"],[100,2,"Events\/CacheEvent.php.html#5","Illuminate\\Cache\\Events\\CacheEvent","2"],[100,2,"Events\/CacheFlushed.php.html#5","Illuminate\\Cache\\Events\\CacheFlushed","2"],[100,2,"Events\/CacheFlushing.php.html#5","Illuminate\\Cache\\Events\\CacheFlushing","2"],[100,1,"Events\/CacheHit.php.html#5","Illuminate\\Cache\\Events\\CacheHit","1"],[100,0,"Events\/CacheMissed.php.html#5","Illuminate\\Cache\\Events\\CacheMissed","0"],[100,0,"Events\/ForgettingKey.php.html#5","Illuminate\\Cache\\Events\\ForgettingKey","0"],[100,0,"Events\/KeyForgetFailed.php.html#5","Illuminate\\Cache\\Events\\KeyForgetFailed","0"],[100,0,"Events\/KeyForgotten.php.html#5","Illuminate\\Cache\\Events\\KeyForgotten","0"],[100,1,"Events\/KeyWriteFailed.php.html#5","Illuminate\\Cache\\Events\\KeyWriteFailed","1"],[100,1,"Events\/KeyWritten.php.html#5","Illuminate\\Cache\\Events\\KeyWritten","1"],[100,0,"Events\/RetrievingKey.php.html#5","Illuminate\\Cache\\Events\\RetrievingKey","0"],[100,1,"Events\/RetrievingManyKeys.php.html#5","Illuminate\\Cache\\Events\\RetrievingManyKeys","1"],[100,1,"Events\/WritingKey.php.html#5","Illuminate\\Cache\\Events\\WritingKey","1"],[100,1,"Events\/WritingManyKeys.php.html#5","Illuminate\\Cache\\Events\\WritingManyKeys","1"],[100,1,"FileLock.php.html#5","Illuminate\\Cache\\FileLock","1"],[100,2,"LuaScripts.php.html#5","Illuminate\\Cache\\LuaScripts","2"],[100,2,"PhpRedisLock.php.html#7","Illuminate\\Cache\\PhpRedisLock","2"],[100,1,"RateLimiting\/GlobalLimit.php.html#5","Illuminate\\Cache\\RateLimiting\\GlobalLimit","1"],[100,1,"RateLimiting\/Unlimited.php.html#5","Illuminate\\Cache\\RateLimiting\\Unlimited","1"],[100,19,"SessionStore.php.html#9","Illuminate\\Cache\\SessionStore","19"],[100,2,"TaggableStore.php.html#7","Illuminate\\Cache\\TaggableStore","2"],[100,9,"RetrievesMultipleKeys.php.html#7","Illuminate\\Cache\\RetrievesMultipleKeys","9"]]</script>
+  <script type="application/json" id="complexity_method">[[0,1,"ApcStore.php.html#121","Illuminate\\Cache\\ApcStore::getPrefix","2"],[0,1,"ApcStore.php.html#132","Illuminate\\Cache\\ApcStore::setPrefix","2"],[0,2,"ApcWrapper.php.html#13","Illuminate\\Cache\\ApcWrapper::get","6"],[0,1,"ApcWrapper.php.html#28","Illuminate\\Cache\\ApcWrapper::put","2"],[0,1,"ApcWrapper.php.html#40","Illuminate\\Cache\\ApcWrapper::increment","2"],[0,1,"ApcWrapper.php.html#52","Illuminate\\Cache\\ApcWrapper::decrement","2"],[0,1,"ApcWrapper.php.html#63","Illuminate\\Cache\\ApcWrapper::delete","2"],[0,1,"ApcWrapper.php.html#73","Illuminate\\Cache\\ApcWrapper::flush","2"],[0,5,"CacheLock.php.html#34","Illuminate\\Cache\\CacheLock::acquire","30"],[0,1,"CacheManager.php.html#154","Illuminate\\Cache\\CacheManager::createApcDriver","2"],[0,1,"CacheManager.php.html#205","Illuminate\\Cache\\CacheManager::createDynamodbDriver","2"],[0,4,"CacheManager.php.html#227","Illuminate\\Cache\\CacheManager::newDynamodbClient","20"],[0,1,"CacheManager.php.html#269","Illuminate\\Cache\\CacheManager::createMemcachedDriver","2"],[0,1,"CacheManager.php.html#319","Illuminate\\Cache\\CacheManager::createSessionDriver","2"],[0,2,"CacheManager.php.html#337","Illuminate\\Cache\\CacheManager::getSession","6"],[0,1,"CacheManager.php.html#493","Illuminate\\Cache\\CacheManager::setApplication","2"],[0,1,"Console\/ForgetCommand.php.html#38","Illuminate\\Cache\\Console\\ForgetCommand::__construct","2"],[0,1,"Console\/ForgetCommand.php.html#50","Illuminate\\Cache\\Console\\ForgetCommand::handle","2"],[0,2,"Console\/PruneStaleTagsCommand.php.html#34","Illuminate\\Cache\\Console\\PruneStaleTagsCommand::handle","6"],[0,1,"Console\/PruneStaleTagsCommand.php.html#54","Illuminate\\Cache\\Console\\PruneStaleTagsCommand::getArguments","2"],[0,1,"DatabaseStore.php.html#454","Illuminate\\Cache\\DatabaseStore::setConnection","2"],[0,1,"DatabaseStore.php.html#466","Illuminate\\Cache\\DatabaseStore::getLockConnection","2"],[0,1,"DatabaseStore.php.html#489","Illuminate\\Cache\\DatabaseStore::getPrefix","2"],[0,1,"DatabaseStore.php.html#500","Illuminate\\Cache\\DatabaseStore::setPrefix","2"],[0,1,"DynamoDbLock.php.html#22","Illuminate\\Cache\\DynamoDbLock::__construct","2"],[0,2,"DynamoDbLock.php.html#34","Illuminate\\Cache\\DynamoDbLock::acquire","6"],[0,2,"DynamoDbLock.php.html#48","Illuminate\\Cache\\DynamoDbLock::release","6"],[0,1,"DynamoDbLock.php.html#62","Illuminate\\Cache\\DynamoDbLock::forceRelease","2"],[0,1,"DynamoDbLock.php.html#72","Illuminate\\Cache\\DynamoDbLock::getCurrentOwner","2"],[0,1,"DynamoDbStore.php.html#71","Illuminate\\Cache\\DynamoDbStore::__construct","2"],[0,4,"DynamoDbStore.php.html#94","Illuminate\\Cache\\DynamoDbStore::get","20"],[0,3,"DynamoDbStore.php.html#131","Illuminate\\Cache\\DynamoDbStore::many","12"],[0,3,"DynamoDbStore.php.html#182","Illuminate\\Cache\\DynamoDbStore::isExpired","12"],[0,1,"DynamoDbStore.php.html#198","Illuminate\\Cache\\DynamoDbStore::put","2"],[0,2,"DynamoDbStore.php.html#225","Illuminate\\Cache\\DynamoDbStore::putMany","6"],[0,3,"DynamoDbStore.php.html#266","Illuminate\\Cache\\DynamoDbStore::add","12"],[0,3,"DynamoDbStore.php.html#311","Illuminate\\Cache\\DynamoDbStore::increment","12"],[0,3,"DynamoDbStore.php.html#356","Illuminate\\Cache\\DynamoDbStore::decrement","12"],[0,1,"DynamoDbStore.php.html#401","Illuminate\\Cache\\DynamoDbStore::forever","2"],[0,1,"DynamoDbStore.php.html#414","Illuminate\\Cache\\DynamoDbStore::lock","2"],[0,1,"DynamoDbStore.php.html#426","Illuminate\\Cache\\DynamoDbStore::restoreLock","2"],[0,1,"DynamoDbStore.php.html#437","Illuminate\\Cache\\DynamoDbStore::forget","2"],[0,1,"DynamoDbStore.php.html#458","Illuminate\\Cache\\DynamoDbStore::flush","2"],[0,2,"DynamoDbStore.php.html#469","Illuminate\\Cache\\DynamoDbStore::toTimestamp","6"],[0,2,"DynamoDbStore.php.html#482","Illuminate\\Cache\\DynamoDbStore::serialize","6"],[0,3,"DynamoDbStore.php.html#493","Illuminate\\Cache\\DynamoDbStore::unserialize","12"],[0,2,"DynamoDbStore.php.html#512","Illuminate\\Cache\\DynamoDbStore::type","6"],[0,1,"DynamoDbStore.php.html#522","Illuminate\\Cache\\DynamoDbStore::getPrefix","2"],[0,1,"DynamoDbStore.php.html#533","Illuminate\\Cache\\DynamoDbStore::setPrefix","2"],[0,1,"DynamoDbStore.php.html#543","Illuminate\\Cache\\DynamoDbStore::getClient","2"],[0,1,"Events\/CacheFlushFailed.php.html#39","Illuminate\\Cache\\Events\\CacheFlushFailed::setTags","2"],[0,1,"FileStore.php.html#381","Illuminate\\Cache\\FileStore::getDirectory","2"],[0,1,"FileStore.php.html#392","Illuminate\\Cache\\FileStore::setDirectory","2"],[0,1,"FileStore.php.html#417","Illuminate\\Cache\\FileStore::getPrefix","2"],[0,1,"Lock.php.html#176","Illuminate\\Cache\\Lock::betweenBlockedAttemptsSleepFor","2"],[0,2,"MemcachedConnector.php.html#67","Illuminate\\Cache\\MemcachedConnector::createMemcachedInstance","6"],[0,1,"MemcachedConnector.php.html#79","Illuminate\\Cache\\MemcachedConnector::setCredentials","2"],[0,1,"MemcachedLock.php.html#22","Illuminate\\Cache\\MemcachedLock::__construct","2"],[0,1,"MemcachedLock.php.html#34","Illuminate\\Cache\\MemcachedLock::acquire","2"],[0,2,"MemcachedLock.php.html#46","Illuminate\\Cache\\MemcachedLock::release","6"],[0,1,"MemcachedLock.php.html#60","Illuminate\\Cache\\MemcachedLock::forceRelease","2"],[0,1,"MemcachedLock.php.html#70","Illuminate\\Cache\\MemcachedLock::getCurrentOwner","2"],[0,1,"MemcachedStore.php.html#41","Illuminate\\Cache\\MemcachedStore::__construct","2"],[0,2,"MemcachedStore.php.html#56","Illuminate\\Cache\\MemcachedStore::get","6"],[0,3,"MemcachedStore.php.html#73","Illuminate\\Cache\\MemcachedStore::many","12"],[0,1,"MemcachedStore.php.html#102","Illuminate\\Cache\\MemcachedStore::put","2"],[0,2,"MemcachedStore.php.html#116","Illuminate\\Cache\\MemcachedStore::putMany","6"],[0,1,"MemcachedStore.php.html#137","Illuminate\\Cache\\MemcachedStore::add","2"],[0,1,"MemcachedStore.php.html#151","Illuminate\\Cache\\MemcachedStore::increment","2"],[0,1,"MemcachedStore.php.html#163","Illuminate\\Cache\\MemcachedStore::decrement","2"],[0,1,"MemcachedStore.php.html#175","Illuminate\\Cache\\MemcachedStore::forever","2"],[0,1,"MemcachedStore.php.html#188","Illuminate\\Cache\\MemcachedStore::lock","2"],[0,1,"MemcachedStore.php.html#200","Illuminate\\Cache\\MemcachedStore::restoreLock","2"],[0,1,"MemcachedStore.php.html#211","Illuminate\\Cache\\MemcachedStore::forget","2"],[0,1,"MemcachedStore.php.html#221","Illuminate\\Cache\\MemcachedStore::flush","2"],[0,1,"MemcachedStore.php.html#232","Illuminate\\Cache\\MemcachedStore::calculateExpiration","2"],[0,2,"MemcachedStore.php.html#243","Illuminate\\Cache\\MemcachedStore::toTimestamp","6"],[0,1,"MemcachedStore.php.html#253","Illuminate\\Cache\\MemcachedStore::getMemcached","2"],[0,1,"MemcachedStore.php.html#263","Illuminate\\Cache\\MemcachedStore::getPrefix","2"],[0,1,"MemcachedStore.php.html#274","Illuminate\\Cache\\MemcachedStore::setPrefix","2"],[0,2,"MemoizedStore.php.html#190","Illuminate\\Cache\\MemoizedStore::restoreLock","6"],[0,1,"NoLock.php.html#42","Illuminate\\Cache\\NoLock::getCurrentOwner","2"],[0,1,"NullStore.php.html#66","Illuminate\\Cache\\NullStore::forever","2"],[0,1,"NullStore.php.html#91","Illuminate\\Cache\\NullStore::restoreLock","2"],[0,1,"NullStore.php.html#102","Illuminate\\Cache\\NullStore::forget","2"],[0,1,"NullStore.php.html#112","Illuminate\\Cache\\NullStore::flush","2"],[0,1,"NullStore.php.html#122","Illuminate\\Cache\\NullStore::getPrefix","2"],[0,1,"RateLimiting\/Limit.php.html#138","Illuminate\\Cache\\RateLimiting\\Limit::response","2"],[0,1,"RedisLock.php.html#48","Illuminate\\Cache\\RedisLock::release","2"],[0,2,"RedisStore.php.html#279","Illuminate\\Cache\\RedisStore::flushStaleTags","6"],[0,11,"RedisStore.php.html#305","Illuminate\\Cache\\RedisStore::currentTags","132"],[0,1,"Repository.php.html#447","Illuminate\\Cache\\Repository::sear","2"],[0,1,"Repository.php.html#710","Illuminate\\Cache\\Repository::setStore","2"],[0,1,"Repository.php.html#755","Illuminate\\Cache\\Repository::offsetExists","2"],[0,1,"Repository.php.html#766","Illuminate\\Cache\\Repository::offsetGet","2"],[0,1,"Repository.php.html#778","Illuminate\\Cache\\Repository::offsetSet","2"],[0,1,"Repository.php.html#789","Illuminate\\Cache\\Repository::offsetUnset","2"],[0,1,"Repository.php.html#815","Illuminate\\Cache\\Repository::__clone","2"],[0,1,"TagSet.php.html#73","Illuminate\\Cache\\TagSet::flushTag","2"],[0,1,"HasCacheLock.php.html#15","Illuminate\\Cache\\HasCacheLock::lock","2"],[0,1,"HasCacheLock.php.html#27","Illuminate\\Cache\\HasCacheLock::restoreLock","2"],[66.66666666666666,3,"MemcachedConnector.php.html#46","Illuminate\\Cache\\MemcachedConnector::getMemcached","3.33"],[66.66666666666666,4,"RedisStore.php.html#431","Illuminate\\Cache\\RedisStore::pack","4.59"],[66.66666666666666,3,"RedisStore.php.html#486","Illuminate\\Cache\\RedisStore::connectionAwareSerialize","3.33"],[66.66666666666666,3,"RedisStore.php.html#502","Illuminate\\Cache\\RedisStore::connectionAwareUnserialize","3.33"],[66.66666666666666,2,"TaggedCache.php.html#42","Illuminate\\Cache\\TaggedCache::putMany","2.15"],[70,4,"DatabaseStore.php.html#202","Illuminate\\Cache\\DatabaseStore::add","4.43"],[80,4,"FileStore.php.html#103","Illuminate\\Cache\\FileStore::add","4.13"],[80,5,"FileStore.php.html#288","Illuminate\\Cache\\FileStore::getPayload","5.20"],[80,3,"RateLimiter.php.html#127","Illuminate\\Cache\\RateLimiter::tooManyAttempts","3.07"],[80,2,"RedisStore.php.html#226","Illuminate\\Cache\\RedisStore::lock","2.03"],[80,3,"Repository.php.html#302","Illuminate\\Cache\\Repository::putManyForever","3.07"],[80,2,"Repository.php.html#461","Illuminate\\Cache\\Repository::rememberForever","2.03"],[85.71428571428571,2,"DatabaseLock.php.html#111","Illuminate\\Cache\\DatabaseLock::release","2.01"],[88.88888888888889,3,"RedisTaggedCache.php.html#44","Illuminate\\Cache\\RedisTaggedCache::put","3.01"],[90.9090909090909,8,"RedisTagSet.php.html#37","Illuminate\\Cache\\RedisTagSet::entries","8.05"],[91.66666666666666,5,"Repository.php.html#269","Illuminate\\Cache\\Repository::putMany","5.01"],[93.75,6,"RateLimiter.php.html#63","Illuminate\\Cache\\RateLimiter::limiter","6.01"],[94.11764705882352,1,"CacheServiceProvider.php.html#16","Illuminate\\Cache\\CacheServiceProvider::register","1.00"],[95.45454545454545,5,"DatabaseStore.php.html#115","Illuminate\\Cache\\DatabaseStore::many","5"],[100,1,"ApcStore.php.html#29","Illuminate\\Cache\\ApcStore::__construct","1"],[100,1,"ApcStore.php.html#41","Illuminate\\Cache\\ApcStore::get","1"],[100,1,"ApcStore.php.html#54","Illuminate\\Cache\\ApcStore::put","1"],[100,1,"ApcStore.php.html#66","Illuminate\\Cache\\ApcStore::increment","1"],[100,1,"ApcStore.php.html#78","Illuminate\\Cache\\ApcStore::decrement","1"],[100,1,"ApcStore.php.html#90","Illuminate\\Cache\\ApcStore::forever","1"],[100,1,"ApcStore.php.html#101","Illuminate\\Cache\\ApcStore::forget","1"],[100,1,"ApcStore.php.html#111","Illuminate\\Cache\\ApcStore::flush","1"],[100,1,"ArrayLock.php.html#24","Illuminate\\Cache\\ArrayLock::__construct","1"],[100,4,"ArrayLock.php.html#36","Illuminate\\Cache\\ArrayLock::acquire","4"],[100,1,"ArrayLock.php.html#57","Illuminate\\Cache\\ArrayLock::exists","1"],[100,3,"ArrayLock.php.html#67","Illuminate\\Cache\\ArrayLock::release","3"],[100,2,"ArrayLock.php.html#87","Illuminate\\Cache\\ArrayLock::getCurrentOwner","2"],[100,1,"ArrayLock.php.html#101","Illuminate\\Cache\\ArrayLock::forceRelease","1"],[100,1,"ArrayStore.php.html#39","Illuminate\\Cache\\ArrayStore::__construct","1"],[100,4,"ArrayStore.php.html#50","Illuminate\\Cache\\ArrayStore::all","4"],[100,5,"ArrayStore.php.html#74","Illuminate\\Cache\\ArrayStore::get","5"],[100,2,"ArrayStore.php.html#101","Illuminate\\Cache\\ArrayStore::put","2"],[100,3,"ArrayStore.php.html#118","Illuminate\\Cache\\ArrayStore::increment","3"],[100,1,"ArrayStore.php.html#140","Illuminate\\Cache\\ArrayStore::decrement","1"],[100,1,"ArrayStore.php.html#152","Illuminate\\Cache\\ArrayStore::forever","1"],[100,2,"ArrayStore.php.html#163","Illuminate\\Cache\\ArrayStore::forget","2"],[100,1,"ArrayStore.php.html#179","Illuminate\\Cache\\ArrayStore::flush","1"],[100,1,"ArrayStore.php.html#191","Illuminate\\Cache\\ArrayStore::getPrefix","1"],[100,1,"ArrayStore.php.html#202","Illuminate\\Cache\\ArrayStore::calculateExpiration","1"],[100,2,"ArrayStore.php.html#213","Illuminate\\Cache\\ArrayStore::toTimestamp","2"],[100,1,"ArrayStore.php.html#226","Illuminate\\Cache\\ArrayStore::lock","1"],[100,1,"ArrayStore.php.html#238","Illuminate\\Cache\\ArrayStore::restoreLock","1"],[100,1,"CacheLock.php.html#22","Illuminate\\Cache\\CacheLock::__construct","1"],[100,2,"CacheLock.php.html#56","Illuminate\\Cache\\CacheLock::release","2"],[100,1,"CacheLock.php.html#70","Illuminate\\Cache\\CacheLock::forceRelease","1"],[100,1,"CacheLock.php.html#80","Illuminate\\Cache\\CacheLock::getCurrentOwner","1"],[100,1,"CacheManager.php.html#45","Illuminate\\Cache\\CacheManager::__construct","1"],[100,2,"CacheManager.php.html#56","Illuminate\\Cache\\CacheManager::store","2"],[100,1,"CacheManager.php.html#69","Illuminate\\Cache\\CacheManager::driver","1"],[100,3,"CacheManager.php.html#80","Illuminate\\Cache\\CacheManager::memo","3"],[100,2,"CacheManager.php.html#101","Illuminate\\Cache\\CacheManager::resolve","2"],[100,3,"CacheManager.php.html#120","Illuminate\\Cache\\CacheManager::build","3"],[100,1,"CacheManager.php.html#143","Illuminate\\Cache\\CacheManager::callCustomCreator","1"],[100,1,"CacheManager.php.html#167","Illuminate\\Cache\\CacheManager::createArrayDriver","1"],[100,1,"CacheManager.php.html#178","Illuminate\\Cache\\CacheManager::createDatabaseDriver","1"],[100,1,"CacheManager.php.html#254","Illuminate\\Cache\\CacheManager::createFileDriver","1"],[100,1,"CacheManager.php.html#288","Illuminate\\Cache\\CacheManager::createNullDriver","1"],[100,1,"CacheManager.php.html#299","Illuminate\\Cache\\CacheManager::createRedisDriver","1"],[100,2,"CacheManager.php.html#355","Illuminate\\Cache\\CacheManager::repository","2"],[100,2,"CacheManager.php.html#370","Illuminate\\Cache\\CacheManager::setEventDispatcher","2"],[100,1,"CacheManager.php.html#386","Illuminate\\Cache\\CacheManager::refreshEventDispatcher","1"],[100,1,"CacheManager.php.html#397","Illuminate\\Cache\\CacheManager::getPrefix","1"],[100,3,"CacheManager.php.html#408","Illuminate\\Cache\\CacheManager::getConfig","3"],[100,1,"CacheManager.php.html#422","Illuminate\\Cache\\CacheManager::getDefaultDriver","1"],[100,1,"CacheManager.php.html#433","Illuminate\\Cache\\CacheManager::setDefaultDriver","1"],[100,3,"CacheManager.php.html#444","Illuminate\\Cache\\CacheManager::forgetDriver","3"],[100,1,"CacheManager.php.html#463","Illuminate\\Cache\\CacheManager::purge","1"],[100,1,"CacheManager.php.html#480","Illuminate\\Cache\\CacheManager::extend","1"],[100,1,"CacheManager.php.html#507","Illuminate\\Cache\\CacheManager::__call","1"],[100,1,"CacheServiceProvider.php.html#46","Illuminate\\Cache\\CacheServiceProvider::provides","1"],[100,1,"Console\/CacheTableCommand.php.html#37","Illuminate\\Cache\\Console\\CacheTableCommand::migrationTableName","1"],[100,1,"Console\/CacheTableCommand.php.html#47","Illuminate\\Cache\\Console\\CacheTableCommand::migrationStubFile","1"],[100,1,"Console\/ClearCommand.php.html#49","Illuminate\\Cache\\Console\\ClearCommand::__construct","1"],[100,2,"Console\/ClearCommand.php.html#62","Illuminate\\Cache\\Console\\ClearCommand::handle","2"],[100,4,"Console\/ClearCommand.php.html#88","Illuminate\\Cache\\Console\\ClearCommand::flushFacades","4"],[100,2,"Console\/ClearCommand.php.html#106","Illuminate\\Cache\\Console\\ClearCommand::cache","2"],[100,1,"Console\/ClearCommand.php.html#118","Illuminate\\Cache\\Console\\ClearCommand::tags","1"],[100,1,"Console\/ClearCommand.php.html#128","Illuminate\\Cache\\Console\\ClearCommand::getArguments","1"],[100,1,"Console\/ClearCommand.php.html#140","Illuminate\\Cache\\Console\\ClearCommand::getOptions","1"],[100,1,"DatabaseLock.php.html#49","Illuminate\\Cache\\DatabaseLock::__construct","1"],[100,3,"DatabaseLock.php.html#64","Illuminate\\Cache\\DatabaseLock::acquire","3"],[100,2,"DatabaseLock.php.html#99","Illuminate\\Cache\\DatabaseLock::expiresAt","2"],[100,1,"DatabaseLock.php.html#130","Illuminate\\Cache\\DatabaseLock::forceRelease","1"],[100,1,"DatabaseLock.php.html#142","Illuminate\\Cache\\DatabaseLock::getCurrentOwner","1"],[100,1,"DatabaseLock.php.html#152","Illuminate\\Cache\\DatabaseLock::getConnectionName","1"],[100,1,"DatabaseStore.php.html#81","Illuminate\\Cache\\DatabaseStore::__construct","1"],[100,1,"DatabaseStore.php.html#103","Illuminate\\Cache\\DatabaseStore::get","1"],[100,1,"DatabaseStore.php.html#165","Illuminate\\Cache\\DatabaseStore::put","1"],[100,2,"DatabaseStore.php.html#177","Illuminate\\Cache\\DatabaseStore::putMany","2"],[100,1,"DatabaseStore.php.html#232","Illuminate\\Cache\\DatabaseStore::increment","1"],[100,1,"DatabaseStore.php.html#246","Illuminate\\Cache\\DatabaseStore::decrement","1"],[100,4,"DatabaseStore.php.html#261","Illuminate\\Cache\\DatabaseStore::incrementOrDecrement","4"],[100,1,"DatabaseStore.php.html#305","Illuminate\\Cache\\DatabaseStore::getTime","1"],[100,1,"DatabaseStore.php.html#317","Illuminate\\Cache\\DatabaseStore::forever","1"],[100,1,"DatabaseStore.php.html#330","Illuminate\\Cache\\DatabaseStore::lock","1"],[100,1,"DatabaseStore.php.html#350","Illuminate\\Cache\\DatabaseStore::restoreLock","1"],[100,1,"DatabaseStore.php.html#361","Illuminate\\Cache\\DatabaseStore::forget","1"],[100,1,"DatabaseStore.php.html#372","Illuminate\\Cache\\DatabaseStore::forgetIfExpired","1"],[100,1,"DatabaseStore.php.html#383","Illuminate\\Cache\\DatabaseStore::forgetMany","1"],[100,2,"DatabaseStore.php.html#400","Illuminate\\Cache\\DatabaseStore::forgetManyIfExpired","2"],[100,1,"DatabaseStore.php.html#421","Illuminate\\Cache\\DatabaseStore::flush","1"],[100,1,"DatabaseStore.php.html#433","Illuminate\\Cache\\DatabaseStore::table","1"],[100,1,"DatabaseStore.php.html#443","Illuminate\\Cache\\DatabaseStore::getConnection","1"],[100,1,"DatabaseStore.php.html#477","Illuminate\\Cache\\DatabaseStore::setLockConnection","1"],[100,4,"DatabaseStore.php.html#511","Illuminate\\Cache\\DatabaseStore::serialize","4"],[100,4,"DatabaseStore.php.html#530","Illuminate\\Cache\\DatabaseStore::unserialize","4"],[100,1,"Events\/CacheEvent.php.html#35","Illuminate\\Cache\\Events\\CacheEvent::__construct","1"],[100,1,"Events\/CacheEvent.php.html#48","Illuminate\\Cache\\Events\\CacheEvent::setTags","1"],[100,1,"Events\/CacheFlushFailed.php.html#27","Illuminate\\Cache\\Events\\CacheFlushFailed::__construct","1"],[100,1,"Events\/CacheFlushed.php.html#27","Illuminate\\Cache\\Events\\CacheFlushed::__construct","1"],[100,1,"Events\/CacheFlushed.php.html#39","Illuminate\\Cache\\Events\\CacheFlushed::setTags","1"],[100,1,"Events\/CacheFlushing.php.html#27","Illuminate\\Cache\\Events\\CacheFlushing::__construct","1"],[100,1,"Events\/CacheFlushing.php.html#39","Illuminate\\Cache\\Events\\CacheFlushing::setTags","1"],[100,1,"Events\/CacheHit.php.html#22","Illuminate\\Cache\\Events\\CacheHit::__construct","1"],[100,1,"Events\/KeyWriteFailed.php.html#30","Illuminate\\Cache\\Events\\KeyWriteFailed::__construct","1"],[100,1,"Events\/KeyWritten.php.html#30","Illuminate\\Cache\\Events\\KeyWritten::__construct","1"],[100,1,"Events\/RetrievingManyKeys.php.html#21","Illuminate\\Cache\\Events\\RetrievingManyKeys::__construct","1"],[100,1,"Events\/WritingKey.php.html#30","Illuminate\\Cache\\Events\\WritingKey::__construct","1"],[100,1,"Events\/WritingManyKeys.php.html#37","Illuminate\\Cache\\Events\\WritingManyKeys::__construct","1"],[100,1,"FileLock.php.html#12","Illuminate\\Cache\\FileLock::acquire","1"],[100,1,"FileStore.php.html#52","Illuminate\\Cache\\FileStore::__construct","1"],[100,1,"FileStore.php.html#65","Illuminate\\Cache\\FileStore::get","1"],[100,3,"FileStore.php.html#78","Illuminate\\Cache\\FileStore::put","3"],[100,2,"FileStore.php.html#140","Illuminate\\Cache\\FileStore::ensureCacheDirectoryExists","2"],[100,3,"FileStore.php.html#159","Illuminate\\Cache\\FileStore::ensurePermissionsAreCorrect","3"],[100,1,"FileStore.php.html#176","Illuminate\\Cache\\FileStore::increment","1"],[100,1,"FileStore.php.html#192","Illuminate\\Cache\\FileStore::decrement","1"],[100,1,"FileStore.php.html#204","Illuminate\\Cache\\FileStore::forever","1"],[100,1,"FileStore.php.html#217","Illuminate\\Cache\\FileStore::lock","1"],[100,1,"FileStore.php.html#236","Illuminate\\Cache\\FileStore::restoreLock","1"],[100,4,"FileStore.php.html#247","Illuminate\\Cache\\FileStore::forget","4"],[100,5,"FileStore.php.html#265","Illuminate\\Cache\\FileStore::flush","5"],[100,1,"FileStore.php.html#335","Illuminate\\Cache\\FileStore::emptyPayload","1"],[100,1,"FileStore.php.html#346","Illuminate\\Cache\\FileStore::path","1"],[100,3,"FileStore.php.html#359","Illuminate\\Cache\\FileStore::expiration","3"],[100,1,"FileStore.php.html#371","Illuminate\\Cache\\FileStore::getFilesystem","1"],[100,1,"FileStore.php.html#405","Illuminate\\Cache\\FileStore::setLockDirectory","1"],[100,2,"Lock.php.html#50","Illuminate\\Cache\\Lock::__construct","2"],[100,0,"Lock.php.html#66","Illuminate\\Cache\\Lock::acquire","0"],[100,0,"Lock.php.html#73","Illuminate\\Cache\\Lock::release","0"],[100,0,"Lock.php.html#80","Illuminate\\Cache\\Lock::getCurrentOwner","0"],[100,3,"Lock.php.html#88","Illuminate\\Cache\\Lock::get","3"],[100,4,"Lock.php.html#112","Illuminate\\Cache\\Lock::block","4"],[100,1,"Lock.php.html#144","Illuminate\\Cache\\Lock::owner","1"],[100,1,"Lock.php.html#154","Illuminate\\Cache\\Lock::isOwnedByCurrentProcess","1"],[100,1,"Lock.php.html#165","Illuminate\\Cache\\Lock::isOwnedBy","1"],[100,1,"LuaScripts.php.html#16","Illuminate\\Cache\\LuaScripts::add","1"],[100,1,"LuaScripts.php.html#31","Illuminate\\Cache\\LuaScripts::releaseLock","1"],[100,3,"MemcachedConnector.php.html#18","Illuminate\\Cache\\MemcachedConnector::connect","3"],[100,1,"MemoizedStore.php.html#24","Illuminate\\Cache\\MemoizedStore::__construct","1"],[100,2,"MemoizedStore.php.html#37","Illuminate\\Cache\\MemoizedStore::get","2"],[100,6,"MemoizedStore.php.html#55","Illuminate\\Cache\\MemoizedStore::many","6"],[100,1,"MemoizedStore.php.html#101","Illuminate\\Cache\\MemoizedStore::put","1"],[100,2,"MemoizedStore.php.html#115","Illuminate\\Cache\\MemoizedStore::putMany","2"],[100,1,"MemoizedStore.php.html#131","Illuminate\\Cache\\MemoizedStore::increment","1"],[100,1,"MemoizedStore.php.html#145","Illuminate\\Cache\\MemoizedStore::decrement","1"],[100,1,"MemoizedStore.php.html#159","Illuminate\\Cache\\MemoizedStore::forever","1"],[100,2,"MemoizedStore.php.html#174","Illuminate\\Cache\\MemoizedStore::lock","2"],[100,1,"MemoizedStore.php.html#205","Illuminate\\Cache\\MemoizedStore::forget","1"],[100,1,"MemoizedStore.php.html#217","Illuminate\\Cache\\MemoizedStore::flush","1"],[100,1,"MemoizedStore.php.html#229","Illuminate\\Cache\\MemoizedStore::getPrefix","1"],[100,1,"MemoizedStore.php.html#240","Illuminate\\Cache\\MemoizedStore::prefix","1"],[100,1,"NoLock.php.html#12","Illuminate\\Cache\\NoLock::acquire","1"],[100,1,"NoLock.php.html#22","Illuminate\\Cache\\NoLock::release","1"],[100,1,"NoLock.php.html#32","Illuminate\\Cache\\NoLock::forceRelease","1"],[100,1,"NullStore.php.html#17","Illuminate\\Cache\\NullStore::get","1"],[100,1,"NullStore.php.html#30","Illuminate\\Cache\\NullStore::put","1"],[100,1,"NullStore.php.html#42","Illuminate\\Cache\\NullStore::increment","1"],[100,1,"NullStore.php.html#54","Illuminate\\Cache\\NullStore::decrement","1"],[100,1,"NullStore.php.html#79","Illuminate\\Cache\\NullStore::lock","1"],[100,1,"PhpRedisLock.php.html#17","Illuminate\\Cache\\PhpRedisLock::__construct","1"],[100,1,"PhpRedisLock.php.html#25","Illuminate\\Cache\\PhpRedisLock::release","1"],[100,1,"RateLimiter.php.html#36","Illuminate\\Cache\\RateLimiter::__construct","1"],[100,1,"RateLimiter.php.html#48","Illuminate\\Cache\\RateLimiter::for","1"],[100,3,"RateLimiter.php.html#105","Illuminate\\Cache\\RateLimiter::attempt","3"],[100,1,"RateLimiter.php.html#147","Illuminate\\Cache\\RateLimiter::hit","1"],[100,3,"RateLimiter.php.html#160","Illuminate\\Cache\\RateLimiter::increment","3"],[100,1,"RateLimiter.php.html#191","Illuminate\\Cache\\RateLimiter::decrement","1"],[100,1,"RateLimiter.php.html#202","Illuminate\\Cache\\RateLimiter::attempts","1"],[100,1,"RateLimiter.php.html#215","Illuminate\\Cache\\RateLimiter::resetAttempts","1"],[100,1,"RateLimiter.php.html#229","Illuminate\\Cache\\RateLimiter::remaining","1"],[100,1,"RateLimiter.php.html#245","Illuminate\\Cache\\RateLimiter::retriesLeft","1"],[100,1,"RateLimiter.php.html#256","Illuminate\\Cache\\RateLimiter::clear","1"],[100,1,"RateLimiter.php.html#271","Illuminate\\Cache\\RateLimiter::availableIn","1"],[100,1,"RateLimiter.php.html#284","Illuminate\\Cache\\RateLimiter::cleanRateLimiterKey","1"],[100,3,"RateLimiter.php.html#295","Illuminate\\Cache\\RateLimiter::withoutSerializationOrCompression","3"],[100,1,"RateLimiter.php.html#318","Illuminate\\Cache\\RateLimiter::resolveLimiterName","1"],[100,1,"RateLimiting\/GlobalLimit.php.html#13","Illuminate\\Cache\\RateLimiting\\GlobalLimit::__construct","1"],[100,1,"RateLimiting\/Limit.php.html#42","Illuminate\\Cache\\RateLimiting\\Limit::__construct","1"],[100,1,"RateLimiting\/Limit.php.html#56","Illuminate\\Cache\\RateLimiting\\Limit::perSecond","1"],[100,1,"RateLimiting\/Limit.php.html#68","Illuminate\\Cache\\RateLimiting\\Limit::perMinute","1"],[100,1,"RateLimiting\/Limit.php.html#80","Illuminate\\Cache\\RateLimiting\\Limit::perMinutes","1"],[100,1,"RateLimiting\/Limit.php.html#92","Illuminate\\Cache\\RateLimiting\\Limit::perHour","1"],[100,1,"RateLimiting\/Limit.php.html#104","Illuminate\\Cache\\RateLimiting\\Limit::perDay","1"],[100,1,"RateLimiting\/Limit.php.html#114","Illuminate\\Cache\\RateLimiting\\Limit::none","1"],[100,1,"RateLimiting\/Limit.php.html#125","Illuminate\\Cache\\RateLimiting\\Limit::by","1"],[100,2,"RateLimiting\/Limit.php.html#150","Illuminate\\Cache\\RateLimiting\\Limit::fallbackKey","2"],[100,1,"RateLimiting\/Unlimited.php.html#10","Illuminate\\Cache\\RateLimiting\\Unlimited::__construct","1"],[100,1,"RedisLock.php.html#22","Illuminate\\Cache\\RedisLock::__construct","1"],[100,2,"RedisLock.php.html#34","Illuminate\\Cache\\RedisLock::acquire","2"],[100,1,"RedisLock.php.html#58","Illuminate\\Cache\\RedisLock::forceRelease","1"],[100,1,"RedisLock.php.html#68","Illuminate\\Cache\\RedisLock::getCurrentOwner","1"],[100,1,"RedisLock.php.html#78","Illuminate\\Cache\\RedisLock::getConnectionName","1"],[100,1,"RedisStore.php.html#55","Illuminate\\Cache\\RedisStore::__construct","1"],[100,2,"RedisStore.php.html#68","Illuminate\\Cache\\RedisStore::get","2"],[100,4,"RedisStore.php.html#85","Illuminate\\Cache\\RedisStore::many","4"],[100,1,"RedisStore.php.html#114","Illuminate\\Cache\\RedisStore::put","1"],[100,8,"RedisStore.php.html#130","Illuminate\\Cache\\RedisStore::putMany","8"],[100,1,"RedisStore.php.html#171","Illuminate\\Cache\\RedisStore::add","1"],[100,1,"RedisStore.php.html#187","Illuminate\\Cache\\RedisStore::increment","1"],[100,1,"RedisStore.php.html#199","Illuminate\\Cache\\RedisStore::decrement","1"],[100,1,"RedisStore.php.html#211","Illuminate\\Cache\\RedisStore::forever","1"],[100,1,"RedisStore.php.html#246","Illuminate\\Cache\\RedisStore::restoreLock","1"],[100,1,"RedisStore.php.html#257","Illuminate\\Cache\\RedisStore::forget","1"],[100,1,"RedisStore.php.html#267","Illuminate\\Cache\\RedisStore::flush","1"],[100,2,"RedisStore.php.html#292","Illuminate\\Cache\\RedisStore::tags","2"],[100,1,"RedisStore.php.html#354","Illuminate\\Cache\\RedisStore::connection","1"],[100,1,"RedisStore.php.html#364","Illuminate\\Cache\\RedisStore::lockConnection","1"],[100,1,"RedisStore.php.html#375","Illuminate\\Cache\\RedisStore::setConnection","1"],[100,1,"RedisStore.php.html#386","Illuminate\\Cache\\RedisStore::setLockConnection","1"],[100,1,"RedisStore.php.html#398","Illuminate\\Cache\\RedisStore::getRedis","1"],[100,1,"RedisStore.php.html#408","Illuminate\\Cache\\RedisStore::getPrefix","1"],[100,1,"RedisStore.php.html#419","Illuminate\\Cache\\RedisStore::setPrefix","1"],[100,2,"RedisStore.php.html#452","Illuminate\\Cache\\RedisStore::serialize","2"],[100,2,"RedisStore.php.html#463","Illuminate\\Cache\\RedisStore::shouldBeStoredWithoutSerialization","2"],[100,2,"RedisStore.php.html#474","Illuminate\\Cache\\RedisStore::unserialize","2"],[100,4,"RedisTagSet.php.html#19","Illuminate\\Cache\\RedisTagSet::addEntry","4"],[100,2,"RedisTagSet.php.html#80","Illuminate\\Cache\\RedisTagSet::flushStaleEntries","2"],[100,1,"RedisTagSet.php.html#95","Illuminate\\Cache\\RedisTagSet::flushTag","1"],[100,1,"RedisTagSet.php.html#106","Illuminate\\Cache\\RedisTagSet::resetTag","1"],[100,1,"RedisTagSet.php.html#119","Illuminate\\Cache\\RedisTagSet::tagId","1"],[100,1,"RedisTagSet.php.html#130","Illuminate\\Cache\\RedisTagSet::tagKey","1"],[100,3,"RedisTaggedCache.php.html#18","Illuminate\\Cache\\RedisTaggedCache::add","3"],[100,1,"RedisTaggedCache.php.html#69","Illuminate\\Cache\\RedisTaggedCache::increment","1"],[100,1,"RedisTaggedCache.php.html#83","Illuminate\\Cache\\RedisTaggedCache::decrement","1"],[100,1,"RedisTaggedCache.php.html#97","Illuminate\\Cache\\RedisTaggedCache::forever","1"],[100,1,"RedisTaggedCache.php.html#109","Illuminate\\Cache\\RedisTaggedCache::flush","1"],[100,2,"RedisTaggedCache.php.html#126","Illuminate\\Cache\\RedisTaggedCache::flushValues","2"],[100,1,"RedisTaggedCache.php.html#142","Illuminate\\Cache\\RedisTaggedCache::flushStale","1"],[100,1,"Repository.php.html#76","Illuminate\\Cache\\Repository::__construct","1"],[100,1,"Repository.php.html#88","Illuminate\\Cache\\Repository::has","1"],[100,1,"Repository.php.html#99","Illuminate\\Cache\\Repository::missing","1"],[100,3,"Repository.php.html#111","Illuminate\\Cache\\Repository::get","3"],[100,2,"Repository.php.html#143","Illuminate\\Cache\\Repository::many","2"],[100,2,"Repository.php.html#163","Illuminate\\Cache\\Repository::getMultiple","2"],[100,4,"Repository.php.html#182","Illuminate\\Cache\\Repository::handleManyResult","4"],[100,1,"Repository.php.html#208","Illuminate\\Cache\\Repository::pull","1"],[100,5,"Repository.php.html#223","Illuminate\\Cache\\Repository::put","5"],[100,1,"Repository.php.html#257","Illuminate\\Cache\\Repository::set","1"],[100,2,"Repository.php.html#320","Illuminate\\Cache\\Repository::setMultiple","2"],[100,5,"Repository.php.html#333","Illuminate\\Cache\\Repository::add","5"],[100,1,"Repository.php.html#371","Illuminate\\Cache\\Repository::increment","1"],[100,1,"Repository.php.html#383","Illuminate\\Cache\\Repository::decrement","1"],[100,2,"Repository.php.html#395","Illuminate\\Cache\\Repository::forever","2"],[100,2,"Repository.php.html#420","Illuminate\\Cache\\Repository::remember","2"],[100,4,"Repository.php.html#489","Illuminate\\Cache\\Repository::flexible","4"],[100,2,"Repository.php.html#535","Illuminate\\Cache\\Repository::forget","2"],[100,1,"Repository.php.html#553","Illuminate\\Cache\\Repository::delete","1"],[100,3,"Repository.php.html#563","Illuminate\\Cache\\Repository::deleteMultiple","3"],[100,2,"Repository.php.html#581","Illuminate\\Cache\\Repository::clear","2"],[100,4,"Repository.php.html#604","Illuminate\\Cache\\Repository::tags","4"],[100,1,"Repository.php.html#627","Illuminate\\Cache\\Repository::itemKey","1"],[100,3,"Repository.php.html#638","Illuminate\\Cache\\Repository::getSeconds","3"],[100,1,"Repository.php.html#656","Illuminate\\Cache\\Repository::getName","1"],[100,1,"Repository.php.html#666","Illuminate\\Cache\\Repository::supportsTags","1"],[100,1,"Repository.php.html#676","Illuminate\\Cache\\Repository::getDefaultCacheTime","1"],[100,1,"Repository.php.html#687","Illuminate\\Cache\\Repository::setDefaultCacheTime","1"],[100,1,"Repository.php.html#699","Illuminate\\Cache\\Repository::getStore","1"],[100,1,"Repository.php.html#723","Illuminate\\Cache\\Repository::event","1"],[100,1,"Repository.php.html#733","Illuminate\\Cache\\Repository::getEventDispatcher","1"],[100,1,"Repository.php.html#744","Illuminate\\Cache\\Repository::setEventDispatcher","1"],[100,2,"Repository.php.html#801","Illuminate\\Cache\\Repository::__call","2"],[100,1,"SessionStore.php.html#33","Illuminate\\Cache\\SessionStore::__construct","1"],[100,1,"SessionStore.php.html#44","Illuminate\\Cache\\SessionStore::all","1"],[100,3,"SessionStore.php.html#55","Illuminate\\Cache\\SessionStore::get","3"],[100,2,"SessionStore.php.html#80","Illuminate\\Cache\\SessionStore::isExpired","2"],[100,1,"SessionStore.php.html#93","Illuminate\\Cache\\SessionStore::put","1"],[100,2,"SessionStore.php.html#109","Illuminate\\Cache\\SessionStore::toTimestamp","2"],[100,2,"SessionStore.php.html#121","Illuminate\\Cache\\SessionStore::increment","2"],[100,1,"SessionStore.php.html#141","Illuminate\\Cache\\SessionStore::decrement","1"],[100,1,"SessionStore.php.html#153","Illuminate\\Cache\\SessionStore::forever","1"],[100,2,"SessionStore.php.html#164","Illuminate\\Cache\\SessionStore::forget","2"],[100,1,"SessionStore.php.html#180","Illuminate\\Cache\\SessionStore::flush","1"],[100,1,"SessionStore.php.html#192","Illuminate\\Cache\\SessionStore::itemKey","1"],[100,1,"SessionStore.php.html#202","Illuminate\\Cache\\SessionStore::getPrefix","1"],[100,1,"TagSet.php.html#29","Illuminate\\Cache\\TagSet::__construct","1"],[100,1,"TagSet.php.html#40","Illuminate\\Cache\\TagSet::reset","1"],[100,1,"TagSet.php.html#51","Illuminate\\Cache\\TagSet::resetTag","1"],[100,1,"TagSet.php.html#63","Illuminate\\Cache\\TagSet::flush","1"],[100,1,"TagSet.php.html#83","Illuminate\\Cache\\TagSet::getNamespace","1"],[100,1,"TagSet.php.html#93","Illuminate\\Cache\\TagSet::tagIds","1"],[100,2,"TagSet.php.html#104","Illuminate\\Cache\\TagSet::tagId","2"],[100,1,"TagSet.php.html#115","Illuminate\\Cache\\TagSet::tagKey","1"],[100,1,"TagSet.php.html#125","Illuminate\\Cache\\TagSet::getNames","1"],[100,2,"TaggableStore.php.html#15","Illuminate\\Cache\\TaggableStore::tags","2"],[100,1,"TaggedCache.php.html#28","Illuminate\\Cache\\TaggedCache::__construct","1"],[100,1,"TaggedCache.php.html#58","Illuminate\\Cache\\TaggedCache::increment","1"],[100,1,"TaggedCache.php.html#70","Illuminate\\Cache\\TaggedCache::decrement","1"],[100,1,"TaggedCache.php.html#80","Illuminate\\Cache\\TaggedCache::flush","1"],[100,1,"TaggedCache.php.html#94","Illuminate\\Cache\\TaggedCache::itemKey","1"],[100,1,"TaggedCache.php.html#105","Illuminate\\Cache\\TaggedCache::taggedItemKey","1"],[100,2,"TaggedCache.php.html#116","Illuminate\\Cache\\TaggedCache::event","2"],[100,1,"TaggedCache.php.html#130","Illuminate\\Cache\\TaggedCache::getTags","1"],[100,4,"RetrievesMultipleKeys.php.html#17","Illuminate\\Cache\\RetrievesMultipleKeys::many","4"],[100,5,"RetrievesMultipleKeys.php.html#40","Illuminate\\Cache\\RetrievesMultipleKeys::putMany","5"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [8,0,0,0,0,1,2,3,1,4,11,26])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [101,0,0,0,0,0,0,5,1,8,5,291])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>

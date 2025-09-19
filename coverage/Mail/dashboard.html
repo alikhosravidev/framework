@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/forks/framework/src/Illuminate/Mail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/billboard.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/forks/framework/src/Illuminate</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Mail</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Transport/ResendTransport.php.html#39">Illuminate\Mail\Transport\ResendTransport</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/MessageSent.php.html#12">Illuminate\Mail\Events\MessageSent</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="SentMessage.php.html#12">Illuminate\Mail\SentMessage</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#7">Illuminate\Mail\Mailables\Content</a></td><td class="text-right">31%</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#12">Illuminate\Mail\SendQueuedMailable</a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="Mailables/Headers.php.html#9">Illuminate\Mail\Mailables\Headers</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#10">Illuminate\Mail\Mailables\Envelope</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="Transport/ArrayTransport.php.html#12">Illuminate\Mail\Transport\ArrayTransport</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="MailManager.php.html#35">Illuminate\Mail\MailManager</a></td><td class="text-right">68%</td></tr>
+       <tr><td><a href="TextMessage.php.html#10">Illuminate\Mail\TextMessage</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Mailer.php.html#24">Illuminate\Mail\Mailer</a></td><td class="text-right">79%</td></tr>
+       <tr><td><a href="Message.php.html#17">Illuminate\Mail\Message</a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Transport/LogTransport.php.html#13">Illuminate\Mail\Transport\LogTransport</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Transport/ResendTransport.php.html#39">Illuminate\Mail\Transport\ResendTransport</a></td><td class="text-right">0.0%</td><td class="text-right">14</td><td class="text-right">210</td></tr>
+       <tr><td><a href="MailManager.php.html#35">Illuminate\Mail\MailManager</a></td><td class="text-right">68.2%</td><td class="text-right">61</td><td class="text-right">180</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#10">Illuminate\Mail\Mailables\Envelope</a></td><td class="text-right">51.8%</td><td class="text-right">32</td><td class="text-right">146</td></tr>
+       <tr><td><a href="Mailer.php.html#24">Illuminate\Mail\Mailer</a></td><td class="text-right">79.2%</td><td class="text-right">70</td><td class="text-right">114</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#12">Illuminate\Mail\SendQueuedMailable</a></td><td class="text-right">42.9%</td><td class="text-right">19</td><td class="text-right">86</td></tr>
+       <tr><td><a href="Message.php.html#17">Illuminate\Mail\Message</a></td><td class="text-right">83.3%</td><td class="text-right">41</td><td class="text-right">48</td></tr>
+       <tr><td><a href="Events/MessageSent.php.html#12">Illuminate\Mail\Events\MessageSent</a></td><td class="text-right">7.1%</td><td class="text-right">7</td><td class="text-right">46</td></tr>
+       <tr><td><a href="SentMessage.php.html#12">Illuminate\Mail\SentMessage</a></td><td class="text-right">20.0%</td><td class="text-right">7</td><td class="text-right">32</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#7">Illuminate\Mail\Mailables\Content</a></td><td class="text-right">31.6%</td><td class="text-right">8</td><td class="text-right">28</td></tr>
+       <tr><td><a href="Transport/LogTransport.php.html#13">Illuminate\Mail\Transport\LogTransport</a></td><td class="text-right">88.0%</td><td class="text-right">8</td><td class="text-right">8</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Events/MessageSent.php.html#31"><abbr title="Illuminate\Mail\Events\MessageSent::__serialize">__serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/MessageSent.php.html#48"><abbr title="Illuminate\Mail\Events\MessageSent::__unserialize">__unserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/MessageSent.php.html#65"><abbr title="Illuminate\Mail\Events\MessageSent::__get">__get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#87"><abbr title="Illuminate\Mail\MailManager::driver">driver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#317"><abbr title="Illuminate\Mail\MailManager::createResendTransport">createResendTransport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#329"><abbr title="Illuminate\Mail\MailManager::createMailTransport">createMailTransport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#340"><abbr title="Illuminate\Mail\MailManager::createMailgunTransport">createMailgunTransport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#362"><abbr title="Illuminate\Mail\MailManager::createPostmarkTransport">createPostmarkTransport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#467"><abbr title="Illuminate\Mail\MailManager::getHttpClient">getHttpClient</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#538"><abbr title="Illuminate\Mail\MailManager::setDefaultDriver">setDefaultDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#553"><abbr title="Illuminate\Mail\MailManager::purge">purge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#567"><abbr title="Illuminate\Mail\MailManager::extend">extend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#579"><abbr title="Illuminate\Mail\MailManager::getApplication">getApplication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#590"><abbr title="Illuminate\Mail\MailManager::setApplication">setApplication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailManager.php.html#602"><abbr title="Illuminate\Mail\MailManager::forgetMailers">forgetMailers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailable.php.html#247"><abbr title="Illuminate\Mail\Mailable::later">later</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailable.php.html#1584"><abbr title="Illuminate\Mail\Mailable::assertHasAttachmentFromStorageDisk">assertHasAttachmentFromStorageDisk</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailable.php.html#1861"><abbr title="Illuminate\Mail\Mailable::buildViewDataUsing">buildViewDataUsing</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#83"><abbr title="Illuminate\Mail\Mailables\Content::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#96"><abbr title="Illuminate\Mail\Mailables\Content::html">html</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#107"><abbr title="Illuminate\Mail\Mailables\Content::text">text</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#120"><abbr title="Illuminate\Mail\Mailables\Content::markdown">markdown</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#133"><abbr title="Illuminate\Mail\Mailables\Content::htmlString">htmlString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#147"><abbr title="Illuminate\Mail\Mailables\Content::with">with</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#155"><abbr title="Illuminate\Mail\Mailables\Envelope::cc">cc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#171"><abbr title="Illuminate\Mail\Mailables\Envelope::bcc">bcc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#187"><abbr title="Illuminate\Mail\Mailables\Envelope::replyTo">replyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#202"><abbr title="Illuminate\Mail\Mailables\Envelope::subject">subject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#215"><abbr title="Illuminate\Mail\Mailables\Envelope::tags">tags</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#228"><abbr title="Illuminate\Mail\Mailables\Envelope::tag">tag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#242"><abbr title="Illuminate\Mail\Mailables\Envelope::metadata">metadata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#255"><abbr title="Illuminate\Mail\Mailables\Envelope::using">using</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#269"><abbr title="Illuminate\Mail\Mailables\Envelope::isFrom">isFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#322"><abbr title="Illuminate\Mail\Mailables\Envelope::hasReplyTo">hasReplyTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Headers.php.html#56"><abbr title="Illuminate\Mail\Mailables\Headers::messageId">messageId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Headers.php.html#69"><abbr title="Illuminate\Mail\Mailables\Headers::references">references</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailables/Headers.php.html#82"><abbr title="Illuminate\Mail\Mailables\Headers::text">text</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#177"><abbr title="Illuminate\Mail\Mailer::cc">cc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#193"><abbr title="Illuminate\Mail\Mailer::bcc">bcc</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#221"><abbr title="Illuminate\Mail\Mailer::raw">raw</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#234"><abbr title="Illuminate\Mail\Mailer::plain">plain</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#364"><abbr title="Illuminate\Mail\Mailer::sendNow">sendNow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#492"><abbr title="Illuminate\Mail\Mailer::onQueue">onQueue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#506"><abbr title="Illuminate\Mail\Mailer::queueOn">queueOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#521"><abbr title="Illuminate\Mail\Mailer::later">later</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#540"><abbr title="Illuminate\Mail\Mailer::laterOn">laterOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#637"><abbr title="Illuminate\Mail\Mailer::getViewFactory">getViewFactory</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailer.php.html#648"><abbr title="Illuminate\Mail\Mailer::setSymfonyTransport">setSymfonyTransport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PendingMail.php.html#132"><abbr title="Illuminate\Mail\PendingMail::sendNow">sendNow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PendingMail.php.html#155"><abbr title="Illuminate\Mail\PendingMail::later">later</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#80"><abbr title="Illuminate\Mail\SendQueuedMailable::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#90"><abbr title="Illuminate\Mail\SendQueuedMailable::backoff">backoff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#104"><abbr title="Illuminate\Mail\SendQueuedMailable::retryUntil">retryUntil</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#119"><abbr title="Illuminate\Mail\SendQueuedMailable::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#131"><abbr title="Illuminate\Mail\SendQueuedMailable::displayName">displayName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#141"><abbr title="Illuminate\Mail\SendQueuedMailable::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SentMessage.php.html#38"><abbr title="Illuminate\Mail\SentMessage::getSymfonySentMessage">getSymfonySentMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SentMessage.php.html#60"><abbr title="Illuminate\Mail\SentMessage::__serialize">__serialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SentMessage.php.html#76"><abbr title="Illuminate\Mail\SentMessage::__unserialize">__unserialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TextMessage.php.html#62"><abbr title="Illuminate\Mail\TextMessage::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/ArrayTransport.php.html#52"><abbr title="Illuminate\Mail\Transport\ArrayTransport::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/ArrayTransport.php.html#62"><abbr title="Illuminate\Mail\Transport\ArrayTransport::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/LogTransport.php.html#94"><abbr title="Illuminate\Mail\Transport\LogTransport::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/ResendTransport.php.html#44"><abbr title="Illuminate\Mail\Transport\ResendTransport::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/ResendTransport.php.html#52"><abbr title="Illuminate\Mail\Transport\ResendTransport::doSend">doSend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/ResendTransport.php.html#130"><abbr title="Illuminate\Mail\Transport\ResendTransport::getRecipients">getRecipients</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/ResendTransport.php.html#140"><abbr title="Illuminate\Mail\Transport\ResendTransport::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/SesTransport.php.html#137"><abbr title="Illuminate\Mail\Transport\SesTransport::setOptions">setOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Transport/SesV2Transport.php.html#141"><abbr title="Illuminate\Mail\Transport\SesV2Transport::setOptions">setOptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mailable.php.html#500"><abbr title="Illuminate\Mail\Mailable::buildDiskAttachments">buildDiskAttachments</abbr></a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="Message.php.html#137"><abbr title="Illuminate\Mail\Message::cc">cc</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Message.php.html#174"><abbr title="Illuminate\Mail\Message::bcc">bcc</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Mailable.php.html#477"><abbr title="Illuminate\Mail\Mailable::buildAttachments">buildAttachments</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Mailable.php.html#1875"><abbr title="Illuminate\Mail\Mailable::__call">__call</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Mailer.php.html#472"><abbr title="Illuminate\Mail\Mailer::queue">queue</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Mailable.php.html#775"><abbr title="Illuminate\Mail\Mailable::normalizeRecipient">normalizeRecipient</abbr></a></td><td class="text-right">69%</td></tr>
+       <tr><td><a href="Mailable.php.html#941"><abbr title="Illuminate\Mail\Mailable::with">with</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Message.php.html#54"><abbr title="Illuminate\Mail\Message::from">from</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Message.php.html#70"><abbr title="Illuminate\Mail\Message::sender">sender</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="MailManager.php.html#298"><abbr title="Illuminate\Mail\MailManager::addSesCredentials">addSesCredentials</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Mailable.php.html#1766"><abbr title="Illuminate\Mail\Mailable::ensureContentIsHydrated">ensureContentIsHydrated</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Message.php.html#338"><abbr title="Illuminate\Mail\Message::embed">embed</abbr></a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="Mailable.php.html#297"><abbr title="Illuminate\Mail\Mailable::buildView">buildView</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Mailer.php.html#416"><abbr title="Illuminate\Mail\Mailer::addContent">addContent</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Message.php.html#100"><abbr title="Illuminate\Mail\Message::to">to</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="MailManager.php.html#111"><abbr title="Illuminate\Mail\MailManager::resolve">resolve</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="MailManager.php.html#164"><abbr title="Illuminate\Mail\MailManager::createSymfonyTransport">createSymfonyTransport</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="MailManager.php.html#218"><abbr title="Illuminate\Mail\MailManager::configureSmtpTransport">configureSmtpTransport</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Mailable.php.html#225"><abbr title="Illuminate\Mail\Mailable::queue">queue</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Mailable.php.html#343"><abbr title="Illuminate\Mail\Mailable::buildViewData">buildViewData</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Mailable.php.html#840"><abbr title="Illuminate\Mail\Mailable::hasEnvelopeRecipient">hasEnvelopeRecipient</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Message.php.html#223"><abbr title="Illuminate\Mail\Message::addAddresses">addAddresses</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Transport/LogTransport.php.html#35"><abbr title="Illuminate\Mail\Transport\LogTransport::send">send</abbr></a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="Mailable.php.html#1726"><abbr title="Illuminate\Mail\Mailable::ensureEnvelopeIsHydrated">ensureEnvelopeIsHydrated</abbr></a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="MailManager.php.html#411"><abbr title="Illuminate\Mail\MailManager::createRoundrobinTransportOfClass">createRoundrobinTransportOfClass</abbr></a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Transport/ResendTransport.php.html#52"><abbr title="Illuminate\Mail\Transport\ResendTransport::doSend">doSend</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">11</td><td class="text-right">132</td></tr>
+       <tr><td><a href="Mailable.php.html#247"><abbr title="Illuminate\Mail\Mailable::later">later</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#269"><abbr title="Illuminate\Mail\Mailables\Envelope::isFrom">isFrom</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Mailer.php.html#177"><abbr title="Illuminate\Mail\Mailer::cc">cc</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Mailer.php.html#193"><abbr title="Illuminate\Mail\Mailer::bcc">bcc</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Mailer.php.html#521"><abbr title="Illuminate\Mail\Mailer::later">later</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#90"><abbr title="Illuminate\Mail\SendQueuedMailable::backoff">backoff</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#104"><abbr title="Illuminate\Mail\SendQueuedMailable::retryUntil">retryUntil</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Mailable.php.html#1726"><abbr title="Illuminate\Mail\Mailable::ensureEnvelopeIsHydrated">ensureEnvelopeIsHydrated</abbr></a></td><td class="text-right">87.5%</td><td class="text-right">9</td><td class="text-right">9</td></tr>
+       <tr><td><a href="Mailable.php.html#1766"><abbr title="Illuminate\Mail\Mailable::ensureContentIsHydrated">ensureContentIsHydrated</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">8</td><td class="text-right">8</td></tr>
+       <tr><td><a href="Mailable.php.html#775"><abbr title="Illuminate\Mail\Mailable::normalizeRecipient">normalizeRecipient</abbr></a></td><td class="text-right">69.2%</td><td class="text-right">6</td><td class="text-right">7</td></tr>
+       <tr><td><a href="Mailable.php.html#840"><abbr title="Illuminate\Mail\Mailable::hasEnvelopeRecipient">hasEnvelopeRecipient</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">7</td><td class="text-right">7</td></tr>
+       <tr><td><a href="Events/MessageSent.php.html#31"><abbr title="Illuminate\Mail\Events\MessageSent::__serialize">__serialize</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Events/MessageSent.php.html#48"><abbr title="Illuminate\Mail\Events\MessageSent::__unserialize">__unserialize</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Events/MessageSent.php.html#65"><abbr title="Illuminate\Mail\Events\MessageSent::__get">__get</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailManager.php.html#340"><abbr title="Illuminate\Mail\MailManager::createMailgunTransport">createMailgunTransport</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailManager.php.html#362"><abbr title="Illuminate\Mail\MailManager::createPostmarkTransport">createPostmarkTransport</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailManager.php.html#467"><abbr title="Illuminate\Mail\MailManager::getHttpClient">getHttpClient</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailManager.php.html#538"><abbr title="Illuminate\Mail\MailManager::setDefaultDriver">setDefaultDriver</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="MailManager.php.html#553"><abbr title="Illuminate\Mail\MailManager::purge">purge</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mailables/Content.php.html#147"><abbr title="Illuminate\Mail\Mailables\Content::with">with</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#155"><abbr title="Illuminate\Mail\Mailables\Envelope::cc">cc</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#171"><abbr title="Illuminate\Mail\Mailables\Envelope::bcc">bcc</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mailables/Envelope.php.html#187"><abbr title="Illuminate\Mail\Mailables\Envelope::replyTo">replyTo</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mailer.php.html#364"><abbr title="Illuminate\Mail\Mailer::sendNow">sendNow</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mailer.php.html#416"><abbr title="Illuminate\Mail\Mailer::addContent">addContent</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">6</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Message.php.html#223"><abbr title="Illuminate\Mail\Message::addAddresses">addAddresses</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">6</td><td class="text-right">6</td></tr>
+       <tr><td><a href="SendQueuedMailable.php.html#119"><abbr title="Illuminate\Mail\SendQueuedMailable::failed">failed</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="SentMessage.php.html#60"><abbr title="Illuminate\Mail\SentMessage::__serialize">__serialize</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="SentMessage.php.html#76"><abbr title="Illuminate\Mail\SentMessage::__unserialize">__unserialize</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Mailable.php.html#225"><abbr title="Illuminate\Mail\Mailable::queue">queue</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Mailable.php.html#297"><abbr title="Illuminate\Mail\Mailable::buildView">buildView</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Mailable.php.html#343"><abbr title="Illuminate\Mail\Mailable::buildViewData">buildViewData</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Message.php.html#137"><abbr title="Illuminate\Mail\Message::cc">cc</abbr></a></td><td class="text-right">33.3%</td><td class="text-right">3</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Message.php.html#174"><abbr title="Illuminate\Mail\Message::bcc">bcc</abbr></a></td><td class="text-right">33.3%</td><td class="text-right">3</td><td class="text-right">5</td></tr>
+       <tr><td><a href="MailManager.php.html#164"><abbr title="Illuminate\Mail\MailManager::createSymfonyTransport">createSymfonyTransport</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="MailManager.php.html#218"><abbr title="Illuminate\Mail\MailManager::configureSmtpTransport">configureSmtpTransport</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="MailManager.php.html#298"><abbr title="Illuminate\Mail\MailManager::addSesCredentials">addSesCredentials</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="MailManager.php.html#411"><abbr title="Illuminate\Mail\MailManager::createRoundrobinTransportOfClass">createRoundrobinTransportOfClass</abbr></a></td><td class="text-right">88.9%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Mailable.php.html#477"><abbr title="Illuminate\Mail\Mailable::buildAttachments">buildAttachments</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">3</td><td class="text-right">4</td></tr>
+       <tr><td><a href="Mailable.php.html#500"><abbr title="Illuminate\Mail\Mailable::buildDiskAttachments">buildDiskAttachments</abbr></a></td><td class="text-right">11.1%</td><td class="text-right">2</td><td class="text-right">4</td></tr>
+       <tr><td><a href="MailManager.php.html#111"><abbr title="Illuminate\Mail\MailManager::resolve">resolve</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Mailable.php.html#1875"><abbr title="Illuminate\Mail\Mailable::__call">__call</abbr></a></td><td class="text-right">60.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Mailer.php.html#472"><abbr title="Illuminate\Mail\Mailer::queue">queue</abbr></a></td><td class="text-right">60.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Message.php.html#100"><abbr title="Illuminate\Mail\Message::to">to</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Message.php.html#338"><abbr title="Illuminate\Mail\Message::embed">embed</abbr></a></td><td class="text-right">82.6%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Transport/LogTransport.php.html#35"><abbr title="Illuminate\Mail\Transport\LogTransport::send">send</abbr></a></td><td class="text-right">86.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Mailable.php.html#941"><abbr title="Illuminate\Mail\Mailable::with">with</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Message.php.html#54"><abbr title="Illuminate\Mail\Message::from">from</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Message.php.html#70"><abbr title="Illuminate\Mail\Message::sender">sender</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.3.8</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.25</a> and <a href="https://phpunit.de/">PHPUnit 12.3.11</a> at Thu Sep 18 16:01:33 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/billboard.pkgd.min.js?v=12.3.8" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,14,"Transport\/ResendTransport.php.html#39","Illuminate\\Mail\\Transport\\ResendTransport","210"],[7.142857142857142,7,"Events\/MessageSent.php.html#12","Illuminate\\Mail\\Events\\MessageSent","46.23"],[20,7,"SentMessage.php.html#12","Illuminate\\Mail\\SentMessage","32.09"],[31.57894736842105,8,"Mailables\/Content.php.html#7","Illuminate\\Mail\\Mailables\\Content","28.50"],[42.857142857142854,19,"SendQueuedMailable.php.html#12","Illuminate\\Mail\\SendQueuedMailable","86.36"],[50,5,"Mailables\/Headers.php.html#9","Illuminate\\Mail\\Mailables\\Headers","8.12"],[51.78571428571429,32,"Mailables\/Envelope.php.html#10","Illuminate\\Mail\\Mailables\\Envelope","146.77"],[60,5,"Transport\/ArrayTransport.php.html#12","Illuminate\\Mail\\Transport\\ArrayTransport","6.60"],[68.24324324324324,61,"MailManager.php.html#35","Illuminate\\Mail\\MailManager","180.17"],[75,4,"TextMessage.php.html#10","Illuminate\\Mail\\TextMessage","4.25"],[79.16666666666666,70,"Mailer.php.html#24","Illuminate\\Mail\\Mailer","114.31"],[83.33333333333334,41,"Message.php.html#17","Illuminate\\Mail\\Message","48.78"],[88,8,"Transport\/LogTransport.php.html#13","Illuminate\\Mail\\Transport\\LogTransport","8.11"],[90.47619047619048,13,"PendingMail.php.html#10","Illuminate\\Mail\\PendingMail","13.15"],[91.81286549707602,213,"Mailable.php.html#32","Illuminate\\Mail\\Mailable","237.90"],[97.61904761904762,15,"Transport\/SesTransport.php.html#15","Illuminate\\Mail\\Transport\\SesTransport","15"],[97.82608695652173,15,"Transport\/SesV2Transport.php.html#15","Illuminate\\Mail\\Transport\\SesV2Transport","15"],[98.11320754716981,13,"Attachment.php.html#12","Illuminate\\Mail\\Attachment","13"],[98.76543209876543,21,"Markdown.php.html#15","Illuminate\\Mail\\Markdown","21"],[100,1,"Events\/MessageSending.php.html#7","Illuminate\\Mail\\Events\\MessageSending","1"],[100,5,"MailServiceProvider.php.html#8","Illuminate\\Mail\\MailServiceProvider","5"],[100,1,"Mailables\/Address.php.html#5","Illuminate\\Mail\\Mailables\\Address","1"],[100,0,"Mailables\/Attachment.php.html#7","Illuminate\\Mail\\Mailables\\Attachment","0"]]</script>
+  <script type="application/json" id="complexity_method">[[0,2,"Events\/MessageSent.php.html#31","Illuminate\\Mail\\Events\\MessageSent::__serialize","6"],[0,2,"Events\/MessageSent.php.html#48","Illuminate\\Mail\\Events\\MessageSent::__unserialize","6"],[0,2,"Events\/MessageSent.php.html#65","Illuminate\\Mail\\Events\\MessageSent::__get","6"],[0,1,"MailManager.php.html#87","Illuminate\\Mail\\MailManager::driver","2"],[0,1,"MailManager.php.html#317","Illuminate\\Mail\\MailManager::createResendTransport","2"],[0,1,"MailManager.php.html#329","Illuminate\\Mail\\MailManager::createMailTransport","2"],[0,2,"MailManager.php.html#340","Illuminate\\Mail\\MailManager::createMailgunTransport","6"],[0,2,"MailManager.php.html#362","Illuminate\\Mail\\MailManager::createPostmarkTransport","6"],[0,2,"MailManager.php.html#467","Illuminate\\Mail\\MailManager::getHttpClient","6"],[0,2,"MailManager.php.html#538","Illuminate\\Mail\\MailManager::setDefaultDriver","6"],[0,2,"MailManager.php.html#553","Illuminate\\Mail\\MailManager::purge","6"],[0,1,"MailManager.php.html#567","Illuminate\\Mail\\MailManager::extend","2"],[0,1,"MailManager.php.html#579","Illuminate\\Mail\\MailManager::getApplication","2"],[0,1,"MailManager.php.html#590","Illuminate\\Mail\\MailManager::setApplication","2"],[0,1,"MailManager.php.html#602","Illuminate\\Mail\\MailManager::forgetMailers","2"],[0,4,"Mailable.php.html#247","Illuminate\\Mail\\Mailable::later","20"],[0,1,"Mailable.php.html#1584","Illuminate\\Mail\\Mailable::assertHasAttachmentFromStorageDisk","2"],[0,1,"Mailable.php.html#1861","Illuminate\\Mail\\Mailable::buildViewDataUsing","2"],[0,1,"Mailables\/Content.php.html#83","Illuminate\\Mail\\Mailables\\Content::view","2"],[0,1,"Mailables\/Content.php.html#96","Illuminate\\Mail\\Mailables\\Content::html","2"],[0,1,"Mailables\/Content.php.html#107","Illuminate\\Mail\\Mailables\\Content::text","2"],[0,1,"Mailables\/Content.php.html#120","Illuminate\\Mail\\Mailables\\Content::markdown","2"],[0,1,"Mailables\/Content.php.html#133","Illuminate\\Mail\\Mailables\\Content::htmlString","2"],[0,2,"Mailables\/Content.php.html#147","Illuminate\\Mail\\Mailables\\Content::with","6"],[0,2,"Mailables\/Envelope.php.html#155","Illuminate\\Mail\\Mailables\\Envelope::cc","6"],[0,2,"Mailables\/Envelope.php.html#171","Illuminate\\Mail\\Mailables\\Envelope::bcc","6"],[0,2,"Mailables\/Envelope.php.html#187","Illuminate\\Mail\\Mailables\\Envelope::replyTo","6"],[0,1,"Mailables\/Envelope.php.html#202","Illuminate\\Mail\\Mailables\\Envelope::subject","2"],[0,1,"Mailables\/Envelope.php.html#215","Illuminate\\Mail\\Mailables\\Envelope::tags","2"],[0,1,"Mailables\/Envelope.php.html#228","Illuminate\\Mail\\Mailables\\Envelope::tag","2"],[0,1,"Mailables\/Envelope.php.html#242","Illuminate\\Mail\\Mailables\\Envelope::metadata","2"],[0,1,"Mailables\/Envelope.php.html#255","Illuminate\\Mail\\Mailables\\Envelope::using","2"],[0,3,"Mailables\/Envelope.php.html#269","Illuminate\\Mail\\Mailables\\Envelope::isFrom","12"],[0,1,"Mailables\/Envelope.php.html#322","Illuminate\\Mail\\Mailables\\Envelope::hasReplyTo","2"],[0,1,"Mailables\/Headers.php.html#56","Illuminate\\Mail\\Mailables\\Headers::messageId","2"],[0,1,"Mailables\/Headers.php.html#69","Illuminate\\Mail\\Mailables\\Headers::references","2"],[0,1,"Mailables\/Headers.php.html#82","Illuminate\\Mail\\Mailables\\Headers::text","2"],[0,3,"Mailer.php.html#177","Illuminate\\Mail\\Mailer::cc","12"],[0,3,"Mailer.php.html#193","Illuminate\\Mail\\Mailer::bcc","12"],[0,1,"Mailer.php.html#221","Illuminate\\Mail\\Mailer::raw","2"],[0,1,"Mailer.php.html#234","Illuminate\\Mail\\Mailer::plain","2"],[0,2,"Mailer.php.html#364","Illuminate\\Mail\\Mailer::sendNow","6"],[0,1,"Mailer.php.html#492","Illuminate\\Mail\\Mailer::onQueue","2"],[0,1,"Mailer.php.html#506","Illuminate\\Mail\\Mailer::queueOn","2"],[0,3,"Mailer.php.html#521","Illuminate\\Mail\\Mailer::later","12"],[0,1,"Mailer.php.html#540","Illuminate\\Mail\\Mailer::laterOn","2"],[0,1,"Mailer.php.html#637","Illuminate\\Mail\\Mailer::getViewFactory","2"],[0,1,"Mailer.php.html#648","Illuminate\\Mail\\Mailer::setSymfonyTransport","2"],[0,1,"PendingMail.php.html#132","Illuminate\\Mail\\PendingMail::sendNow","2"],[0,1,"PendingMail.php.html#155","Illuminate\\Mail\\PendingMail::later","2"],[0,1,"SendQueuedMailable.php.html#80","Illuminate\\Mail\\SendQueuedMailable::handle","2"],[0,3,"SendQueuedMailable.php.html#90","Illuminate\\Mail\\SendQueuedMailable::backoff","12"],[0,3,"SendQueuedMailable.php.html#104","Illuminate\\Mail\\SendQueuedMailable::retryUntil","12"],[0,2,"SendQueuedMailable.php.html#119","Illuminate\\Mail\\SendQueuedMailable::failed","6"],[0,1,"SendQueuedMailable.php.html#131","Illuminate\\Mail\\SendQueuedMailable::displayName","2"],[0,1,"SendQueuedMailable.php.html#141","Illuminate\\Mail\\SendQueuedMailable::__clone","2"],[0,1,"SentMessage.php.html#38","Illuminate\\Mail\\SentMessage::getSymfonySentMessage","2"],[0,2,"SentMessage.php.html#60","Illuminate\\Mail\\SentMessage::__serialize","6"],[0,2,"SentMessage.php.html#76","Illuminate\\Mail\\SentMessage::__unserialize","6"],[0,1,"TextMessage.php.html#62","Illuminate\\Mail\\TextMessage::__call","2"],[0,1,"Transport\/ArrayTransport.php.html#52","Illuminate\\Mail\\Transport\\ArrayTransport::flush","2"],[0,1,"Transport\/ArrayTransport.php.html#62","Illuminate\\Mail\\Transport\\ArrayTransport::__toString","2"],[0,1,"Transport\/LogTransport.php.html#94","Illuminate\\Mail\\Transport\\LogTransport::__toString","2"],[0,1,"Transport\/ResendTransport.php.html#44","Illuminate\\Mail\\Transport\\ResendTransport::__construct","2"],[0,11,"Transport\/ResendTransport.php.html#52","Illuminate\\Mail\\Transport\\ResendTransport::doSend","132"],[0,1,"Transport\/ResendTransport.php.html#130","Illuminate\\Mail\\Transport\\ResendTransport::getRecipients","2"],[0,1,"Transport\/ResendTransport.php.html#140","Illuminate\\Mail\\Transport\\ResendTransport::__toString","2"],[0,1,"Transport\/SesTransport.php.html#137","Illuminate\\Mail\\Transport\\SesTransport::setOptions","2"],[0,1,"Transport\/SesV2Transport.php.html#141","Illuminate\\Mail\\Transport\\SesV2Transport::setOptions","2"],[11.11111111111111,2,"Mailable.php.html#500","Illuminate\\Mail\\Mailable::buildDiskAttachments","4.81"],[33.33333333333333,3,"Message.php.html#137","Illuminate\\Mail\\Message::cc","5.67"],[33.33333333333333,3,"Message.php.html#174","Illuminate\\Mail\\Message::bcc","5.67"],[50,3,"Mailable.php.html#477","Illuminate\\Mail\\Mailable::buildAttachments","4.12"],[60,3,"Mailable.php.html#1875","Illuminate\\Mail\\Mailable::__call","3.58"],[60,3,"Mailer.php.html#472","Illuminate\\Mail\\Mailer::queue","3.58"],[69.23076923076923,6,"Mailable.php.html#775","Illuminate\\Mail\\Mailable::normalizeRecipient","7.05"],[75,2,"Mailable.php.html#941","Illuminate\\Mail\\Mailable::with","2.06"],[75,2,"Message.php.html#54","Illuminate\\Mail\\Message::from","2.06"],[75,2,"Message.php.html#70","Illuminate\\Mail\\Message::sender","2.06"],[80,4,"MailManager.php.html#298","Illuminate\\Mail\\MailManager::addSesCredentials","4.13"],[80,8,"Mailable.php.html#1766","Illuminate\\Mail\\Mailable::ensureContentIsHydrated","8.51"],[82.6086956521739,3,"Message.php.html#338","Illuminate\\Mail\\Message::embed","3.05"],[83.33333333333334,5,"Mailable.php.html#297","Illuminate\\Mail\\Mailable::buildView","5.12"],[83.33333333333334,6,"Mailer.php.html#416","Illuminate\\Mail\\Mailer::addContent","6.17"],[83.33333333333334,3,"Message.php.html#100","Illuminate\\Mail\\Message::to","3.04"],[85.71428571428571,3,"MailManager.php.html#111","Illuminate\\Mail\\MailManager::resolve","3.03"],[85.71428571428571,4,"MailManager.php.html#164","Illuminate\\Mail\\MailManager::createSymfonyTransport","4.05"],[85.71428571428571,4,"MailManager.php.html#218","Illuminate\\Mail\\MailManager::configureSmtpTransport","4.05"],[85.71428571428571,5,"Mailable.php.html#225","Illuminate\\Mail\\Mailable::queue","5.07"],[85.71428571428571,5,"Mailable.php.html#343","Illuminate\\Mail\\Mailable::buildViewData","5.07"],[85.71428571428571,7,"Mailable.php.html#840","Illuminate\\Mail\\Mailable::hasEnvelopeRecipient","7.14"],[85.71428571428571,6,"Message.php.html#223","Illuminate\\Mail\\Message::addAddresses","6.10"],[86.66666666666667,3,"Transport\/LogTransport.php.html#35","Illuminate\\Mail\\Transport\\LogTransport::send","3.02"],[87.5,9,"Mailable.php.html#1726","Illuminate\\Mail\\Mailable::ensureEnvelopeIsHydrated","9.16"],[88.88888888888889,4,"MailManager.php.html#411","Illuminate\\Mail\\MailManager::createRoundrobinTransportOfClass","4.02"],[90,8,"SendQueuedMailable.php.html#56","Illuminate\\Mail\\SendQueuedMailable::__construct","8.06"],[90.9090909090909,6,"Mailer.php.html#379","Illuminate\\Mail\\Mailer::parseView","6.03"],[93.33333333333333,2,"Attachment.php.html#178","Illuminate\\Mail\\Attachment::attachTo","2.00"],[93.75,6,"Mailable.php.html#1647","Illuminate\\Mail\\Mailable::renderForAssertions","6.01"],[96.875,5,"Markdown.php.html#66","Illuminate\\Mail\\Markdown::render","5"],[100,1,"Attachment.php.html#42","Illuminate\\Mail\\Attachment::__construct","1"],[100,1,"Attachment.php.html#53","Illuminate\\Mail\\Attachment::fromPath","1"],[100,1,"Attachment.php.html#64","Illuminate\\Mail\\Attachment::fromUrl","1"],[100,1,"Attachment.php.html#76","Illuminate\\Mail\\Attachment::fromData","1"],[100,1,"Attachment.php.html#89","Illuminate\\Mail\\Attachment::fromUploadedFile","1"],[100,1,"Attachment.php.html#106","Illuminate\\Mail\\Attachment::fromStorage","1"],[100,1,"Attachment.php.html#118","Illuminate\\Mail\\Attachment::fromStorageDisk","1"],[100,1,"Attachment.php.html#139","Illuminate\\Mail\\Attachment::as","1"],[100,1,"Attachment.php.html#152","Illuminate\\Mail\\Attachment::withMime","1"],[100,1,"Attachment.php.html#166","Illuminate\\Mail\\Attachment::attachWith","1"],[100,1,"Attachment.php.html#207","Illuminate\\Mail\\Attachment::isEquivalent","1"],[100,1,"Events\/MessageSending.php.html#15","Illuminate\\Mail\\Events\\MessageSending::__construct","1"],[100,1,"Events\/MessageSent.php.html#20","Illuminate\\Mail\\Events\\MessageSent::__construct","1"],[100,1,"MailManager.php.html#63","Illuminate\\Mail\\MailManager::__construct","1"],[100,2,"MailManager.php.html#74","Illuminate\\Mail\\MailManager::mailer","2"],[100,1,"MailManager.php.html#98","Illuminate\\Mail\\MailManager::get","1"],[100,2,"MailManager.php.html#140","Illuminate\\Mail\\MailManager::build","2"],[100,3,"MailManager.php.html#189","Illuminate\\Mail\\MailManager::createSmtpTransport","3"],[100,1,"MailManager.php.html#241","Illuminate\\Mail\\MailManager::createSendmailTransport","1"],[100,1,"MailManager.php.html#254","Illuminate\\Mail\\MailManager::createSesTransport","1"],[100,1,"MailManager.php.html#276","Illuminate\\Mail\\MailManager::createSesV2Transport","1"],[100,1,"MailManager.php.html#386","Illuminate\\Mail\\MailManager::createFailoverTransport","1"],[100,1,"MailManager.php.html#397","Illuminate\\Mail\\MailManager::createRoundrobinTransport","1"],[100,2,"MailManager.php.html#439","Illuminate\\Mail\\MailManager::createLogTransport","2"],[100,1,"MailManager.php.html#457","Illuminate\\Mail\\MailManager::createArrayTransport","1"],[100,3,"MailManager.php.html#485","Illuminate\\Mail\\MailManager::setGlobalAddress","3"],[100,3,"MailManager.php.html#500","Illuminate\\Mail\\MailManager::getConfig","3"],[100,1,"MailManager.php.html#523","Illuminate\\Mail\\MailManager::getDefaultDriver","1"],[100,1,"MailManager.php.html#616","Illuminate\\Mail\\MailManager::__call","1"],[100,1,"MailServiceProvider.php.html#15","Illuminate\\Mail\\MailServiceProvider::register","1"],[100,1,"MailServiceProvider.php.html#26","Illuminate\\Mail\\MailServiceProvider::registerIlluminateMailer","1"],[100,2,"MailServiceProvider.php.html#42","Illuminate\\Mail\\MailServiceProvider::registerMarkdownRenderer","2"],[100,1,"MailServiceProvider.php.html#65","Illuminate\\Mail\\MailServiceProvider::provides","1"],[100,2,"Mailable.php.html#198","Illuminate\\Mail\\Mailable::send","2"],[100,2,"Mailable.php.html#263","Illuminate\\Mail\\Mailable::newQueuedJob","2"],[100,1,"Mailable.php.html#279","Illuminate\\Mail\\Mailable::render","1"],[100,1,"Mailable.php.html#326","Illuminate\\Mail\\Mailable::buildMarkdownView","1"],[100,1,"Mailable.php.html#365","Illuminate\\Mail\\Mailable::additionalMessageData","1"],[100,1,"Mailable.php.html#378","Illuminate\\Mail\\Mailable::buildMarkdownHtml","1"],[100,2,"Mailable.php.html#392","Illuminate\\Mail\\Mailable::buildMarkdownText","2"],[100,2,"Mailable.php.html#413","Illuminate\\Mail\\Mailable::markdownRenderer","2"],[100,2,"Mailable.php.html#428","Illuminate\\Mail\\Mailable::buildFrom","2"],[100,3,"Mailable.php.html#443","Illuminate\\Mail\\Mailable::buildRecipients","3"],[100,2,"Mailable.php.html#460","Illuminate\\Mail\\Mailable::buildSubject","2"],[100,3,"Mailable.php.html#521","Illuminate\\Mail\\Mailable::buildTags","3"],[100,3,"Mailable.php.html#538","Illuminate\\Mail\\Mailable::buildMetadata","3"],[100,2,"Mailable.php.html#555","Illuminate\\Mail\\Mailable::runCallbacks","2"],[100,1,"Mailable.php.html#570","Illuminate\\Mail\\Mailable::locale","1"],[100,1,"Mailable.php.html#585","Illuminate\\Mail\\Mailable::priority","1"],[100,1,"Mailable.php.html#601","Illuminate\\Mail\\Mailable::from","1"],[100,1,"Mailable.php.html#613","Illuminate\\Mail\\Mailable::hasFrom","1"],[100,3,"Mailable.php.html#625","Illuminate\\Mail\\Mailable::to","3"],[100,1,"Mailable.php.html#641","Illuminate\\Mail\\Mailable::hasTo","1"],[100,1,"Mailable.php.html#653","Illuminate\\Mail\\Mailable::cc","1"],[100,1,"Mailable.php.html#665","Illuminate\\Mail\\Mailable::hasCc","1"],[100,1,"Mailable.php.html#677","Illuminate\\Mail\\Mailable::bcc","1"],[100,1,"Mailable.php.html#689","Illuminate\\Mail\\Mailable::hasBcc","1"],[100,1,"Mailable.php.html#701","Illuminate\\Mail\\Mailable::replyTo","1"],[100,1,"Mailable.php.html#713","Illuminate\\Mail\\Mailable::hasReplyTo","1"],[100,3,"Mailable.php.html#728","Illuminate\\Mail\\Mailable::setAddress","3"],[100,4,"Mailable.php.html#760","Illuminate\\Mail\\Mailable::addressesToArray","4"],[100,4,"Mailable.php.html#804","Illuminate\\Mail\\Mailable::hasRecipient","4"],[100,1,"Mailable.php.html#857","Illuminate\\Mail\\Mailable::subject","1"],[100,3,"Mailable.php.html#870","Illuminate\\Mail\\Mailable::hasSubject","3"],[100,1,"Mailable.php.html#883","Illuminate\\Mail\\Mailable::markdown","1"],[100,1,"Mailable.php.html#898","Illuminate\\Mail\\Mailable::view","1"],[100,1,"Mailable.php.html#912","Illuminate\\Mail\\Mailable::html","1"],[100,1,"Mailable.php.html#926","Illuminate\\Mail\\Mailable::text","1"],[100,3,"Mailable.php.html#959","Illuminate\\Mail\\Mailable::attach","3"],[100,3,"Mailable.php.html#983","Illuminate\\Mail\\Mailable::attachMany","3"],[100,8,"Mailable.php.html#1003","Illuminate\\Mail\\Mailable::hasAttachment","8"],[100,4,"Mailable.php.html#1043","Illuminate\\Mail\\Mailable::hasEnvelopeAttachment","4"],[100,1,"Mailable.php.html#1064","Illuminate\\Mail\\Mailable::attachFromStorage","1"],[100,1,"Mailable.php.html#1078","Illuminate\\Mail\\Mailable::attachFromStorageDisk","1"],[100,1,"Mailable.php.html#1100","Illuminate\\Mail\\Mailable::hasAttachmentFromStorage","1"],[100,4,"Mailable.php.html#1114","Illuminate\\Mail\\Mailable::hasAttachmentFromStorageDisk","4"],[100,1,"Mailable.php.html#1132","Illuminate\\Mail\\Mailable::attachData","1"],[100,3,"Mailable.php.html#1150","Illuminate\\Mail\\Mailable::hasAttachedData","3"],[100,1,"Mailable.php.html#1165","Illuminate\\Mail\\Mailable::tag","1"],[100,3,"Mailable.php.html#1178","Illuminate\\Mail\\Mailable::hasTag","3"],[100,2,"Mailable.php.html#1191","Illuminate\\Mail\\Mailable::metadata","2"],[100,4,"Mailable.php.html#1209","Illuminate\\Mail\\Mailable::hasMetadata","4"],[100,1,"Mailable.php.html#1222","Illuminate\\Mail\\Mailable::assertFrom","1"],[100,1,"Mailable.php.html#1244","Illuminate\\Mail\\Mailable::assertTo","1"],[100,1,"Mailable.php.html#1266","Illuminate\\Mail\\Mailable::assertHasTo","1"],[100,1,"Mailable.php.html#1278","Illuminate\\Mail\\Mailable::assertHasCc","1"],[100,1,"Mailable.php.html#1300","Illuminate\\Mail\\Mailable::assertHasBcc","1"],[100,1,"Mailable.php.html#1322","Illuminate\\Mail\\Mailable::assertHasReplyTo","1"],[100,3,"Mailable.php.html#1344","Illuminate\\Mail\\Mailable::formatAssertionRecipient","3"],[100,3,"Mailable.php.html#1363","Illuminate\\Mail\\Mailable::formatActualRecipients","3"],[100,4,"Mailable.php.html#1385","Illuminate\\Mail\\Mailable::assertHasSubject","4"],[100,2,"Mailable.php.html#1406","Illuminate\\Mail\\Mailable::assertSeeInHtml","2"],[100,2,"Mailable.php.html#1428","Illuminate\\Mail\\Mailable::assertDontSeeInHtml","2"],[100,2,"Mailable.php.html#1450","Illuminate\\Mail\\Mailable::assertSeeInOrderInHtml","2"],[100,1,"Mailable.php.html#1469","Illuminate\\Mail\\Mailable::assertSeeInText","1"],[100,1,"Mailable.php.html#1488","Illuminate\\Mail\\Mailable::assertDontSeeInText","1"],[100,1,"Mailable.php.html#1507","Illuminate\\Mail\\Mailable::assertSeeInOrderInText","1"],[100,1,"Mailable.php.html#1523","Illuminate\\Mail\\Mailable::assertHasAttachment","1"],[100,1,"Mailable.php.html#1543","Illuminate\\Mail\\Mailable::assertHasAttachedData","1"],[100,1,"Mailable.php.html#1563","Illuminate\\Mail\\Mailable::assertHasAttachmentFromStorage","1"],[100,3,"Mailable.php.html#1602","Illuminate\\Mail\\Mailable::assertHasTag","3"],[100,3,"Mailable.php.html#1624","Illuminate\\Mail\\Mailable::assertHasMetadata","3"],[100,2,"Mailable.php.html#1681","Illuminate\\Mail\\Mailable::prepareMailableForDelivery","2"],[100,5,"Mailable.php.html#1698","Illuminate\\Mail\\Mailable::ensureHeadersAreHydrated","5"],[100,3,"Mailable.php.html#1804","Illuminate\\Mail\\Mailable::ensureAttachmentsAreHydrated","3"],[100,1,"Mailable.php.html#1824","Illuminate\\Mail\\Mailable::usesMailer","1"],[100,1,"Mailable.php.html#1835","Illuminate\\Mail\\Mailable::mailer","1"],[100,1,"Mailable.php.html#1848","Illuminate\\Mail\\Mailable::withSymfonyMessage","1"],[100,1,"Mailables\/Address.php.html#27","Illuminate\\Mail\\Mailables\\Address::__construct","1"],[100,1,"Mailables\/Content.php.html#67","Illuminate\\Mail\\Mailables\\Content::__construct","1"],[100,2,"Mailables\/Envelope.php.html#92","Illuminate\\Mail\\Mailables\\Envelope::__construct","2"],[100,2,"Mailables\/Envelope.php.html#111","Illuminate\\Mail\\Mailables\\Envelope::normalizeAddresses","2"],[100,2,"Mailables\/Envelope.php.html#125","Illuminate\\Mail\\Mailables\\Envelope::from","2"],[100,2,"Mailables\/Envelope.php.html#139","Illuminate\\Mail\\Mailables\\Envelope::to","2"],[100,1,"Mailables\/Envelope.php.html#286","Illuminate\\Mail\\Mailables\\Envelope::hasTo","1"],[100,1,"Mailables\/Envelope.php.html#298","Illuminate\\Mail\\Mailables\\Envelope::hasCc","1"],[100,1,"Mailables\/Envelope.php.html#310","Illuminate\\Mail\\Mailables\\Envelope::hasBcc","1"],[100,3,"Mailables\/Envelope.php.html#335","Illuminate\\Mail\\Mailables\\Envelope::hasRecipient","3"],[100,1,"Mailables\/Envelope.php.html#353","Illuminate\\Mail\\Mailables\\Envelope::hasSubject","1"],[100,2,"Mailables\/Envelope.php.html#365","Illuminate\\Mail\\Mailables\\Envelope::hasMetadata","2"],[100,1,"Mailables\/Headers.php.html#43","Illuminate\\Mail\\Mailables\\Headers::__construct","1"],[100,1,"Mailables\/Headers.php.html#94","Illuminate\\Mail\\Mailables\\Headers::referencesString","1"],[100,1,"Mailer.php.html#99","Illuminate\\Mail\\Mailer::__construct","1"],[100,1,"Mailer.php.html#114","Illuminate\\Mail\\Mailer::alwaysFrom","1"],[100,1,"Mailer.php.html#126","Illuminate\\Mail\\Mailer::alwaysReplyTo","1"],[100,1,"Mailer.php.html#137","Illuminate\\Mail\\Mailer::alwaysReturnPath","1"],[100,1,"Mailer.php.html#149","Illuminate\\Mail\\Mailer::alwaysTo","1"],[100,3,"Mailer.php.html#161","Illuminate\\Mail\\Mailer::to","3"],[100,1,"Mailer.php.html#209","Illuminate\\Mail\\Mailer::html","1"],[100,2,"Mailer.php.html#246","Illuminate\\Mail\\Mailer::render","2"],[100,5,"Mailer.php.html#268","Illuminate\\Mail\\Mailer::replaceEmbeddedAttachments","5"],[100,6,"Mailer.php.html#297","Illuminate\\Mail\\Mailer::send","6"],[100,2,"Mailer.php.html#349","Illuminate\\Mail\\Mailer::sendMailable","2"],[100,2,"Mailer.php.html#438","Illuminate\\Mail\\Mailer::renderView","2"],[100,1,"Mailer.php.html#453","Illuminate\\Mail\\Mailer::setGlobalToAndRemoveCcAndBcc","1"],[100,4,"Mailer.php.html#550","Illuminate\\Mail\\Mailer::createMessage","4"],[100,1,"Mailer.php.html#581","Illuminate\\Mail\\Mailer::sendSymfonyMessage","1"],[100,2,"Mailer.php.html#597","Illuminate\\Mail\\Mailer::shouldSendMessage","2"],[100,1,"Mailer.php.html#615","Illuminate\\Mail\\Mailer::dispatchSentEvent","1"],[100,1,"Mailer.php.html#627","Illuminate\\Mail\\Mailer::getSymfonyTransport","1"],[100,1,"Mailer.php.html#659","Illuminate\\Mail\\Mailer::setQueue","1"],[100,1,"Markdown.php.html#51","Illuminate\\Mail\\Markdown::__construct","1"],[100,1,"Markdown.php.html#122","Illuminate\\Mail\\Markdown::renderText","1"],[100,4,"Markdown.php.html#142","Illuminate\\Mail\\Markdown::parse","4"],[100,1,"Markdown.php.html#182","Illuminate\\Mail\\Markdown::converter","1"],[100,1,"Markdown.php.html#199","Illuminate\\Mail\\Markdown::htmlComponentPaths","1"],[100,1,"Markdown.php.html#211","Illuminate\\Mail\\Markdown::textComponentPaths","1"],[100,1,"Markdown.php.html#223","Illuminate\\Mail\\Markdown::componentPaths","1"],[100,1,"Markdown.php.html#236","Illuminate\\Mail\\Markdown::loadComponentsFrom","1"],[100,1,"Markdown.php.html#247","Illuminate\\Mail\\Markdown::theme","1"],[100,1,"Markdown.php.html#259","Illuminate\\Mail\\Markdown::getTheme","1"],[100,1,"Markdown.php.html#269","Illuminate\\Mail\\Markdown::withSecuredEncoding","1"],[100,1,"Markdown.php.html#279","Illuminate\\Mail\\Markdown::withoutSecuredEncoding","1"],[100,1,"Markdown.php.html#289","Illuminate\\Mail\\Markdown::flushState","1"],[100,1,"Message.php.html#42","Illuminate\\Mail\\Message::__construct","1"],[100,1,"Message.php.html#85","Illuminate\\Mail\\Message::returnPath","1"],[100,2,"Message.php.html#118","Illuminate\\Mail\\Message::forgetTo","2"],[100,2,"Message.php.html#155","Illuminate\\Mail\\Message::forgetCc","2"],[100,2,"Message.php.html#192","Illuminate\\Mail\\Message::forgetBcc","2"],[100,1,"Message.php.html#210","Illuminate\\Mail\\Message::replyTo","1"],[100,1,"Message.php.html#259","Illuminate\\Mail\\Message::addAddressDebugHeader","1"],[100,1,"Message.php.html#275","Illuminate\\Mail\\Message::subject","1"],[100,1,"Message.php.html#288","Illuminate\\Mail\\Message::priority","1"],[100,3,"Message.php.html#302","Illuminate\\Mail\\Message::attach","3"],[100,1,"Message.php.html#325","Illuminate\\Mail\\Message::attachData","1"],[100,1,"Message.php.html#382","Illuminate\\Mail\\Message::embedData","1"],[100,1,"Message.php.html#396","Illuminate\\Mail\\Message::getSymfonyMessage","1"],[100,1,"Message.php.html#408","Illuminate\\Mail\\Message::__call","1"],[100,1,"PendingMail.php.html#54","Illuminate\\Mail\\PendingMail::__construct","1"],[100,1,"PendingMail.php.html#65","Illuminate\\Mail\\PendingMail::locale","1"],[100,3,"PendingMail.php.html#78","Illuminate\\Mail\\PendingMail::to","3"],[100,1,"PendingMail.php.html#95","Illuminate\\Mail\\PendingMail::cc","1"],[100,1,"PendingMail.php.html#108","Illuminate\\Mail\\PendingMail::bcc","1"],[100,1,"PendingMail.php.html#121","Illuminate\\Mail\\PendingMail::send","1"],[100,1,"PendingMail.php.html#143","Illuminate\\Mail\\PendingMail::queue","1"],[100,2,"PendingMail.php.html#166","Illuminate\\Mail\\PendingMail::fill","2"],[100,1,"SentMessage.php.html#28","Illuminate\\Mail\\SentMessage::__construct","1"],[100,1,"SentMessage.php.html#50","Illuminate\\Mail\\SentMessage::__call","1"],[100,1,"TextMessage.php.html#26","Illuminate\\Mail\\TextMessage::__construct","1"],[100,1,"TextMessage.php.html#37","Illuminate\\Mail\\TextMessage::embed","1"],[100,1,"TextMessage.php.html#50","Illuminate\\Mail\\TextMessage::embedData","1"],[100,1,"Transport\/ArrayTransport.php.html#24","Illuminate\\Mail\\Transport\\ArrayTransport::__construct","1"],[100,1,"Transport\/ArrayTransport.php.html#32","Illuminate\\Mail\\Transport\\ArrayTransport::send","1"],[100,1,"Transport\/ArrayTransport.php.html#42","Illuminate\\Mail\\Transport\\ArrayTransport::messages","1"],[100,1,"Transport\/LogTransport.php.html#27","Illuminate\\Mail\\Transport\\LogTransport::__construct","1"],[100,2,"Transport\/LogTransport.php.html#65","Illuminate\\Mail\\Transport\\LogTransport::decodeQuotedPrintableContent","2"],[100,1,"Transport\/LogTransport.php.html#84","Illuminate\\Mail\\Transport\\LogTransport::logger","1"],[100,1,"Transport\/SesTransport.php.html#37","Illuminate\\Mail\\Transport\\SesTransport::__construct","1"],[100,7,"Transport\/SesTransport.php.html#48","Illuminate\\Mail\\Transport\\SesTransport::doSend","7"],[100,3,"Transport\/SesTransport.php.html#102","Illuminate\\Mail\\Transport\\SesTransport::listManagementOptions","3"],[100,1,"Transport\/SesTransport.php.html#116","Illuminate\\Mail\\Transport\\SesTransport::ses","1"],[100,1,"Transport\/SesTransport.php.html#126","Illuminate\\Mail\\Transport\\SesTransport::getOptions","1"],[100,1,"Transport\/SesTransport.php.html#147","Illuminate\\Mail\\Transport\\SesTransport::__toString","1"],[100,1,"Transport\/SesV2Transport.php.html#37","Illuminate\\Mail\\Transport\\SesV2Transport::__construct","1"],[100,7,"Transport\/SesV2Transport.php.html#48","Illuminate\\Mail\\Transport\\SesV2Transport::doSend","7"],[100,3,"Transport\/SesV2Transport.php.html#106","Illuminate\\Mail\\Transport\\SesV2Transport::listManagementOptions","3"],[100,1,"Transport\/SesV2Transport.php.html#120","Illuminate\\Mail\\Transport\\SesV2Transport::ses","1"],[100,1,"Transport\/SesV2Transport.php.html#130","Illuminate\\Mail\\Transport\\SesV2Transport::getOptions","1"],[100,1,"Transport\/SesV2Transport.php.html#151","Illuminate\\Mail\\Transport\\SesV2Transport::__toString","1"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [1,1,0,1,1,1,2,2,2,2,6,4])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [69,0,1,0,2,0,1,3,3,16,5,199])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>

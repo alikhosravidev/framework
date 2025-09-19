@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/forks/framework/src/Illuminate/Broadcasting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/billboard.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/forks/framework/src/Illuminate</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Broadcasting</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BroadcastController.php.html#10">Illuminate\Broadcasting\BroadcastController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/LogBroadcaster.php.html#7">Illuminate\Broadcasting\Broadcasters\LogBroadcaster</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/NullBroadcaster.php.html#5">Illuminate\Broadcasting\Broadcasters\NullBroadcaster</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EncryptedPrivateChannel.php.html#5">Illuminate\Broadcasting\EncryptedPrivateChannel</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#16">Illuminate\Broadcasting\Broadcasters\AblyBroadcaster</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Broadcasters/RedisBroadcaster.php.html#16">Illuminate\Broadcasting\Broadcasters\RedisBroadcaster</a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#28">Illuminate\Broadcasting\BroadcastManager</a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Channel.php.html#8">Illuminate\Broadcasting\Channel</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="FakePendingBroadcast.php.html#5">Illuminate\Broadcasting\FakePendingBroadcast</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="InteractsWithSockets.php.html#7">Illuminate\Broadcasting\InteractsWithSockets</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="UniqueBroadcastEvent.php.html#9">Illuminate\Broadcasting\UniqueBroadcastEvent</a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#12">Illuminate\Broadcasting\Broadcasters\PusherBroadcaster</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#19">Illuminate\Broadcasting\Broadcasters\Broadcaster</a></td><td class="text-right">86%</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#14">Illuminate\Broadcasting\BroadcastEvent</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BroadcastManager.php.html#28">Illuminate\Broadcasting\BroadcastManager</a></td><td class="text-right">37.9%</td><td class="text-right">63</td><td class="text-right">1013</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#16">Illuminate\Broadcasting\Broadcasters\AblyBroadcaster</a></td><td class="text-right">20.9%</td><td class="text-right">25</td><td class="text-right">334</td></tr>
+       <tr><td><a href="Broadcasters/RedisBroadcaster.php.html#16">Illuminate\Broadcasting\Broadcasters\RedisBroadcaster</a></td><td class="text-right">35.1%</td><td class="text-right">18</td><td class="text-right">106</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#19">Illuminate\Broadcasting\Broadcasters\Broadcaster</a></td><td class="text-right">86.9%</td><td class="text-right">46</td><td class="text-right">50</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#12">Illuminate\Broadcasting\Broadcasters\PusherBroadcaster</a></td><td class="text-right">66.7%</td><td class="text-right">20</td><td class="text-right">34</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#14">Illuminate\Broadcasting\BroadcastEvent</a></td><td class="text-right">88.0%</td><td class="text-right">28</td><td class="text-right">29</td></tr>
+       <tr><td><a href="BroadcastController.php.html#10">Illuminate\Broadcasting\BroadcastController</a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="UniqueBroadcastEvent.php.html#9">Illuminate\Broadcasting\UniqueBroadcastEvent</a></td><td class="text-right">61.5%</td><td class="text-right">7</td><td class="text-right">9</td></tr>
+       <tr><td><a href="Channel.php.html#8">Illuminate\Broadcasting\Channel</a></td><td class="text-right">50.0%</td><td class="text-right">3</td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="BroadcastController.php.html#18"><abbr title="Illuminate\Broadcasting\BroadcastController::authenticate">authenticate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastController.php.html#37"><abbr title="Illuminate\Broadcasting\BroadcastController::authenticateUser">authenticateUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#208"><abbr title="Illuminate\Broadcasting\BroadcastEvent::displayName">displayName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#218"><abbr title="Illuminate\Broadcasting\BroadcastEvent::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#67"><abbr title="Illuminate\Broadcasting\BroadcastManager::routes">routes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#89"><abbr title="Illuminate\Broadcasting\BroadcastManager::userRoutes">userRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#113"><abbr title="Illuminate\Broadcasting\BroadcastManager::channelRoutes">channelRoutes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#304"><abbr title="Illuminate\Broadcasting\BroadcastManager::callCustomCreator">callCustomCreator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#315"><abbr title="Illuminate\Broadcasting\BroadcastManager::createReverbDriver">createReverbDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#326"><abbr title="Illuminate\Broadcasting\BroadcastManager::createPusherDriver">createPusherDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#337"><abbr title="Illuminate\Broadcasting\BroadcastManager::pusher">pusher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#371"><abbr title="Illuminate\Broadcasting\BroadcastManager::createAblyDriver">createAblyDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#382"><abbr title="Illuminate\Broadcasting\BroadcastManager::ably">ably</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#393"><abbr title="Illuminate\Broadcasting\BroadcastManager::createRedisDriver">createRedisDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#407"><abbr title="Illuminate\Broadcasting\BroadcastManager::createLogDriver">createLogDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#420"><abbr title="Illuminate\Broadcasting\BroadcastManager::createNullDriver">createNullDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#445"><abbr title="Illuminate\Broadcasting\BroadcastManager::getDefaultDriver">getDefaultDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#456"><abbr title="Illuminate\Broadcasting\BroadcastManager::setDefaultDriver">setDefaultDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#467"><abbr title="Illuminate\Broadcasting\BroadcastManager::purge">purge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#481"><abbr title="Illuminate\Broadcasting\BroadcastManager::extend">extend</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#508"><abbr title="Illuminate\Broadcasting\BroadcastManager::getApplication">getApplication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#519"><abbr title="Illuminate\Broadcasting\BroadcastManager::setApplication">setApplication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#531"><abbr title="Illuminate\Broadcasting\BroadcastManager::forgetDrivers">forgetDrivers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#545"><abbr title="Illuminate\Broadcasting\BroadcastManager::__call">__call</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#65"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::validAuthenticationResponse">validAuthenticationResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#106"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::generateAblySignature">generateAblySignature</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#125"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#147"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::buildAblyMessage">buildAblyMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#190"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::formatChannels">formatChannels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#210"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::getPublicToken">getPublicToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#220"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::getPrivateToken">getPrivateToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#230"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::getAbly">getAbly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#241"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::setAbly">setAbly</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#286"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::formatChannels">formatChannels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#386"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::getChannels">getChannels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/LogBroadcaster.php.html#21"><abbr title="Illuminate\Broadcasting\Broadcasters\LogBroadcaster::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/LogBroadcaster.php.html#29"><abbr title="Illuminate\Broadcasting\Broadcasters\LogBroadcaster::auth">auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/LogBroadcaster.php.html#37"><abbr title="Illuminate\Broadcasting\Broadcasters\LogBroadcaster::validAuthenticationResponse">validAuthenticationResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/LogBroadcaster.php.html#45"><abbr title="Illuminate\Broadcasting\Broadcasters\LogBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/NullBroadcaster.php.html#10"><abbr title="Illuminate\Broadcasting\Broadcasters\NullBroadcaster::auth">auth</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/NullBroadcaster.php.html#18"><abbr title="Illuminate\Broadcasting\Broadcasters\NullBroadcaster::validAuthenticationResponse">validAuthenticationResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/NullBroadcaster.php.html#26"><abbr title="Illuminate\Broadcasting\Broadcasters\NullBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#150"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#174"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::getPusher">getPusher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#185"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::setPusher">setPusher</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/RedisBroadcaster.php.html#48"><abbr title="Illuminate\Broadcasting\Broadcasters\RedisBroadcaster::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/RedisBroadcaster.php.html#117"><abbr title="Illuminate\Broadcasting\Broadcasters\RedisBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Broadcasters/RedisBroadcaster.php.html#186"><abbr title="Illuminate\Broadcasting\Broadcasters\RedisBroadcaster::formatChannels">formatChannels</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Channel.php.html#32"><abbr title="Illuminate\Broadcasting\Channel::__toString">__toString</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EncryptedPrivateChannel.php.html#12"><abbr title="Illuminate\Broadcasting\EncryptedPrivateChannel::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FakePendingBroadcast.php.html#21"><abbr title="Illuminate\Broadcasting\FakePendingBroadcast::via">via</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FakePendingBroadcast.php.html#31"><abbr title="Illuminate\Broadcasting\FakePendingBroadcast::toOthers">toOthers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="InteractsWithSockets.php.html#33"><abbr title="Illuminate\Broadcasting\InteractsWithSockets::broadcastToEveryone">broadcastToEveryone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#277"><abbr title="Illuminate\Broadcasting\BroadcastManager::resolve">resolve</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#315"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::normalizeChannelHandlerToCallable">normalizeChannelHandlerToCallable</abbr></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#130"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::decodePusherResponse">decodePusherResponse</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="UniqueBroadcastEvent.php.html#30"><abbr title="Illuminate\Broadcasting\UniqueBroadcastEvent::__construct">__construct</abbr></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#179"><abbr title="Illuminate\Broadcasting\BroadcastEvent::middleware">middleware</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#194"><abbr title="Illuminate\Broadcasting\BroadcastEvent::failed">failed</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#431"><abbr title="Illuminate\Broadcasting\BroadcastManager::getConfig">getConfig</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#494"><abbr title="Illuminate\Broadcasting\BroadcastManager::rescue">rescue</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="UniqueBroadcastEvent.php.html#54"><abbr title="Illuminate\Broadcasting\UniqueBroadcastEvent::uniqueVia">uniqueVia</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#85"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::channel">channel</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#124"><abbr title="Illuminate\Broadcasting\BroadcastManager::socket">socket</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#178"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::extractParametersFromClass">extractParametersFromClass</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#173"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::normalizeChannelName">normalizeChannelName</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="AnonymousEvent.php.html#71"><abbr title="Illuminate\Broadcasting\AnonymousEvent::with">with</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#161"><abbr title="Illuminate\Broadcasting\BroadcastEvent::getConnectionPayload">getConnectionPayload</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#96"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::validAuthenticationResponse">validAuthenticationResponse</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#176"><abbr title="Illuminate\Broadcasting\BroadcastManager::queue">queue</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="BroadcastServiceProvider.php.html#17"><abbr title="Illuminate\Broadcasting\BroadcastServiceProvider::register">register</abbr></a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#42"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::resolveAuthenticatedUser">resolveAuthenticatedUser</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Broadcasters/RedisBroadcaster.php.html#117"><abbr title="Illuminate\Broadcasting\Broadcasters\RedisBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">8</td><td class="text-right">72</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#67"><abbr title="Illuminate\Broadcasting\BroadcastManager::routes">routes</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#89"><abbr title="Illuminate\Broadcasting\BroadcastManager::userRoutes">userRoutes</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">4</td><td class="text-right">20</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#176"><abbr title="Illuminate\Broadcasting\BroadcastManager::queue">queue</abbr></a></td><td class="text-right">85.2%</td><td class="text-right">12</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#65"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::validAuthenticationResponse">validAuthenticationResponse</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#125"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#190"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::formatChannels">formatChannels</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#150"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::broadcast">broadcast</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#277"><abbr title="Illuminate\Broadcasting\BroadcastManager::resolve">resolve</abbr></a></td><td class="text-right">33.3%</td><td class="text-right">4</td><td class="text-right">8</td></tr>
+       <tr><td><a href="BroadcastController.php.html#18"><abbr title="Illuminate\Broadcasting\BroadcastController::authenticate">authenticate</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="BroadcastController.php.html#37"><abbr title="Illuminate\Broadcasting\BroadcastController::authenticateUser">authenticateUser</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#337"><abbr title="Illuminate\Broadcasting\BroadcastManager::pusher">pusher</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#106"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::generateAblySignature">generateAblySignature</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="UniqueBroadcastEvent.php.html#30"><abbr title="Illuminate\Broadcasting\UniqueBroadcastEvent::__construct">__construct</abbr></a></td><td class="text-right">60.0%</td><td class="text-right">5</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#85"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::channel">channel</abbr></a></td><td class="text-right">71.4%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#96"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::validAuthenticationResponse">validAuthenticationResponse</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#124"><abbr title="Illuminate\Broadcasting\BroadcastManager::socket">socket</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">4</td><td class="text-right">4</td></tr>
+       <tr><td><a href="AnonymousEvent.php.html#71"><abbr title="Illuminate\Broadcasting\AnonymousEvent::with">with</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#161"><abbr title="Illuminate\Broadcasting\BroadcastEvent::getConnectionPayload">getConnectionPayload</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#431"><abbr title="Illuminate\Broadcasting\BroadcastManager::getConfig">getConfig</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Broadcasters/AblyBroadcaster.php.html#173"><abbr title="Illuminate\Broadcasting\Broadcasters\AblyBroadcaster::normalizeChannelName">normalizeChannelName</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#42"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::resolveAuthenticatedUser">resolveAuthenticatedUser</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#179"><abbr title="Illuminate\Broadcasting\BroadcastEvent::middleware">middleware</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="BroadcastEvent.php.html#194"><abbr title="Illuminate\Broadcasting\BroadcastEvent::failed">failed</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="BroadcastManager.php.html#494"><abbr title="Illuminate\Broadcasting\BroadcastManager::rescue">rescue</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#178"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::extractParametersFromClass">extractParametersFromClass</abbr></a></td><td class="text-right">75.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Broadcasters/Broadcaster.php.html#315"><abbr title="Illuminate\Broadcasting\Broadcasters\Broadcaster::normalizeChannelHandlerToCallable">normalizeChannelHandlerToCallable</abbr></a></td><td class="text-right">40.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="Broadcasters/PusherBroadcaster.php.html#130"><abbr title="Illuminate\Broadcasting\Broadcasters\PusherBroadcaster::decodePusherResponse">decodePusherResponse</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+       <tr><td><a href="UniqueBroadcastEvent.php.html#54"><abbr title="Illuminate\Broadcasting\UniqueBroadcastEvent::uniqueVia">uniqueVia</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.3.8</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.25</a> and <a href="https://phpunit.de/">PHPUnit 12.3.11</a> at Thu Sep 18 16:01:33 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/billboard.pkgd.min.js?v=12.3.8" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,4,"BroadcastController.php.html#10","Illuminate\\Broadcasting\\BroadcastController","20"],[0,4,"Broadcasters\/LogBroadcaster.php.html#7","Illuminate\\Broadcasting\\Broadcasters\\LogBroadcaster","20"],[0,3,"Broadcasters\/NullBroadcaster.php.html#5","Illuminate\\Broadcasting\\Broadcasters\\NullBroadcaster","12"],[0,1,"EncryptedPrivateChannel.php.html#5","Illuminate\\Broadcasting\\EncryptedPrivateChannel","2"],[20.8955223880597,25,"Broadcasters\/AblyBroadcaster.php.html#16","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster","334.37"],[35.08771929824561,18,"Broadcasters\/RedisBroadcaster.php.html#16","Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster","106.62"],[37.903225806451616,63,"BroadcastManager.php.html#28","Illuminate\\Broadcasting\\BroadcastManager","1013.36"],[50,3,"Channel.php.html#8","Illuminate\\Broadcasting\\Channel","4.12"],[50,4,"FakePendingBroadcast.php.html#5","Illuminate\\Broadcasting\\FakePendingBroadcast","6.00"],[50,2,"InteractsWithSockets.php.html#7","Illuminate\\Broadcasting\\InteractsWithSockets","2.50"],[61.53846153846154,7,"UniqueBroadcastEvent.php.html#9","Illuminate\\Broadcasting\\UniqueBroadcastEvent","9.79"],[66.66666666666666,20,"Broadcasters\/PusherBroadcaster.php.html#12","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster","34.81"],[86.90476190476191,46,"Broadcasters\/Broadcaster.php.html#19","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster","50.75"],[88,28,"BroadcastEvent.php.html#14","Illuminate\\Broadcasting\\BroadcastEvent","29.35"],[91.66666666666666,2,"BroadcastServiceProvider.php.html#10","Illuminate\\Broadcasting\\BroadcastServiceProvider","2.00"],[95.45454545454545,15,"AnonymousEvent.php.html#11","Illuminate\\Broadcasting\\AnonymousEvent","15"],[100,0,"BroadcastException.php.html#7","Illuminate\\Broadcasting\\BroadcastException","0"],[100,6,"PendingBroadcast.php.html#9","Illuminate\\Broadcasting\\PendingBroadcast","6"],[100,1,"PresenceChannel.php.html#5","Illuminate\\Broadcasting\\PresenceChannel","1"],[100,2,"PrivateChannel.php.html#7","Illuminate\\Broadcasting\\PrivateChannel","2"],[100,4,"Broadcasters\/UsePusherChannelConventions.php.html#7","Illuminate\\Broadcasting\\Broadcasters\\UsePusherChannelConventions","4"],[100,3,"InteractsWithBroadcasting.php.html#9","Illuminate\\Broadcasting\\InteractsWithBroadcasting","3"]]</script>
+  <script type="application/json" id="complexity_method">[[0,2,"BroadcastController.php.html#18","Illuminate\\Broadcasting\\BroadcastController::authenticate","6"],[0,2,"BroadcastController.php.html#37","Illuminate\\Broadcasting\\BroadcastController::authenticateUser","6"],[0,1,"BroadcastEvent.php.html#208","Illuminate\\Broadcasting\\BroadcastEvent::displayName","2"],[0,1,"BroadcastEvent.php.html#218","Illuminate\\Broadcasting\\BroadcastEvent::__clone","2"],[0,4,"BroadcastManager.php.html#67","Illuminate\\Broadcasting\\BroadcastManager::routes","20"],[0,4,"BroadcastManager.php.html#89","Illuminate\\Broadcasting\\BroadcastManager::userRoutes","20"],[0,1,"BroadcastManager.php.html#113","Illuminate\\Broadcasting\\BroadcastManager::channelRoutes","2"],[0,1,"BroadcastManager.php.html#304","Illuminate\\Broadcasting\\BroadcastManager::callCustomCreator","2"],[0,1,"BroadcastManager.php.html#315","Illuminate\\Broadcasting\\BroadcastManager::createReverbDriver","2"],[0,1,"BroadcastManager.php.html#326","Illuminate\\Broadcasting\\BroadcastManager::createPusherDriver","2"],[0,2,"BroadcastManager.php.html#337","Illuminate\\Broadcasting\\BroadcastManager::pusher","6"],[0,1,"BroadcastManager.php.html#371","Illuminate\\Broadcasting\\BroadcastManager::createAblyDriver","2"],[0,1,"BroadcastManager.php.html#382","Illuminate\\Broadcasting\\BroadcastManager::ably","2"],[0,1,"BroadcastManager.php.html#393","Illuminate\\Broadcasting\\BroadcastManager::createRedisDriver","2"],[0,1,"BroadcastManager.php.html#407","Illuminate\\Broadcasting\\BroadcastManager::createLogDriver","2"],[0,1,"BroadcastManager.php.html#420","Illuminate\\Broadcasting\\BroadcastManager::createNullDriver","2"],[0,1,"BroadcastManager.php.html#445","Illuminate\\Broadcasting\\BroadcastManager::getDefaultDriver","2"],[0,1,"BroadcastManager.php.html#456","Illuminate\\Broadcasting\\BroadcastManager::setDefaultDriver","2"],[0,1,"BroadcastManager.php.html#467","Illuminate\\Broadcasting\\BroadcastManager::purge","2"],[0,1,"BroadcastManager.php.html#481","Illuminate\\Broadcasting\\BroadcastManager::extend","2"],[0,1,"BroadcastManager.php.html#508","Illuminate\\Broadcasting\\BroadcastManager::getApplication","2"],[0,1,"BroadcastManager.php.html#519","Illuminate\\Broadcasting\\BroadcastManager::setApplication","2"],[0,1,"BroadcastManager.php.html#531","Illuminate\\Broadcasting\\BroadcastManager::forgetDrivers","2"],[0,1,"BroadcastManager.php.html#545","Illuminate\\Broadcasting\\BroadcastManager::__call","2"],[0,3,"Broadcasters\/AblyBroadcaster.php.html#65","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::validAuthenticationResponse","12"],[0,2,"Broadcasters\/AblyBroadcaster.php.html#106","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::generateAblySignature","6"],[0,3,"Broadcasters\/AblyBroadcaster.php.html#125","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::broadcast","12"],[0,1,"Broadcasters\/AblyBroadcaster.php.html#147","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::buildAblyMessage","2"],[0,3,"Broadcasters\/AblyBroadcaster.php.html#190","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::formatChannels","12"],[0,1,"Broadcasters\/AblyBroadcaster.php.html#210","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::getPublicToken","2"],[0,1,"Broadcasters\/AblyBroadcaster.php.html#220","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::getPrivateToken","2"],[0,1,"Broadcasters\/AblyBroadcaster.php.html#230","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::getAbly","2"],[0,1,"Broadcasters\/AblyBroadcaster.php.html#241","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::setAbly","2"],[0,1,"Broadcasters\/Broadcaster.php.html#286","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::formatChannels","2"],[0,1,"Broadcasters\/Broadcaster.php.html#386","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::getChannels","2"],[0,1,"Broadcasters\/LogBroadcaster.php.html#21","Illuminate\\Broadcasting\\Broadcasters\\LogBroadcaster::__construct","2"],[0,1,"Broadcasters\/LogBroadcaster.php.html#29","Illuminate\\Broadcasting\\Broadcasters\\LogBroadcaster::auth","2"],[0,1,"Broadcasters\/LogBroadcaster.php.html#37","Illuminate\\Broadcasting\\Broadcasters\\LogBroadcaster::validAuthenticationResponse","2"],[0,1,"Broadcasters\/LogBroadcaster.php.html#45","Illuminate\\Broadcasting\\Broadcasters\\LogBroadcaster::broadcast","2"],[0,1,"Broadcasters\/NullBroadcaster.php.html#10","Illuminate\\Broadcasting\\Broadcasters\\NullBroadcaster::auth","2"],[0,1,"Broadcasters\/NullBroadcaster.php.html#18","Illuminate\\Broadcasting\\Broadcasters\\NullBroadcaster::validAuthenticationResponse","2"],[0,1,"Broadcasters\/NullBroadcaster.php.html#26","Illuminate\\Broadcasting\\Broadcasters\\NullBroadcaster::broadcast","2"],[0,3,"Broadcasters\/PusherBroadcaster.php.html#150","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::broadcast","12"],[0,1,"Broadcasters\/PusherBroadcaster.php.html#174","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::getPusher","2"],[0,1,"Broadcasters\/PusherBroadcaster.php.html#185","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::setPusher","2"],[0,1,"Broadcasters\/RedisBroadcaster.php.html#48","Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster::__construct","2"],[0,8,"Broadcasters\/RedisBroadcaster.php.html#117","Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster::broadcast","72"],[0,1,"Broadcasters\/RedisBroadcaster.php.html#186","Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster::formatChannels","2"],[0,1,"Channel.php.html#32","Illuminate\\Broadcasting\\Channel::__toString","2"],[0,1,"EncryptedPrivateChannel.php.html#12","Illuminate\\Broadcasting\\EncryptedPrivateChannel::__construct","2"],[0,1,"FakePendingBroadcast.php.html#21","Illuminate\\Broadcasting\\FakePendingBroadcast::via","2"],[0,1,"FakePendingBroadcast.php.html#31","Illuminate\\Broadcasting\\FakePendingBroadcast::toOthers","2"],[0,1,"InteractsWithSockets.php.html#33","Illuminate\\Broadcasting\\InteractsWithSockets::broadcastToEveryone","2"],[33.33333333333333,4,"BroadcastManager.php.html#277","Illuminate\\Broadcasting\\BroadcastManager::resolve","8.74"],[40,2,"Broadcasters\/Broadcaster.php.html#315","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::normalizeChannelHandlerToCallable","2.86"],[50,2,"Broadcasters\/PusherBroadcaster.php.html#130","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::decodePusherResponse","2.50"],[60,5,"UniqueBroadcastEvent.php.html#30","Illuminate\\Broadcasting\\UniqueBroadcastEvent::__construct","6.60"],[66.66666666666666,2,"BroadcastEvent.php.html#179","Illuminate\\Broadcasting\\BroadcastEvent::middleware","2.15"],[66.66666666666666,2,"BroadcastEvent.php.html#194","Illuminate\\Broadcasting\\BroadcastEvent::failed","2.15"],[66.66666666666666,3,"BroadcastManager.php.html#431","Illuminate\\Broadcasting\\BroadcastManager::getConfig","3.33"],[66.66666666666666,2,"BroadcastManager.php.html#494","Illuminate\\Broadcasting\\BroadcastManager::rescue","2.15"],[66.66666666666666,2,"UniqueBroadcastEvent.php.html#54","Illuminate\\Broadcasting\\UniqueBroadcastEvent::uniqueVia","2.15"],[71.42857142857143,5,"Broadcasters\/Broadcaster.php.html#85","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::channel","5.58"],[75,4,"BroadcastManager.php.html#124","Illuminate\\Broadcasting\\BroadcastManager::socket","4.25"],[75,2,"Broadcasters\/Broadcaster.php.html#178","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::extractParametersFromClass","2.06"],[80,3,"Broadcasters\/AblyBroadcaster.php.html#173","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::normalizeChannelName","3.07"],[83.33333333333334,3,"AnonymousEvent.php.html#71","Illuminate\\Broadcasting\\AnonymousEvent::with","3.04"],[83.33333333333334,3,"BroadcastEvent.php.html#161","Illuminate\\Broadcasting\\BroadcastEvent::getConnectionPayload","3.04"],[83.33333333333334,5,"Broadcasters\/PusherBroadcaster.php.html#96","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::validAuthenticationResponse","5.12"],[85.18518518518519,12,"BroadcastManager.php.html#176","Illuminate\\Broadcasting\\BroadcastManager::queue","12.47"],[85.71428571428571,1,"BroadcastServiceProvider.php.html#17","Illuminate\\Broadcasting\\BroadcastServiceProvider::register","1.00"],[85.71428571428571,3,"Broadcasters\/PusherBroadcaster.php.html#42","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::resolveAuthenticatedUser","3.03"],[90.9090909090909,5,"Broadcasters\/Broadcaster.php.html#109","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::verifyUserCanAccessChannel","5.02"],[90.9090909090909,3,"Broadcasters\/RedisBroadcaster.php.html#87","Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster::validAuthenticationResponse","3.01"],[93.75,5,"BroadcastEvent.php.html#74","Illuminate\\Broadcasting\\BroadcastEvent::handle","5.01"],[100,1,"AnonymousEvent.php.html#43","Illuminate\\Broadcasting\\AnonymousEvent::__construct","1"],[100,1,"AnonymousEvent.php.html#51","Illuminate\\Broadcasting\\AnonymousEvent::via","1"],[100,1,"AnonymousEvent.php.html#61","Illuminate\\Broadcasting\\AnonymousEvent::as","1"],[100,1,"AnonymousEvent.php.html#85","Illuminate\\Broadcasting\\AnonymousEvent::toOthers","1"],[100,1,"AnonymousEvent.php.html#95","Illuminate\\Broadcasting\\AnonymousEvent::sendNow","1"],[100,2,"AnonymousEvent.php.html#105","Illuminate\\Broadcasting\\AnonymousEvent::send","2"],[100,2,"AnonymousEvent.php.html#117","Illuminate\\Broadcasting\\AnonymousEvent::broadcastAs","2"],[100,1,"AnonymousEvent.php.html#127","Illuminate\\Broadcasting\\AnonymousEvent::broadcastWith","1"],[100,1,"AnonymousEvent.php.html#137","Illuminate\\Broadcasting\\AnonymousEvent::broadcastOn","1"],[100,1,"AnonymousEvent.php.html#145","Illuminate\\Broadcasting\\AnonymousEvent::shouldBroadcastNow","1"],[100,6,"BroadcastEvent.php.html#58","Illuminate\\Broadcasting\\BroadcastEvent::__construct","6"],[100,4,"BroadcastEvent.php.html#107","Illuminate\\Broadcasting\\BroadcastEvent::getPayloadFromEvent","4"],[100,2,"BroadcastEvent.php.html#131","Illuminate\\Broadcasting\\BroadcastEvent::formatProperty","2"],[100,2,"BroadcastEvent.php.html#147","Illuminate\\Broadcasting\\BroadcastEvent::getConnectionChannels","2"],[100,1,"BroadcastManager.php.html#56","Illuminate\\Broadcasting\\BroadcastManager::__construct","1"],[100,1,"BroadcastManager.php.html#138","Illuminate\\Broadcasting\\BroadcastManager::on","1"],[100,1,"BroadcastManager.php.html#146","Illuminate\\Broadcasting\\BroadcastManager::private","1"],[100,1,"BroadcastManager.php.html#154","Illuminate\\Broadcasting\\BroadcastManager::presence","1"],[100,1,"BroadcastManager.php.html#165","Illuminate\\Broadcasting\\BroadcastManager::event","1"],[100,2,"BroadcastManager.php.html#225","Illuminate\\Broadcasting\\BroadcastManager::mustBeUniqueAndCannotAcquireLock","2"],[100,1,"BroadcastManager.php.html#240","Illuminate\\Broadcasting\\BroadcastManager::connection","1"],[100,2,"BroadcastManager.php.html#251","Illuminate\\Broadcasting\\BroadcastManager::driver","2"],[100,1,"BroadcastManager.php.html#264","Illuminate\\Broadcasting\\BroadcastManager::get","1"],[100,1,"BroadcastServiceProvider.php.html#35","Illuminate\\Broadcasting\\BroadcastServiceProvider::provides","1"],[100,1,"Broadcasters\/AblyBroadcaster.php.html#30","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::__construct","1"],[100,4,"Broadcasters\/AblyBroadcaster.php.html#43","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::auth","4"],[100,1,"Broadcasters\/AblyBroadcaster.php.html#162","Illuminate\\Broadcasting\\Broadcasters\\AblyBroadcaster::isGuardedChannel","1"],[100,2,"Broadcasters\/Broadcaster.php.html#57","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::resolveAuthenticatedUser","2"],[100,1,"Broadcasters\/Broadcaster.php.html#72","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::resolveAuthenticatedUserUsing","1"],[100,1,"Broadcasters\/Broadcaster.php.html#140","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::extractAuthParameters","1"],[100,3,"Broadcasters\/Broadcaster.php.html#159","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::extractParameters","3"],[100,1,"Broadcasters\/Broadcaster.php.html#196","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::extractChannelKeys","1"],[100,2,"Broadcasters\/Broadcaster.php.html#211","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::resolveBinding","2"],[100,3,"Broadcasters\/Broadcaster.php.html#227","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::resolveExplicitBindingIfPossible","3"],[100,4,"Broadcasters\/Broadcaster.php.html#248","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::resolveImplicitBindingIfPossible","4"],[100,2,"Broadcasters\/Broadcaster.php.html#274","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::isImplicitlyBindable","2"],[100,3,"Broadcasters\/Broadcaster.php.html#298","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::binder","3"],[100,4,"Broadcasters\/Broadcaster.php.html#331","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::retrieveUser","4"],[100,3,"Broadcasters\/Broadcaster.php.html#354","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::retrieveChannelOptions","3"],[100,1,"Broadcasters\/Broadcaster.php.html#374","Illuminate\\Broadcasting\\Broadcasters\\Broadcaster::channelNameMatchesPattern","1"],[100,1,"Broadcasters\/PusherBroadcaster.php.html#28","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::__construct","1"],[100,4,"Broadcasters\/PusherBroadcaster.php.html#74","Illuminate\\Broadcasting\\Broadcasters\\PusherBroadcaster::auth","4"],[100,4,"Broadcasters\/RedisBroadcaster.php.html#63","Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster::auth","4"],[100,1,"Broadcasters\/RedisBroadcaster.php.html#171","Illuminate\\Broadcasting\\Broadcasters\\RedisBroadcaster::broadcastMultipleChannelsScript","1"],[100,2,"Channel.php.html#22","Illuminate\\Broadcasting\\Channel::__construct","2"],[100,1,"FakePendingBroadcast.php.html#10","Illuminate\\Broadcasting\\FakePendingBroadcast::__construct","1"],[100,1,"FakePendingBroadcast.php.html#41","Illuminate\\Broadcasting\\FakePendingBroadcast::__destruct","1"],[100,1,"PendingBroadcast.php.html#31","Illuminate\\Broadcasting\\PendingBroadcast::__construct","1"],[100,2,"PendingBroadcast.php.html#43","Illuminate\\Broadcasting\\PendingBroadcast::via","2"],[100,2,"PendingBroadcast.php.html#57","Illuminate\\Broadcasting\\PendingBroadcast::toOthers","2"],[100,1,"PendingBroadcast.php.html#71","Illuminate\\Broadcasting\\PendingBroadcast::__destruct","1"],[100,1,"PresenceChannel.php.html#12","Illuminate\\Broadcasting\\PresenceChannel::__construct","1"],[100,2,"PrivateChannel.php.html#14","Illuminate\\Broadcasting\\PrivateChannel::__construct","2"],[100,1,"Broadcasters\/UsePusherChannelConventions.php.html#15","Illuminate\\Broadcasting\\Broadcasters\\UsePusherChannelConventions::isGuardedChannel","1"],[100,3,"Broadcasters\/UsePusherChannelConventions.php.html#26","Illuminate\\Broadcasting\\Broadcasters\\UsePusherChannelConventions::normalizeChannelName","3"],[100,2,"InteractsWithBroadcasting.php.html#24","Illuminate\\Broadcasting\\InteractsWithBroadcasting::broadcastVia","2"],[100,1,"InteractsWithBroadcasting.php.html#40","Illuminate\\Broadcasting\\InteractsWithBroadcasting::broadcastConnections","1"],[100,1,"InteractsWithSockets.php.html#21","Illuminate\\Broadcasting\\InteractsWithSockets::dontBroadcastToCurrentUser","1"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [4,0,0,1,2,0,3,2,0,2,2,6])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [53,0,0,0,1,1,1,6,3,7,3,58])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>

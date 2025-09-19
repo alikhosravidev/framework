@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/forks/framework/src/Illuminate/Notifications</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/billboard.min.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=12.3.8" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/forks/framework/src/Illuminate</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Notifications</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classesCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DatabaseNotification.php.html#9">Illuminate\Notifications\DatabaseNotification</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotificationCollection.php.html#13">Illuminate\Notifications\DatabaseNotificationCollection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasDatabaseNotifications.php.html#5">Illuminate\Notifications\HasDatabaseNotifications</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/BroadcastMessage.php.html#7">Illuminate\Notifications\Messages\BroadcastMessage</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#12">Illuminate\Notifications\ChannelManager</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#15">Illuminate\Notifications\SendQueuedNotifications</a></td><td class="text-right">51%</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#13">Illuminate\Notifications\Events\BroadcastNotificationCreated</a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#8">Illuminate\Notifications\Messages\SimpleMessage</a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="Notification.php.html#7">Illuminate\Notifications\Notification</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Channels/DatabaseChannel.php.html#8">Illuminate\Notifications\Channels\DatabaseChannel</a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="Messages/MailMessage.php.html#14">Illuminate\Notifications\Messages\MailMessage</a></td><td class="text-right">82%</td></tr>
+       <tr><td><a href="AnonymousNotifiable.php.html#8">Illuminate\Notifications\AnonymousNotifiable</a></td><td class="text-right">87%</td></tr>
+       <tr><td><a href="RoutesNotifications.php.html#8">Illuminate\Notifications\RoutesNotifications</a></td><td class="text-right">88%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="DatabaseNotification.php.html#9">Illuminate\Notifications\DatabaseNotification</a></td><td class="text-right">0.0%</td><td class="text-right">9</td><td class="text-right">90</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#15">Illuminate\Notifications\SendQueuedNotifications</a></td><td class="text-right">51.9%</td><td class="text-right">20</td><td class="text-right">64</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#8">Illuminate\Notifications\Messages\SimpleMessage</a></td><td class="text-right">65.3%</td><td class="text-right">22</td><td class="text-right">42</td></tr>
+       <tr><td><a href="Messages/MailMessage.php.html#14">Illuminate\Notifications\Messages\MailMessage</a></td><td class="text-right">82.8%</td><td class="text-right">32</td><td class="text-right">37</td></tr>
+       <tr><td><a href="ChannelManager.php.html#12">Illuminate\Notifications\ChannelManager</a></td><td class="text-right">50.0%</td><td class="text-right">13</td><td class="text-right">34</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#13">Illuminate\Notifications\Events\BroadcastNotificationCreated</a></td><td class="text-right">53.6%</td><td class="text-right">14</td><td class="text-right">33</td></tr>
+       <tr><td><a href="Channels/DatabaseChannel.php.html#8">Illuminate\Notifications\Channels\DatabaseChannel</a></td><td class="text-right">78.9%</td><td class="text-right">8</td><td class="text-right">8</td></tr>
+       <tr><td><a href="RoutesNotifications.php.html#8">Illuminate\Notifications\RoutesNotifications</a></td><td class="text-right">88.9%</td><td class="text-right">7</td><td class="text-right">7</td></tr>
+       <tr><td><a href="AnonymousNotifiable.php.html#8">Illuminate\Notifications\AnonymousNotifiable</a></td><td class="text-right">87.5%</td><td class="text-right">6</td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2 style="margin-top: 3rem;">Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodsCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AnonymousNotifiable.php.html#54"><abbr title="Illuminate\Notifications\AnonymousNotifiable::notifyNow">notifyNow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#50"><abbr title="Illuminate\Notifications\ChannelManager::sendNow">sendNow</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#63"><abbr title="Illuminate\Notifications\ChannelManager::channel">channel</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#73"><abbr title="Illuminate\Notifications\ChannelManager::createDatabaseDriver">createDatabaseDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#83"><abbr title="Illuminate\Notifications\ChannelManager::createBroadcastDriver">createBroadcastDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#124"><abbr title="Illuminate\Notifications\ChannelManager::getDefaultDriver">getDefaultDriver</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#134"><abbr title="Illuminate\Notifications\ChannelManager::deliversVia">deliversVia</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#145"><abbr title="Illuminate\Notifications\ChannelManager::deliverVia">deliverVia</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#62"><abbr title="Illuminate\Notifications\DatabaseNotification::notifiable">notifiable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#72"><abbr title="Illuminate\Notifications\DatabaseNotification::markAsRead">markAsRead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#84"><abbr title="Illuminate\Notifications\DatabaseNotification::markAsUnread">markAsUnread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#96"><abbr title="Illuminate\Notifications\DatabaseNotification::read">read</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#106"><abbr title="Illuminate\Notifications\DatabaseNotification::unread">unread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#117"><abbr title="Illuminate\Notifications\DatabaseNotification::scopeRead">scopeRead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#128"><abbr title="Illuminate\Notifications\DatabaseNotification::scopeUnread">scopeUnread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotificationCollection.php.html#20"><abbr title="Illuminate\Notifications\DatabaseNotificationCollection::markAsRead">markAsRead</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DatabaseNotificationCollection.php.html#30"><abbr title="Illuminate\Notifications\DatabaseNotificationCollection::markAsUnread">markAsUnread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#63"><abbr title="Illuminate\Notifications\Events\BroadcastNotificationCreated::channelName">channelName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#108"><abbr title="Illuminate\Notifications\Events\BroadcastNotificationCreated::broadcastAs">broadcastAs</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/BroadcastMessage.php.html#34"><abbr title="Illuminate\Notifications\Messages\BroadcastMessage::data">data</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/MailMessage.php.html#140"><abbr title="Illuminate\Notifications\Messages\MailMessage::text">text</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/MailMessage.php.html#397"><abbr title="Illuminate\Notifications\Messages\MailMessage::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#78"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::success">success</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#90"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::error">error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#142"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::salutation">salutation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#167"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::lineIf">lineIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#182"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::lines">lines</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#198"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::linesIf">linesIf</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notification.php.html#30"><abbr title="Illuminate\Notifications\Notification::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#126"><abbr title="Illuminate\Notifications\SendQueuedNotifications::displayName">displayName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#137"><abbr title="Illuminate\Notifications\SendQueuedNotifications::failed">failed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#149"><abbr title="Illuminate\Notifications\SendQueuedNotifications::backoff">backoff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#163"><abbr title="Illuminate\Notifications\SendQueuedNotifications::retryUntil">retryUntil</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#177"><abbr title="Illuminate\Notifications\SendQueuedNotifications::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasDatabaseNotifications.php.html#12"><abbr title="Illuminate\Notifications\HasDatabaseNotifications::notifications">notifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasDatabaseNotifications.php.html#22"><abbr title="Illuminate\Notifications\HasDatabaseNotifications::readNotifications">readNotifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HasDatabaseNotifications.php.html#32"><abbr title="Illuminate\Notifications\HasDatabaseNotifications::unreadNotifications">unreadNotifications</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Channels/DatabaseChannel.php.html#54"><abbr title="Illuminate\Notifications\Channels\DatabaseChannel::getData">getData</abbr></a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#36"><abbr title="Illuminate\Notifications\Events\BroadcastNotificationCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="Channels/MailChannel.php.html#281"><abbr title="Illuminate\Notifications\Channels\MailChannel::addAttachments">addAttachments</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Channels/MailChannel.php.html#299"><abbr title="Illuminate\Notifications\Channels\MailChannel::runCallbacks">runCallbacks</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Channels/MailChannel.php.html#174"><abbr title="Illuminate\Notifications\Channels\MailChannel::buildMessage">buildMessage</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="ChannelManager.php.html#106"><abbr title="Illuminate\Notifications\ChannelManager::createDriver">createDriver</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Channels/BroadcastChannel.php.html#62"><abbr title="Illuminate\Notifications\Channels\BroadcastChannel::getData">getData</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#232"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::formatLine">formatLine</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#99"><abbr title="Illuminate\Notifications\SendQueuedNotifications::wrapNotifiables">wrapNotifiables</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#213"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::with">with</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="RoutesNotifications.php.html#40"><abbr title="Illuminate\Notifications\RoutesNotifications::routeNotificationFor">routeNotificationFor</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3 style="margin-top: 2rem;">Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+         <th class="text-right">Complexity</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Messages/MailMessage.php.html#397"><abbr title="Illuminate\Notifications\Messages\MailMessage::render">render</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#149"><abbr title="Illuminate\Notifications\SendQueuedNotifications::backoff">backoff</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#163"><abbr title="Illuminate\Notifications\SendQueuedNotifications::retryUntil">retryUntil</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">3</td><td class="text-right">12</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#36"><abbr title="Illuminate\Notifications\Events\BroadcastNotificationCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">45.5%</td><td class="text-right">5</td><td class="text-right">9</td></tr>
+       <tr><td><a href="Channels/MailChannel.php.html#174"><abbr title="Illuminate\Notifications\Channels\MailChannel::buildMessage">buildMessage</abbr></a></td><td class="text-right">71.4%</td><td class="text-right">7</td><td class="text-right">8</td></tr>
+       <tr><td><a href="Channels/DatabaseChannel.php.html#54"><abbr title="Illuminate\Notifications\Channels\DatabaseChannel::getData">getData</abbr></a></td><td class="text-right">42.9%</td><td class="text-right">4</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#72"><abbr title="Illuminate\Notifications\DatabaseNotification::markAsRead">markAsRead</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="DatabaseNotification.php.html#84"><abbr title="Illuminate\Notifications\DatabaseNotification::markAsUnread">markAsUnread</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#63"><abbr title="Illuminate\Notifications\Events\BroadcastNotificationCreated::channelName">channelName</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Events/BroadcastNotificationCreated.php.html#108"><abbr title="Illuminate\Notifications\Events\BroadcastNotificationCreated::broadcastAs">broadcastAs</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Messages/MailMessage.php.html#140"><abbr title="Illuminate\Notifications\Messages\MailMessage::text">text</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#167"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::lineIf">lineIf</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#182"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::lines">lines</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#198"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::linesIf">linesIf</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#137"><abbr title="Illuminate\Notifications\SendQueuedNotifications::failed">failed</abbr></a></td><td class="text-right">0.0%</td><td class="text-right">2</td><td class="text-right">6</td></tr>
+       <tr><td><a href="RoutesNotifications.php.html#40"><abbr title="Illuminate\Notifications\RoutesNotifications::routeNotificationFor">routeNotificationFor</abbr></a></td><td class="text-right">85.7%</td><td class="text-right">5</td><td class="text-right">5</td></tr>
+       <tr><td><a href="Channels/MailChannel.php.html#281"><abbr title="Illuminate\Notifications\Channels\MailChannel::addAttachments">addAttachments</abbr></a></td><td class="text-right">50.0%</td><td class="text-right">3</td><td class="text-right">4</td></tr>
+       <tr><td><a href="ChannelManager.php.html#106"><abbr title="Illuminate\Notifications\ChannelManager::createDriver">createDriver</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Channels/BroadcastChannel.php.html#62"><abbr title="Illuminate\Notifications\Channels\BroadcastChannel::getData">getData</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#213"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::with">with</abbr></a></td><td class="text-right">83.3%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Messages/SimpleMessage.php.html#232"><abbr title="Illuminate\Notifications\Messages\SimpleMessage::formatLine">formatLine</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="SendQueuedNotifications.php.html#99"><abbr title="Illuminate\Notifications\SendQueuedNotifications::wrapNotifiables">wrapNotifiables</abbr></a></td><td class="text-right">80.0%</td><td class="text-right">3</td><td class="text-right">3</td></tr>
+       <tr><td><a href="Channels/MailChannel.php.html#299"><abbr title="Illuminate\Notifications\Channels\MailChannel::runCallbacks">runCallbacks</abbr></a></td><td class="text-right">66.7%</td><td class="text-right">2</td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 12.3.8</a> using <a href="https://www.php.net/" target="_top">PHP 8.3.25</a> and <a href="https://phpunit.de/">PHPUnit 12.3.11</a> at Thu Sep 18 16:01:33 UTC 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/billboard.pkgd.min.js?v=12.3.8" type="text/javascript"></script>
+  <script type="application/json" id="complexity_class">[[0,9,"DatabaseNotification.php.html#9","Illuminate\\Notifications\\DatabaseNotification","90"],[0,2,"DatabaseNotificationCollection.php.html#13","Illuminate\\Notifications\\DatabaseNotificationCollection","6"],[0,3,"HasDatabaseNotifications.php.html#5","Illuminate\\Notifications\\HasDatabaseNotifications","12"],[33.33333333333333,2,"Messages\/BroadcastMessage.php.html#7","Illuminate\\Notifications\\Messages\\BroadcastMessage","3.19"],[50,13,"ChannelManager.php.html#12","Illuminate\\Notifications\\ChannelManager","34.12"],[51.85185185185185,20,"SendQueuedNotifications.php.html#15","Illuminate\\Notifications\\SendQueuedNotifications","64.65"],[53.57142857142857,14,"Events\/BroadcastNotificationCreated.php.html#13","Illuminate\\Notifications\\Events\\BroadcastNotificationCreated","33.62"],[65.3061224489796,22,"Messages\/SimpleMessage.php.html#8","Illuminate\\Notifications\\Messages\\SimpleMessage","42.21"],[66.66666666666666,2,"Notification.php.html#7","Illuminate\\Notifications\\Notification","2.15"],[78.94736842105263,8,"Channels\/DatabaseChannel.php.html#8","Illuminate\\Notifications\\Channels\\DatabaseChannel","8.60"],[82.8125,32,"Messages\/MailMessage.php.html#14","Illuminate\\Notifications\\Messages\\MailMessage","37.20"],[87.5,6,"AnonymousNotifiable.php.html#8","Illuminate\\Notifications\\AnonymousNotifiable","6.07"],[88.88888888888889,7,"RoutesNotifications.php.html#8","Illuminate\\Notifications\\RoutesNotifications","7.07"],[91.46341463414635,37,"Channels\/MailChannel.php.html#18","Illuminate\\Notifications\\Channels\\MailChannel","37.85"],[92.85714285714286,7,"Channels\/BroadcastChannel.php.html#11","Illuminate\\Notifications\\Channels\\BroadcastChannel","7.02"],[96.5909090909091,35,"NotificationSender.php.html#19","Illuminate\\Notifications\\NotificationSender","35"],[100,1,"Action.php.html#5","Illuminate\\Notifications\\Action","1"],[100,2,"Console\/NotificationTableCommand.php.html#8","Illuminate\\Notifications\\Console\\NotificationTableCommand","2"],[100,1,"Events\/NotificationFailed.php.html#8","Illuminate\\Notifications\\Events\\NotificationFailed","1"],[100,1,"Events\/NotificationSending.php.html#8","Illuminate\\Notifications\\Events\\NotificationSending","1"],[100,1,"Events\/NotificationSent.php.html#8","Illuminate\\Notifications\\Events\\NotificationSent","1"],[100,1,"Messages\/DatabaseMessage.php.html#5","Illuminate\\Notifications\\Messages\\DatabaseMessage","1"],[100,3,"NotificationServiceProvider.php.html#9","Illuminate\\Notifications\\NotificationServiceProvider","3"],[100,0,"Notifiable.php.html#5","Illuminate\\Notifications\\Notifiable","0"]]</script>
+  <script type="application/json" id="complexity_method">[[0,1,"AnonymousNotifiable.php.html#54","Illuminate\\Notifications\\AnonymousNotifiable::notifyNow","2"],[0,1,"ChannelManager.php.html#50","Illuminate\\Notifications\\ChannelManager::sendNow","2"],[0,1,"ChannelManager.php.html#63","Illuminate\\Notifications\\ChannelManager::channel","2"],[0,1,"ChannelManager.php.html#73","Illuminate\\Notifications\\ChannelManager::createDatabaseDriver","2"],[0,1,"ChannelManager.php.html#83","Illuminate\\Notifications\\ChannelManager::createBroadcastDriver","2"],[0,1,"ChannelManager.php.html#124","Illuminate\\Notifications\\ChannelManager::getDefaultDriver","2"],[0,1,"ChannelManager.php.html#134","Illuminate\\Notifications\\ChannelManager::deliversVia","2"],[0,1,"ChannelManager.php.html#145","Illuminate\\Notifications\\ChannelManager::deliverVia","2"],[0,1,"DatabaseNotification.php.html#62","Illuminate\\Notifications\\DatabaseNotification::notifiable","2"],[0,2,"DatabaseNotification.php.html#72","Illuminate\\Notifications\\DatabaseNotification::markAsRead","6"],[0,2,"DatabaseNotification.php.html#84","Illuminate\\Notifications\\DatabaseNotification::markAsUnread","6"],[0,1,"DatabaseNotification.php.html#96","Illuminate\\Notifications\\DatabaseNotification::read","2"],[0,1,"DatabaseNotification.php.html#106","Illuminate\\Notifications\\DatabaseNotification::unread","2"],[0,1,"DatabaseNotification.php.html#117","Illuminate\\Notifications\\DatabaseNotification::scopeRead","2"],[0,1,"DatabaseNotification.php.html#128","Illuminate\\Notifications\\DatabaseNotification::scopeUnread","2"],[0,1,"DatabaseNotificationCollection.php.html#20","Illuminate\\Notifications\\DatabaseNotificationCollection::markAsRead","2"],[0,1,"DatabaseNotificationCollection.php.html#30","Illuminate\\Notifications\\DatabaseNotificationCollection::markAsUnread","2"],[0,2,"Events\/BroadcastNotificationCreated.php.html#63","Illuminate\\Notifications\\Events\\BroadcastNotificationCreated::channelName","6"],[0,2,"Events\/BroadcastNotificationCreated.php.html#108","Illuminate\\Notifications\\Events\\BroadcastNotificationCreated::broadcastAs","6"],[0,1,"Messages\/BroadcastMessage.php.html#34","Illuminate\\Notifications\\Messages\\BroadcastMessage::data","2"],[0,2,"Messages\/MailMessage.php.html#140","Illuminate\\Notifications\\Messages\\MailMessage::text","6"],[0,3,"Messages\/MailMessage.php.html#397","Illuminate\\Notifications\\Messages\\MailMessage::render","12"],[0,1,"Messages\/SimpleMessage.php.html#78","Illuminate\\Notifications\\Messages\\SimpleMessage::success","2"],[0,1,"Messages\/SimpleMessage.php.html#90","Illuminate\\Notifications\\Messages\\SimpleMessage::error","2"],[0,1,"Messages\/SimpleMessage.php.html#142","Illuminate\\Notifications\\Messages\\SimpleMessage::salutation","2"],[0,2,"Messages\/SimpleMessage.php.html#167","Illuminate\\Notifications\\Messages\\SimpleMessage::lineIf","6"],[0,2,"Messages\/SimpleMessage.php.html#182","Illuminate\\Notifications\\Messages\\SimpleMessage::lines","6"],[0,2,"Messages\/SimpleMessage.php.html#198","Illuminate\\Notifications\\Messages\\SimpleMessage::linesIf","6"],[0,1,"Notification.php.html#30","Illuminate\\Notifications\\Notification::broadcastOn","2"],[0,1,"SendQueuedNotifications.php.html#126","Illuminate\\Notifications\\SendQueuedNotifications::displayName","2"],[0,2,"SendQueuedNotifications.php.html#137","Illuminate\\Notifications\\SendQueuedNotifications::failed","6"],[0,3,"SendQueuedNotifications.php.html#149","Illuminate\\Notifications\\SendQueuedNotifications::backoff","12"],[0,3,"SendQueuedNotifications.php.html#163","Illuminate\\Notifications\\SendQueuedNotifications::retryUntil","12"],[0,1,"SendQueuedNotifications.php.html#177","Illuminate\\Notifications\\SendQueuedNotifications::__clone","2"],[0,1,"HasDatabaseNotifications.php.html#12","Illuminate\\Notifications\\HasDatabaseNotifications::notifications","2"],[0,1,"HasDatabaseNotifications.php.html#22","Illuminate\\Notifications\\HasDatabaseNotifications::readNotifications","2"],[0,1,"HasDatabaseNotifications.php.html#32","Illuminate\\Notifications\\HasDatabaseNotifications::unreadNotifications","2"],[42.857142857142854,4,"Channels\/DatabaseChannel.php.html#54","Illuminate\\Notifications\\Channels\\DatabaseChannel::getData","6.99"],[45.45454545454545,5,"Events\/BroadcastNotificationCreated.php.html#36","Illuminate\\Notifications\\Events\\BroadcastNotificationCreated::broadcastOn","9.06"],[50,3,"Channels\/MailChannel.php.html#281","Illuminate\\Notifications\\Channels\\MailChannel::addAttachments","4.12"],[66.66666666666666,2,"Channels\/MailChannel.php.html#299","Illuminate\\Notifications\\Channels\\MailChannel::runCallbacks","2.15"],[71.42857142857143,7,"Channels\/MailChannel.php.html#174","Illuminate\\Notifications\\Channels\\MailChannel::buildMessage","8.14"],[80,3,"ChannelManager.php.html#106","Illuminate\\Notifications\\ChannelManager::createDriver","3.07"],[80,3,"Channels\/BroadcastChannel.php.html#62","Illuminate\\Notifications\\Channels\\BroadcastChannel::getData","3.07"],[80,3,"Messages\/SimpleMessage.php.html#232","Illuminate\\Notifications\\Messages\\SimpleMessage::formatLine","3.07"],[80,3,"SendQueuedNotifications.php.html#99","Illuminate\\Notifications\\SendQueuedNotifications::wrapNotifiables","3.07"],[83.33333333333334,3,"Messages\/SimpleMessage.php.html#213","Illuminate\\Notifications\\Messages\\SimpleMessage::with","3.04"],[85.71428571428571,5,"RoutesNotifications.php.html#40","Illuminate\\Notifications\\RoutesNotifications::routeNotificationFor","5.07"],[90,6,"SendQueuedNotifications.php.html#75","Illuminate\\Notifications\\SendQueuedNotifications::__construct","6.04"],[91.66666666666666,10,"NotificationSender.php.html#212","Illuminate\\Notifications\\NotificationSender::queueNotification","10.06"],[100,1,"Action.php.html#27","Illuminate\\Notifications\\Action::__construct","1"],[100,2,"AnonymousNotifiable.php.html#26","Illuminate\\Notifications\\AnonymousNotifiable::route","2"],[100,1,"AnonymousNotifiable.php.html#43","Illuminate\\Notifications\\AnonymousNotifiable::notify","1"],[100,1,"AnonymousNotifiable.php.html#65","Illuminate\\Notifications\\AnonymousNotifiable::routeNotificationFor","1"],[100,1,"AnonymousNotifiable.php.html#75","Illuminate\\Notifications\\AnonymousNotifiable::getKey","1"],[100,1,"ChannelManager.php.html#35","Illuminate\\Notifications\\ChannelManager::send","1"],[100,1,"ChannelManager.php.html#93","Illuminate\\Notifications\\ChannelManager::createMailDriver","1"],[100,1,"ChannelManager.php.html#156","Illuminate\\Notifications\\ChannelManager::locale","1"],[100,1,"Channels\/BroadcastChannel.php.html#25","Illuminate\\Notifications\\Channels\\BroadcastChannel::__construct","1"],[100,3,"Channels\/BroadcastChannel.php.html#37","Illuminate\\Notifications\\Channels\\BroadcastChannel::send","3"],[100,1,"Channels\/DatabaseChannel.php.html#17","Illuminate\\Notifications\\Channels\\DatabaseChannel::send","1"],[100,3,"Channels\/DatabaseChannel.php.html#31","Illuminate\\Notifications\\Channels\\DatabaseChannel::buildPayload","3"],[100,1,"Channels\/MailChannel.php.html#40","Illuminate\\Notifications\\Channels\\MailChannel::__construct","1"],[100,4,"Channels\/MailChannel.php.html#53","Illuminate\\Notifications\\Channels\\MailChannel::send","4"],[100,1,"Channels\/MailChannel.php.html#81","Illuminate\\Notifications\\Channels\\MailChannel::messageBuilder","1"],[100,2,"Channels\/MailChannel.php.html#94","Illuminate\\Notifications\\Channels\\MailChannel::buildView","2"],[100,1,"Channels\/MailChannel.php.html#112","Illuminate\\Notifications\\Channels\\MailChannel::buildMarkdownHtml","1"],[100,1,"Channels\/MailChannel.php.html#125","Illuminate\\Notifications\\Channels\\MailChannel::buildMarkdownText","1"],[100,1,"Channels\/MailChannel.php.html#138","Illuminate\\Notifications\\Channels\\MailChannel::markdownRenderer","1"],[100,1,"Channels\/MailChannel.php.html#153","Illuminate\\Notifications\\Channels\\MailChannel::additionalMessageData","1"],[100,5,"Channels\/MailChannel.php.html#212","Illuminate\\Notifications\\Channels\\MailChannel::addressMessage","5"],[100,4,"Channels\/MailChannel.php.html#238","Illuminate\\Notifications\\Channels\\MailChannel::addSender","4"],[100,4,"Channels\/MailChannel.php.html#259","Illuminate\\Notifications\\Channels\\MailChannel::getRecipients","4"],[100,1,"Console\/NotificationTableCommand.php.html#37","Illuminate\\Notifications\\Console\\NotificationTableCommand::migrationTableName","1"],[100,1,"Console\/NotificationTableCommand.php.html#47","Illuminate\\Notifications\\Console\\NotificationTableCommand::migrationStubFile","1"],[100,1,"Events\/BroadcastNotificationCreated.php.html#24","Illuminate\\Notifications\\Events\\BroadcastNotificationCreated::__construct","1"],[100,2,"Events\/BroadcastNotificationCreated.php.html#79","Illuminate\\Notifications\\Events\\BroadcastNotificationCreated::broadcastWith","2"],[100,2,"Events\/BroadcastNotificationCreated.php.html#96","Illuminate\\Notifications\\Events\\BroadcastNotificationCreated::broadcastType","2"],[100,1,"Events\/NotificationFailed.php.html#20","Illuminate\\Notifications\\Events\\NotificationFailed::__construct","1"],[100,1,"Events\/NotificationSending.php.html#19","Illuminate\\Notifications\\Events\\NotificationSending::__construct","1"],[100,1,"Events\/NotificationSent.php.html#20","Illuminate\\Notifications\\Events\\NotificationSent::__construct","1"],[100,1,"Messages\/BroadcastMessage.php.html#23","Illuminate\\Notifications\\Messages\\BroadcastMessage::__construct","1"],[100,1,"Messages\/DatabaseMessage.php.html#19","Illuminate\\Notifications\\Messages\\DatabaseMessage::__construct","1"],[100,1,"Messages\/MailMessage.php.html#123","Illuminate\\Notifications\\Messages\\MailMessage::view","1"],[100,1,"Messages\/MailMessage.php.html#155","Illuminate\\Notifications\\Messages\\MailMessage::markdown","1"],[100,1,"Messages\/MailMessage.php.html#171","Illuminate\\Notifications\\Messages\\MailMessage::template","1"],[100,1,"Messages\/MailMessage.php.html#184","Illuminate\\Notifications\\Messages\\MailMessage::theme","1"],[100,1,"Messages\/MailMessage.php.html#198","Illuminate\\Notifications\\Messages\\MailMessage::from","1"],[100,2,"Messages\/MailMessage.php.html#212","Illuminate\\Notifications\\Messages\\MailMessage::replyTo","2"],[100,2,"Messages\/MailMessage.php.html#230","Illuminate\\Notifications\\Messages\\MailMessage::cc","2"],[100,2,"Messages\/MailMessage.php.html#248","Illuminate\\Notifications\\Messages\\MailMessage::bcc","2"],[100,3,"Messages\/MailMessage.php.html#266","Illuminate\\Notifications\\Messages\\MailMessage::attach","3"],[100,3,"Messages\/MailMessage.php.html#287","Illuminate\\Notifications\\Messages\\MailMessage::attachMany","3"],[100,1,"Messages\/MailMessage.php.html#308","Illuminate\\Notifications\\Messages\\MailMessage::attachData","1"],[100,1,"Messages\/MailMessage.php.html#321","Illuminate\\Notifications\\Messages\\MailMessage::tag","1"],[100,1,"Messages\/MailMessage.php.html#335","Illuminate\\Notifications\\Messages\\MailMessage::metadata","1"],[100,1,"Messages\/MailMessage.php.html#350","Illuminate\\Notifications\\Messages\\MailMessage::priority","1"],[100,1,"Messages\/MailMessage.php.html#362","Illuminate\\Notifications\\Messages\\MailMessage::data","1"],[100,2,"Messages\/MailMessage.php.html#373","Illuminate\\Notifications\\Messages\\MailMessage::parseAddresses","2"],[100,2,"Messages\/MailMessage.php.html#387","Illuminate\\Notifications\\Messages\\MailMessage::arrayOfAddresses","2"],[100,1,"Messages\/MailMessage.php.html#417","Illuminate\\Notifications\\Messages\\MailMessage::withSymfonyMessage","1"],[100,1,"Messages\/SimpleMessage.php.html#103","Illuminate\\Notifications\\Messages\\SimpleMessage::level","1"],[100,1,"Messages\/SimpleMessage.php.html#116","Illuminate\\Notifications\\Messages\\SimpleMessage::subject","1"],[100,1,"Messages\/SimpleMessage.php.html#129","Illuminate\\Notifications\\Messages\\SimpleMessage::greeting","1"],[100,1,"Messages\/SimpleMessage.php.html#155","Illuminate\\Notifications\\Messages\\SimpleMessage::line","1"],[100,1,"Messages\/SimpleMessage.php.html#252","Illuminate\\Notifications\\Messages\\SimpleMessage::action","1"],[100,1,"Messages\/SimpleMessage.php.html#266","Illuminate\\Notifications\\Messages\\SimpleMessage::mailer","1"],[100,1,"Messages\/SimpleMessage.php.html#278","Illuminate\\Notifications\\Messages\\SimpleMessage::toArray","1"],[100,1,"Notification.php.html#41","Illuminate\\Notifications\\Notification::locale","1"],[100,1,"NotificationSender.php.html#66","Illuminate\\Notifications\\NotificationSender::__construct","1"],[100,2,"NotificationSender.php.html#83","Illuminate\\Notifications\\NotificationSender::send","2"],[100,7,"NotificationSender.php.html#102","Illuminate\\Notifications\\NotificationSender::sendNow","7"],[100,2,"NotificationSender.php.html#132","Illuminate\\Notifications\\NotificationSender::preferredLocale","2"],[100,6,"NotificationSender.php.html#152","Illuminate\\Notifications\\NotificationSender::sendToNotifiable","6"],[100,3,"NotificationSender.php.html#193","Illuminate\\Notifications\\NotificationSender::shouldSendNotification","3"],[100,4,"NotificationSender.php.html#280","Illuminate\\Notifications\\NotificationSender::formatNotifiables","4"],[100,2,"NotificationServiceProvider.php.html#16","Illuminate\\Notifications\\NotificationServiceProvider::boot","2"],[100,1,"NotificationServiceProvider.php.html#32","Illuminate\\Notifications\\NotificationServiceProvider::register","1"],[100,1,"SendQueuedNotifications.php.html#116","Illuminate\\Notifications\\SendQueuedNotifications::handle","1"],[100,1,"RoutesNotifications.php.html#16","Illuminate\\Notifications\\RoutesNotifications::notify","1"],[100,1,"RoutesNotifications.php.html#28","Illuminate\\Notifications\\RoutesNotifications::notifyNow","1"]]</script>
+  <script type="text/javascript" defer>
+  const barLabels = [
+    '0%',
+    '0-10%',
+    '10-20%',
+    '20-30%',
+    '30-40%',
+    '40-50%',
+    '50-60%',
+    '60-70%',
+    '70-80%',
+    '80-90%',
+    '90-100%',
+    '100%'
+  ];
+  const barConfig = (name, fullName, values) => ({
+    axis: {
+      x: {
+        type: "category",
+        categories: barLabels,
+      },
+      y: {
+        label: {
+          text: `#${name}`,
+          position: 'outer-top',
+        },
+      },
+    },
+    bindto: `#${name}CoverageDistribution`,
+    data: {
+      columns: [
+        [fullName].concat(values),
+      ],
+      colors: {
+        [fullName]: "rgba(69, 114, 167, 0.75)",
+      },
+      type: "bar",
+    },
+    bar: {
+      width: {
+        ratio: 0.9,
+      },
+    },
+    grid: {
+      focus: {
+        show: false,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">Coverage ${barLabels[data[0].x]}</th></tr>
+            <tr><td class="value">${data[0].value} ${name}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  bb.generate(
+    barConfig('classes', "Class Coverage", [3,0,0,0,1,0,3,2,1,3,3,8])
+  );
+  bb.generate(
+    barConfig('methods', "Method Coverage", [37,0,0,0,0,2,1,1,1,6,2,71])
+  );
+
+  const scatterConfig = (name, complexityData) => ({
+    axis: {
+      x: {
+        label: {
+          text: 'Code Coverage (in percent)',
+          position: 'outer-right',
+        },
+        tick: {
+          values: [0, 20, 40, 60, 80, 100],
+        },
+      },
+      y: {
+        label: {
+          text: 'Cyclomatic Complexity',
+          position: 'outer-top',
+        },
+        min: 0,
+        padding: {
+          bottom: 0,
+          top: 5,
+        },
+      },
+    },
+    bindto: `#${name}Complexity`,
+    data: {
+      columns: [
+        ["complexity_x"].concat(complexityData.map(d => d[0])),
+        ["complexity"].concat(complexityData.map(d => d[1])),
+      ],
+      onclick: function(data, element) {
+        window.location = complexityData[data.index][2];
+      },
+      type: "scatter",
+      xs: {
+        "complexity": "complexity_x",
+      },
+    },
+    grid: {
+      focus: {
+        show: true,
+        y: true,
+      },
+      x: {
+        show: true,
+      },
+      y: {
+        show: true,
+      },
+    },
+    legend: {
+      show: false,
+    },
+    tooltip: {
+      contents: function (data) {
+        const coverage = Math.round(data[0].x);
+        const complexity = data[0].value;
+        const targetName = complexityData[data[0].index][3];
+        const crap = complexityData[data[0].index][4];
+        return `<table class="bb-tooltip"><tbody>
+            <tr><th colspan="2">${targetName}</th></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Coverage</td><td class="name">${coverage}%</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Complexity</td><td class="value">${complexity}</td></tr>
+            <tr class="bb-tooltip-name-complexity"><td>Crap</td><td class="value">${crap}</td></tr>
+          </tbody></table>`;
+      },
+      grouped: false,
+    },
+  });
+  const classComplexityData = JSON.parse(document.getElementById('complexity_class').textContent);
+  bb.generate(
+    scatterConfig("class", classComplexityData)
+  );
+  const methodComplexityData = JSON.parse(document.getElementById('complexity_method').textContent);
+  bb.generate(
+    scatterConfig("method", methodComplexityData),
+  );
+  </script>
+ </body>
+</html>
